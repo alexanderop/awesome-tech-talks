@@ -1,0 +1,3 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="icon icon-tabler icons-tabler-outline icon-tabler-hash" viewBox="0 0 24 24"><path stroke="none" d="M0 0h24v24H0z"/><path d="M5 9h14M5 15h14M11 4 7 20M17 4l-4 16"/></svg>
+</template>
