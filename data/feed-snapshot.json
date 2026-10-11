@@ -184,13 +184,6 @@
   ],
   "items": [
     {
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "date": "2026-10-11T00:52:37.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Python 3.15.0 added to actions/python-versions",
       "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
       "date": "2026-10-10T23:58:04.000Z",
@@ -205,7 +198,7 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "‘Proof-of-Human’",
+      "title": "\u2018Proof-of-Human\u2019",
       "url": "https://x.com/bzamayo/status/2108498107184934914",
       "date": "2026-10-10T16:06:17.000Z",
       "source": "Daring Fireball",
@@ -324,14 +317,14 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "Let’s Check In on Trump’s Blog",
+      "title": "Let\u2019s Check In on Trump\u2019s Blog",
       "url": "https://truthsocial.com/@realDonaldTrump/posts/117406176604364910",
       "date": "2026-10-08T22:52:35.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "<​calc-input>, a custom input element that accepts mathematical formulas",
+      "title": "<\u200bcalc-input>, a custom input element that accepts mathematical formulas",
       "url": "https://www.bram.us/2026/10/08/calc-input-a-custom-input-element-that-accepts-mathematical-formulas/",
       "date": "2026-10-08T21:22:43.000Z",
       "source": "Bramus",
@@ -359,14 +352,14 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Joz Announces ‘Welcome Home’ Keynote Coming Tuesday, 13 October",
+      "title": "Joz Announces \u2018Welcome Home\u2019 Keynote Coming Tuesday, 13 October",
       "url": "https://x.com/gregjoz/status/2108226096407994858",
       "date": "2026-10-08T19:00:09.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
+      "title": "The Pulse: new trend of building \u201cinternal vibe-coding apps\u201d at tech companies",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal",
       "date": "2026-10-08T16:55:51.000Z",
       "source": "The Pragmatic Engineer",
@@ -401,7 +394,7 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Gurman Strikes Again: ‘Apple’s Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG’",
+      "title": "Gurman Strikes Again: \u2018Apple\u2019s Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG\u2019",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTMyMDkxNiwiZXhwIjoxNzkxOTI1NzE2LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LSK9jlXYPFHac9EpcJCErTgJNAwqmpV6qFoORcKffVo",
       "date": "2026-10-07T22:02:43.000Z",
       "source": "Daring Fireball",
@@ -415,7 +408,7 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "Bringing Microsoft Internet Explorer’s proprietary “Interpage Transitions” back to Modern Browsers using the View Transition API",
+      "title": "Bringing Microsoft Internet Explorer\u2019s proprietary \u201cInterpage Transitions\u201d back to Modern Browsers using the View Transition API",
       "url": "https://www.bram.us/2026/10/07/ie-page-transitions/",
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
@@ -436,7 +429,7 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "the world hasn’t figured out yet that you can literally just fix everything with a Nix overlay",
+      "title": "the world hasn\u2019t figured out yet that you can literally just fix everything with a Nix overlay",
       "url": "https://ghuntley.com/nix/",
       "date": "2026-10-07T10:06:32.000Z",
       "source": "Geoffrey Huntley",
@@ -604,7 +597,7 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "The Pulse: Firebase’s global outage & poor response",
+      "title": "The Pulse: Firebase\u2019s global outage & poor response",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage",
       "date": "2026-10-01T16:43:19.000Z",
       "source": "The Pragmatic Engineer",
@@ -660,7 +653,7 @@
       "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
       "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "date": "2026-09-28T15:08:57.000Z",
       "source": "Krebs on Security",
@@ -751,7 +744,7 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
+      "title": "The Pulse: RoR creator sparks new \u201cdeath of coding by hand\u201d debate",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
       "date": "2026-09-24T16:44:27.000Z",
       "source": "The Pragmatic Engineer",
@@ -786,7 +779,7 @@
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
-      "title": "Show keystrokes on a website with the <​show-keystrokes> custom element",
+      "title": "Show keystrokes on a website with the <\u200bshow-keystrokes> custom element",
       "url": "https://www.bram.us/2026/09/23/show-keystrokes/",
       "date": "2026-09-23T08:32:27.000Z",
       "source": "Bramus",
@@ -884,7 +877,7 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "How I Vibed a Proof of Conway’s Conjecture",
+      "title": "How I Vibed a Proof of Conway\u2019s Conjecture",
       "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
       "date": "2026-09-18T00:00:00.000Z",
       "source": "Dan Abramov",
@@ -954,7 +947,7 @@
       "sourceUrl": "https://ishadeed.com"
     },
     {
-      "title": "Introducing <​rich-input>, a GitHub-like search/filter text input to embed on your site",
+      "title": "Introducing <\u200brich-input>, a GitHub-like search/filter text input to embed on your site",
       "url": "https://www.bram.us/2026/09/14/introducing-rich-input-a-github-like-search-filter-text-input-to-embed-on-your-site/",
       "date": "2026-09-14T21:38:37.000Z",
       "source": "Bramus",
@@ -996,7 +989,7 @@
       "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
-      "title": "WebKit supports interactive-widget … and hopefully Safari will too?",
+      "title": "WebKit supports interactive-widget \u2026 and hopefully Safari will too?",
       "url": "https://www.bram.us/2026/09/11/webkit-supports-interactive-widget-and-hopefully-safari-will-too/",
       "date": "2026-09-11T21:55:05.000Z",
       "source": "Bramus",
@@ -1024,7 +1017,7 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Introducing <​mermaid-element>, a custom element to display Mermaid diagrams",
+      "title": "Introducing <\u200bmermaid-element>, a custom element to display Mermaid diagrams",
       "url": "https://www.bram.us/2026/09/10/introducing-mermaid-element-a-custom-element-to-display-mermaid-diagrams/",
       "date": "2026-09-10T12:48:19.000Z",
       "source": "Bramus",
@@ -1199,7 +1192,7 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "date": "2026-08-27T11:04:15.000Z",
       "source": "Krebs on Security",
@@ -1234,7 +1227,7 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Uranium from Příbram (Czechia)",
+      "title": "Uranium from P\u0159\u00edbram (Czechia)",
       "url": "https://maurycyz.com/misc/rocks3/",
       "date": "2026-08-25T00:00:00.000Z",
       "source": "Maurycy Z.",
@@ -1318,7 +1311,7 @@
       "sourceUrl": "https://tkdodo.eu/blog"
     },
     {
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "date": "2026-08-14T11:24:35.000Z",
       "source": "Krebs on Security",
@@ -1941,7 +1934,7 @@
       "sourceUrl": "https://react.dev/blog"
     },
     {
-      "title": "Progress on TypeScript 7 – December 2025",
+      "title": "Progress on TypeScript 7 \u2013 December 2025",
       "url": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
       "date": "2025-12-02T17:31:32.000Z",
       "source": "TypeScript blog",
