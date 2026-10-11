@@ -3,6 +3,7 @@ import { joinURL } from "ufo";
 
 const TALKS_PER_INDEX = 6;
 const ARTICLES_PER_INDEX = 5;
+const FEED_PER_INDEX = 5;
 const TAGS_PER_INDEX = 16;
 
 usePageSeo();
@@ -10,8 +11,9 @@ useRememberBackUrl();
 
 const rssHref = joinURL(useRuntimeConfig().app.baseURL, "rss.xml");
 
-const [{ data: talks }, { data: articles }] = await Promise.all([useAllTalks(), useAllArticles()]);
+const [{ data: talks }, { data: articles }, { data: feed }] = await Promise.all([useAllTalks(), useAllArticles(), useFeed()]);
 
+const latestFeed = computed(() => (feed.value?.items ?? []).slice(0, FEED_PER_INDEX));
 const featuredTalks = computed(() => talks.value.filter(talk => talk.featured));
 const latestTalks = computed(() => talks.value.slice(0, TALKS_PER_INDEX));
 const latestArticles = computed(() => articles.value.slice(0, ARTICLES_PER_INDEX));
@@ -139,6 +141,31 @@ const stats = computed(() => [
           <IconArrowRight class="inline-block rtl:-rotate-180" />
         </LinkButton>
       </div>
+    </section>
+
+    <section v-if="latestFeed.length > 0" id="from-the-feed" class="border-border border-t pt-8 pb-6">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+        <h2 class="text-lg font-semibold tracking-wide">
+          {{ t.home.fromTheFeed }}
+        </h2>
+        <NuxtLink
+          to="/feed"
+          class="hover:text-accent text-sm underline decoration-dashed underline-offset-4"
+        >{{ t.home.fullFeed }} →</NuxtLink>
+      </div>
+      <ul class="mt-3">
+        <li v-for="item in latestFeed" :key="item.url" class="py-1">
+          <a
+            :href="item.url"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-accent decoration-dashed underline-offset-4 hover:underline"
+          >{{ item.title }}</a>
+          <span class="text-muted-foreground text-sm">
+            <span aria-hidden="true"> · </span>{{ item.source }}<template v-if="item.date"><span aria-hidden="true"> · </span>{{ formatDayKey(dayKey(item.date)) }}</template>
+          </span>
+        </li>
+      </ul>
     </section>
 
     <section v-if="topTags.length > 0" id="browse-by-tag" class="border-border mb-4 border-t pt-8 pb-6">

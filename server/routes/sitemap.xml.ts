@@ -10,6 +10,7 @@ export default defineEventHandler(async event => {
     { path: "/" },
     { path: "/talks" },
     { path: "/articles" },
+    { path: "/feed" },
     { path: "/channels" },
     { path: "/people" },
     { path: "/tags" },

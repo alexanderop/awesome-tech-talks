@@ -7,9 +7,12 @@ const menuExpanded = ref(false);
 const navItems = [
   { to: "/talks", label: t.nav.talks },
   { to: "/articles", label: t.nav.articles },
+  { to: "/feed", label: t.nav.feed },
   { to: "/channels", label: t.nav.channels },
   { to: "/people", label: t.nav.people },
-  { to: "/tags", label: t.nav.tags },
+  // Tags is the lowest-traffic page and the desktop bar is full, so from md up
+  // it lives in the footer; the mobile menu still lists it.
+  { to: "/tags", label: t.nav.tags, mobileOnly: true },
   { to: "/about", label: t.nav.about },
 ];
 
@@ -88,7 +91,7 @@ function focusMain() {
             '[&>li>a]:hover:text-accent mt-4 w-44 grid-cols-2 place-content-center gap-2 md:mt-0 md:flex md:w-auto md:gap-x-1 md:gap-y-0 md:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium md:[&>li>a]:px-1.5 md:[&>li>a]:py-1',
           ]"
         >
-          <li v-for="item in navItems" :key="item.to" class="col-span-2">
+          <li v-for="item in navItems" :key="item.to" :class="['col-span-2', { 'md:hidden': item.mobileOnly }]">
             <NuxtLink :to="item.to" :class="{ 'active-nav': isActive(item.to) }">
               {{ item.label }}
             </NuxtLink>

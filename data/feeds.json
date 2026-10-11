@@ -1,0 +1,172 @@
+{
+  "perFeed": 10,
+  "maxItems": 300,
+  "feeds": [
+    {
+      "name": "Alexander Opalic",
+      "url": "https://alexop.dev",
+      "feed": "https://alexop.dev/rss.xml"
+    },
+    {
+      "name": "Julia Evans",
+      "url": "https://jvns.ca",
+      "feed": "https://jvns.ca/atom.xml"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net",
+      "feed": "https://simonwillison.net/atom/everything/",
+      "note": "HN top blogs 2025 #1"
+    },
+    {
+      "name": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com",
+      "feed": "https://www.seangoedecke.com/rss.xml",
+      "note": "HN top blogs 2025 #2"
+    },
+    {
+      "name": "Jeff Geerling",
+      "url": "https://www.jeffgeerling.com",
+      "feed": "https://www.jeffgeerling.com/blog.xml",
+      "note": "HN top blogs 2025 #3"
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com",
+      "feed": "https://krebsonsecurity.com/feed/",
+      "note": "HN top blogs 2025 #4"
+    },
+    {
+      "name": "Daring Fireball",
+      "url": "https://daringfireball.net",
+      "feed": "https://daringfireball.net/feeds/main",
+      "note": "HN top blogs 2025 #6"
+    },
+    {
+      "name": "Eric Migicovsky",
+      "url": "https://ericmigi.com",
+      "feed": "https://ericmigi.com/rss.xml",
+      "note": "HN top blogs 2025 #7"
+    },
+    {
+      "name": "antirez",
+      "url": "https://antirez.com",
+      "feed": "https://antirez.com/rss",
+      "note": "HN top blogs 2025 #8"
+    },
+    {
+      "name": "Ibrahim Diallo",
+      "url": "https://idiallo.com",
+      "feed": "https://idiallo.com/feed.rss",
+      "note": "HN top blogs 2025 #9"
+    },
+    {
+      "name": "Maurycy Z.",
+      "url": "https://maurycyz.com",
+      "feed": "https://maurycyz.com/index.xml",
+      "note": "HN top blogs 2025 #10"
+    },
+    {
+      "name": "Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com",
+      "feed": "https://www.joshwcomeau.com/rss.xml",
+      "note": "frontend, css"
+    },
+    {
+      "name": "Ahmad Shadeed",
+      "url": "https://ishadeed.com",
+      "feed": "https://ishadeed.com/feed.xml",
+      "note": "css"
+    },
+    {
+      "name": "Adam Argyle",
+      "url": "https://nerdy.dev",
+      "feed": "https://nerdy.dev/rss.xml",
+      "note": "css"
+    },
+    {
+      "name": "Bramus",
+      "url": "https://www.bram.us",
+      "feed": "https://www.bram.us/feed/",
+      "note": "css"
+    },
+    {
+      "name": "WebKit blog",
+      "url": "https://webkit.org/blog/",
+      "feed": "https://webkit.org/feed/",
+      "note": "browsers"
+    },
+    {
+      "name": "Dan Abramov",
+      "url": "https://overreacted.io",
+      "feed": "https://overreacted.io/atom.xml",
+      "note": "react"
+    },
+    {
+      "name": "TkDodo",
+      "url": "https://tkdodo.eu/blog",
+      "feed": "https://tkdodo.eu/blog/rss.xml",
+      "note": "react"
+    },
+    {
+      "name": "React blog",
+      "url": "https://react.dev/blog",
+      "feed": "https://react.dev/rss.xml",
+      "note": "react"
+    },
+    {
+      "name": "Anthony Fu",
+      "url": "https://antfu.me",
+      "feed": "https://antfu.me/feed.xml",
+      "note": "vue"
+    },
+    {
+      "name": "Daniel Roe",
+      "url": "https://roe.dev",
+      "feed": "https://roe.dev/rss.xml",
+      "note": "vue, nuxt"
+    },
+    {
+      "name": "Nuxt blog",
+      "url": "https://nuxt.com/blog",
+      "feed": "https://nuxt.com/blog/rss.xml",
+      "note": "vue, nuxt"
+    },
+    {
+      "name": "VoidZero",
+      "url": "https://voidzero.dev/posts",
+      "feed": "https://voidzero.dev/feed.xml",
+      "note": "vite"
+    },
+    {
+      "name": "TypeScript blog",
+      "url": "https://devblogs.microsoft.com/typescript/",
+      "feed": "https://devblogs.microsoft.com/typescript/feed/",
+      "note": "typescript"
+    },
+    {
+      "name": "Effect blog",
+      "url": "https://effect.website/blog",
+      "feed": "https://effect.website/rss.xml",
+      "note": "effect"
+    },
+    {
+      "name": "Sandro Maglione",
+      "url": "https://www.sandromaglione.com",
+      "feed": "https://www.sandromaglione.com/feed",
+      "note": "effect"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "feed": "https://newsletter.pragmaticengineer.com/feed",
+      "note": "engineering"
+    },
+    {
+      "name": "Addy Osmani",
+      "url": "https://addyosmani.com",
+      "feed": "https://addyosmani.com/rss.xml",
+      "note": "engineering"
+    }
+  ]
+}

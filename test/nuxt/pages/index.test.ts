@@ -2,15 +2,17 @@ import { mockNuxtImport, mountSuspended } from "@nuxt/test-utils/runtime";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import IndexPage from "~/pages/index.vue";
 import { makeArticle } from "./_article-helpers";
+import { makeFeed, makeFeedItem } from "./_feed-helpers";
 import { makeTalk } from "./_talk-helpers";
 
-const { talks, articles } = vi.hoisted(() => {
+const { talks, articles, feed } = vi.hoisted(() => {
   const { ref } = require("vue");
-  return { talks: ref([]), articles: ref([]) };
+  return { talks: ref([]), articles: ref([]), feed: ref(undefined) };
 });
 
 mockNuxtImport("useAllTalks", () => () => ({ data: talks }));
 mockNuxtImport("useAllArticles", () => () => ({ data: articles }));
+mockNuxtImport("useFeed", () => () => ({ data: feed }));
 
 describe("index page", () => {
   beforeEach(() => {
@@ -20,6 +22,11 @@ describe("index page", () => {
       makeTalk({ path: "/talks/recent-2", title: "Recent Two" }),
     ];
     articles.value = [makeArticle({ path: "/articles/a-1", title: "Article One", tags: ["mcp"] })];
+    feed.value = makeFeed({
+      items: Array.from({ length: 7 }, (_, i) =>
+        makeFeedItem({ title: `Feed post ${i}`, url: `https://blog.example.com/${i}`, date: `2026-10-${String(11 - i).padStart(2, "0")}T08:00:00.000Z` })
+      ),
+    });
   });
 
   it("renders the hero intro and an RSS link", async () => {
@@ -94,5 +101,29 @@ describe("index page", () => {
     const wrapper = await mountSuspended(IndexPage);
     const links = wrapper.findAll("a").map(a => a.attributes("href"));
     expect(links).toContain("/talks");
+  });
+
+  it("renders the five latest feed posts below the latest articles, linking to the full feed", async () => {
+    const wrapper = await mountSuspended(IndexPage);
+    const section = wrapper.find("#from-the-feed");
+    expect(section.find("h2").text()).toBe("From the feed");
+    const posts = section.findAll("li");
+    expect(posts).toHaveLength(5);
+    expect(posts[0]!.text()).toContain("Feed post 0");
+    expect(posts[0]!.text()).toContain("Example Blog");
+    expect(posts[0]!.text()).toContain("11 Oct");
+    expect(posts[0]!.find("a").attributes("href")).toBe("https://blog.example.com/0");
+    expect(posts[0]!.find("a").attributes("target")).toBe("_blank");
+    expect(section.text()).not.toContain("Feed post 5");
+    expect(section.find("a[href='/feed']").text()).toContain("Full feed");
+    const html = wrapper.html();
+    expect(html.indexOf('id="latest-articles"')).toBeLessThan(html.indexOf('id="from-the-feed"'));
+  });
+
+  it("hides the feed section when the feed has no posts", async () => {
+    feed.value = makeFeed({ items: [] });
+    expect((await mountSuspended(IndexPage)).find("#from-the-feed").exists()).toBe(false);
+    feed.value = undefined;
+    expect((await mountSuspended(IndexPage)).find("#from-the-feed").exists()).toBe(false);
   });
 });

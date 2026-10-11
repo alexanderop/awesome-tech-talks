@@ -5,6 +5,7 @@
 // Usage: node scripts/discover-articles.mjs [max-age-days=30]
 import { readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { parseFeed } from "../shared/utils/feed.ts";
 
 const maxAgeDays = Number(process.argv[2] ?? 30);
 const sources = JSON.parse(readFileSync("data/sources.json", "utf8"));
@@ -32,24 +33,12 @@ const feeds = await Promise.all((sources.blogs ?? []).map(async blog => {
 
 const candidates = [];
 for (const { blog, xml } of feeds) {
-  // Atom uses <entry>, RSS uses <item>.
-  for (const [entry] of xml.matchAll(/<(entry|item)[\s>][\s\S]*?<\/\1>/g)) {
-    const title = text(entry.match(/<title[^>]*>([\s\S]*?)<\/title>/)?.[1]);
-    const url = entry.match(/<link[^>]+href=["']([^"']+)["'][^>]*\/?>/)?.[1] ?? text(entry.match(/<link>([\s\S]*?)<\/link>/)?.[1]);
-    const date = text(entry.match(/<(published|pubDate|updated|dc:date)>([\s\S]*?)<\/\1>/)?.[2]);
-    if (!title || !url) continue;
-    const time = Date.parse(date);
-    if (Number.isFinite(time) && time < cutoff) continue;
-    if (known.has(normalizeUrl(url))) continue;
-    known.add(normalizeUrl(url));
-    candidates.push({ url, title, blog: blog.name, publishedAt: Number.isFinite(time) ? new Date(time).toISOString().slice(0, 10) : null });
+  for (const entry of parseFeed(xml, blog.feed)) {
+    if (entry.date && Date.parse(entry.date) < cutoff) continue;
+    if (known.has(normalizeUrl(entry.url))) continue;
+    known.add(normalizeUrl(entry.url));
+    candidates.push({ url: entry.url, title: entry.title, blog: blog.name, publishedAt: entry.date?.slice(0, 10) ?? null });
   }
 }
 
 console.log(JSON.stringify(candidates, null, 2));
-
-function text(value) {
-  return value?.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, "")
-    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, "\"").replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, "&")
-    .trim();
-}

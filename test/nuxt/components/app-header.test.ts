@@ -17,7 +17,7 @@ describe("AppHeader", () => {
     expect(wrapper.text()).toContain("Awesome Tech Talks");
     const labels = wrapper.findAll("#menu-items a").map(a => a.text());
     expect(labels[0]).toBe("Talks");
-    expect(labels.slice(0, 6)).toEqual(["Talks", "Articles", "Channels", "People", "Tags", "About"]);
+    expect(labels.slice(0, 7)).toEqual(["Talks", "Articles", "Feed", "Channels", "People", "Tags", "About"]);
     expect(labels).not.toContain("Posts");
     expect(labels).not.toContain("Archives");
     expect(labels).toContain("About");
@@ -34,6 +34,20 @@ describe("AppHeader", () => {
     route.path = "/articles/what-is-codemode";
     const wrapper = await mountSuspended(AppHeader);
     expect(wrapper.find("a.active-nav").text()).toBe("Articles");
+  });
+
+  it("marks Feed active on the feed page", async () => {
+    route.path = "/feed";
+    const wrapper = await mountSuspended(AppHeader);
+    expect(wrapper.find("a.active-nav").text()).toBe("Feed");
+    expect(wrapper.find("a.active-nav").attributes("href")).toBe("/feed");
+  });
+
+  it("keeps Tags in the mobile menu only, so the desktop bar fits", async () => {
+    const wrapper = await mountSuspended(AppHeader);
+    const hiddenOnDesktop = wrapper.findAll("#menu-items li.md\\:hidden").map(li => li.text());
+    expect(hiddenOnDesktop).toEqual(["Tags"]);
+    expect(wrapper.find("#menu-items a[href='/tags']").exists()).toBe(true);
   });
 
   it("toggles the mobile menu open and closed", async () => {

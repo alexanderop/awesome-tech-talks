@@ -26,9 +26,15 @@ To run discovery daily, create a scheduled cloud routine with `/schedule` and th
 
 To follow more conferences or speakers, edit `data/sources.json`. Channel IDs start with `UC`. YouTube's RSS feeds return 404, so discovery lists channels with yt-dlp instead.
 
+## Feed
+
+`/feed` shows the latest posts from external blogs, uncurated: the feeds in `data/feeds.json` plus the blogs followed in `data/sources.json`. They are fetched while the site is built (`/api/feed.json` is prerendered), and the deploy workflow runs daily at 05:17 UTC so the snapshot stays fresh. A feed that fails is shown with a warning and doesn't break the build.
+
+To add a blog, add `{ "name", "url", "feed" }` to `data/feeds.json`.
+
 ## Run the site
 
-Use Node.js 22 or newer and the pnpm version in `package.json`.
+Use Node.js 22.18 or newer (the scripts import TypeScript from `shared/` directly) and the pnpm version in `package.json`.
 
 ```sh
 pnpm install

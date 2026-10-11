@@ -12,12 +12,12 @@ const emit = defineEmits<{ change: [value: string] }>();
 </script>
 
 <template>
-  <label class="flex flex-col gap-1 text-sm">
+  <label class="flex max-w-full flex-col gap-1 text-sm">
     {{ label }}
     <select
       :id="id"
       :value="value"
-      class="border-border bg-background text-foreground focus-visible:outline-accent rounded border px-2 py-1"
+      class="border-border bg-background text-foreground focus-visible:outline-accent max-w-full rounded border px-2 py-1"
       @change="emit('change', ($event.target as HTMLSelectElement).value)"
     >
       <option value="">{{ anyLabel }}</option>

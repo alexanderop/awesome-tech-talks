@@ -1,0 +1,61 @@
+name: Refresh feed
+
+# Fetches the external RSS feeds once a day, commits data/feed-snapshot.json
+# when something changed, and deploys. Builds never fetch feeds themselves.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: refresh-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Fetch feeds and commit snapshot
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit the snapshot
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: true # needed for git push below
+
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+
+      - name: Refresh snapshot
+        run: node scripts/refresh-feed.mjs
+
+      - name: Commit snapshot
+        id: commit
+        run: |
+          if git diff --quiet -- data/feed-snapshot.json; then
+            echo "No new posts; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh feed snapshot" -- data/feed-snapshot.json
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    name: Deploy
+    needs: refresh
+    if: needs.refresh.outputs.sha != ''
+    permissions:
+      contents: read # checkout
+      pages: write # deploy to GitHub Pages
+      id-token: write # OIDC token for Pages deployment verification
+    uses: $/.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.refresh.outputs.sha }}

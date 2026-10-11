@@ -31,7 +31,8 @@
     "talks:transcript": "node scripts/fetch-transcript.mjs",
     "talks:add-source": "node scripts/add-source.mjs",
     "articles:discover": "node scripts/discover-articles.mjs",
-    "articles:fetch": "node scripts/fetch-article.mjs"
+    "articles:fetch": "node scripts/fetch-article.mjs",
+    "feed:refresh": "node scripts/refresh-feed.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^3.6.3",

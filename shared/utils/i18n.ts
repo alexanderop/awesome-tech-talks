@@ -3,6 +3,7 @@ export const t = {
     home: "Home",
     talks: "Talks",
     articles: "Articles",
+    feed: "Feed",
     channels: "Channels",
     people: "People",
     tags: "Tags",
@@ -63,11 +64,29 @@ export const t = {
     viewArticles: "View articles",
     resources: "Resources",
   },
+  feed: {
+    updated: "Updated",
+    today: "Today",
+    yesterday: "Yesterday",
+    undated: "Undated",
+    filterSource: "Source",
+    filterAny: "All",
+    clearFilters: "Clear filters",
+    resultsCount: "{{count}} of {{total}} posts",
+    noResults: "No posts match this filter.",
+    empty: "No posts could be loaded right now. The feed refreshes with the next daily update.",
+    sources: "Sources",
+    sourcesFailed: "{{count}} failed",
+    feedLink: "RSS ↗",
+    failedMarker: "Feed could not be loaded",
+  },
   home: {
     socialLinks: "Social Links",
     featuredTalks: "Featured talks",
     latestTalks: "Latest talks",
     latestArticles: "Latest articles",
+    fromTheFeed: "From the feed",
+    fullFeed: "Full feed",
     allTalks: "All talks",
     allArticles: "All articles",
     browseByTag: "Browse by tag",
@@ -109,6 +128,9 @@ export const t = {
     peopleTitle: "People",
     peopleDesc:
       "Everyone who gave a talk or wrote an article on this site, plus speakers we follow for new talks.",
+
+    feedTitle: "Feed",
+    feedDesc: "Latest posts from blogs I read. Collected automatically, not curated.",
 
     aboutTitle: "About",
 

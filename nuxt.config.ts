@@ -105,7 +105,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       // /speakers is a redirect to /people for old links.
-      routes: ["/rss.xml", "/sitemap.xml", "/robots.txt", "/speakers"],
+      routes: ["/rss.xml", "/sitemap.xml", "/robots.txt", "/speakers", "/api/feed.json"],
     },
   },
 });

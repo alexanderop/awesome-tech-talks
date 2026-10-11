@@ -45,7 +45,7 @@ test("skip link moves keyboard focus to main content", async ({ page, goto }) =>
   await expect(page.locator("#main-content")).toBeFocused();
 });
 
-for (const path of ["/talks/", "/articles/", "/channels/", "/people/", "/tags/", "/about/", "/talks/state-of-the-tech-industry-2026/", "/articles/what-is-codemode/"]) {
+for (const path of ["/talks/", "/articles/", "/feed/", "/channels/", "/people/", "/tags/", "/about/", "/talks/state-of-the-tech-industry-2026/", "/articles/what-is-codemode/"]) {
   test(`initial ${path} does not start a route transition during hydration`, async ({ page, goto }) => {
     await page.addInitScript(() => {
       let starts = 0;
@@ -63,3 +63,37 @@ for (const path of ["/talks/", "/articles/", "/channels/", "/people/", "/tags/",
     expect(await page.locator("html").getAttribute("data-initial-transitions")).toBeNull();
   });
 }
+
+test.describe("main navigation", () => {
+  for (const width of [1280, 768]) {
+    test(`desktop bar at ${width}px lists Feed, keeps Tags out and fits on one row`, async ({ page, goto }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await goto("/", { waitUntil: "hydration" });
+      const menu = page.locator("#menu-items");
+      await expect(menu.getByRole("link", { name: "Feed" })).toBeVisible();
+      await expect(menu.getByRole("link", { name: "Tags" })).toBeHidden();
+      const box = await menu.boundingBox();
+      expect(box!.height).toBeLessThan(40);
+      expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+    });
+  }
+
+  test("footer links to Tags", async ({ page, goto }) => {
+    await goto("/", { waitUntil: "hydration" });
+    await page.locator("footer").getByRole("link", { name: "Tags" }).click();
+    await expect(page).toHaveURL(/\/tags\/?$/);
+  });
+
+  test("mobile menu includes every page", async ({ page, goto }) => {
+    await page.setViewportSize({ width: 390, height: 800 });
+    await goto("/", { waitUntil: "hydration" });
+    await page.getByRole("button", { name: "Open menu" }).click();
+    const menu = page.locator("#menu-items");
+    const links = ["Talks", "Articles", "Feed", "Channels", "People", "Tags", "About", "Search"];
+    await Promise.all([
+      ...links.map(name => expect(menu.getByRole("link", { name })).toBeVisible()),
+      expect(menu.getByRole("button", { name: "Toggle theme" })).toBeVisible(),
+    ]);
+  });
+});

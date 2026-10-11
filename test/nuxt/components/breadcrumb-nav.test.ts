@@ -36,6 +36,11 @@ describe("BreadcrumbNav", () => {
     expect((await mountSuspended(BreadcrumbNav)).find("[aria-current='page']").text()).toBe("People");
   });
 
+  it("labels the feed page", async () => {
+    route.path = "/feed";
+    expect((await mountSuspended(BreadcrumbNav)).find("[aria-current='page']").text()).toBe("Feed");
+  });
+
   it("falls back to the decoded path segment for a talk page", async () => {
     route.path = "/talks/my-talk";
     const wrapper = await mountSuspended(BreadcrumbNav);
