@@ -27,18 +27,19 @@ describe("BreadcrumbNav", () => {
     expect(current.text()).toBe("Tags");
   });
 
-  it("collapses the posts pagination into a single labelled crumb", async () => {
-    route.path = "/posts/2";
-    const wrapper = await mountSuspended(BreadcrumbNav);
-    const current = wrapper.find("[aria-current='page']");
-    expect(current.text()).toContain("Posts");
-    expect(current.text()).toContain("page 2");
+  it("labels the channels, articles and people pages", async () => {
+    route.path = "/channels";
+    expect((await mountSuspended(BreadcrumbNav)).find("[aria-current='page']").text()).toBe("Channels");
+    route.path = "/articles";
+    expect((await mountSuspended(BreadcrumbNav)).find("[aria-current='page']").text()).toBe("Articles");
+    route.path = "/people";
+    expect((await mountSuspended(BreadcrumbNav)).find("[aria-current='page']").text()).toBe("People");
   });
 
-  it("renders a tag name crumb for a tag page", async () => {
-    route.path = "/tags/vue";
+  it("falls back to the decoded path segment for a talk page", async () => {
+    route.path = "/talks/my-talk";
     const wrapper = await mountSuspended(BreadcrumbNav);
     const current = wrapper.find("[aria-current='page']");
-    expect(current.text()).toContain("vue");
+    expect(current.text()).toContain("my-talk");
   });
 });

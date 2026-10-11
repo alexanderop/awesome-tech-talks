@@ -1,15 +1,48 @@
 <script setup lang="ts">
 import { joinURL } from "ufo";
 
+const TALKS_PER_INDEX = 6;
+const ARTICLES_PER_INDEX = 5;
+const TAGS_PER_INDEX = 16;
+
 usePageSeo();
 useRememberBackUrl();
 
 const rssHref = joinURL(useRuntimeConfig().app.baseURL, "rss.xml");
 
-const { data: posts } = await useAllPosts();
+const [{ data: talks }, { data: articles }] = await Promise.all([useAllTalks(), useAllArticles()]);
 
-const featuredPosts = computed(() => posts.value.filter(p => p.featured));
-const recentPosts = computed(() => posts.value.filter(p => !p.featured));
+const featuredTalks = computed(() => talks.value.filter(talk => talk.featured));
+const latestTalks = computed(() => talks.value.slice(0, TALKS_PER_INDEX));
+const latestArticles = computed(() => articles.value.slice(0, ARTICLES_PER_INDEX));
+// Each pill links to the list where the tag is most used and shows that list's count.
+const topTags = computed(() =>
+  countSiteTags(talks.value, articles.value)
+    .toSorted((a, b) => b.count - a.count || a.tag.localeCompare(b.tag))
+    .slice(0, TAGS_PER_INDEX)
+    .map(({ tag, tagName, talkCount, articleCount }) =>
+      talkCount >= articleCount
+        ? { tag, tagName, kind: "talks" as const, count: talkCount }
+        : { tag, tagName, kind: "articles" as const, count: articleCount }
+    )
+);
+
+function countLabel(count: number, one: string, many: string) {
+  return count === 1 ? one : tplStr(many, { count: String(count) });
+}
+
+const stats = computed(() => [
+  { to: "/talks", label: countLabel(talks.value.length, t.home.statTalk, t.home.statTalks) },
+  { to: "/articles", label: countLabel(articles.value.length, t.home.statArticle, t.home.statArticles) },
+  {
+    to: "/channels",
+    label: countLabel(getTalkChannels(talks.value, followedChannels).length, t.home.statChannel, t.home.statChannels),
+  },
+  {
+    to: "/people",
+    label: countLabel(getPeople(talks.value, articles.value, followedSpeakers).length, t.home.statPerson, t.home.statPeople),
+  },
+]);
 </script>
 
 <template>
@@ -33,63 +66,96 @@ const recentPosts = computed(() => posts.value.filter(p => !p.featured));
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>{{ HOME.description }}</p>
-      <p class="mt-2">
-        {{ HOME.readMorePrefix }}
-        <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
-          :href="HOME.readMoreUrl"
-        >{{ HOME.readMoreLabel }}</LinkButton>
-        {{ HOME.readMoreSuffix }}
-      </p>
-      <div v-if="SOCIALS.length > 0" class="mt-4 flex max-sm:flex-col sm:items-center">
-        <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-          {{ t.home.socialLinks }}:
-        </div>
-        <SocialLinks />
-      </div>
+      <p>{{ HOME.pitch }}</p>
+      <ul id="stats" class="text-muted-foreground mt-4 flex flex-wrap items-center gap-x-2 gap-y-1">
+        <template v-for="(stat, index) in stats" :key="stat.to">
+          <li v-if="index > 0" aria-hidden="true">·</li>
+          <li>
+            <NuxtLink
+              :to="stat.to"
+              class="hover:text-accent underline decoration-dashed underline-offset-4"
+            >{{ stat.label }}</NuxtLink>
+          </li>
+        </template>
+      </ul>
     </section>
 
     <section
-      v-if="featuredPosts.length > 0"
+      v-if="featuredTalks.length > 0"
       id="featured"
       :class="[
         'pt-12 pb-6',
-        { 'border-border border-b': recentPosts.length > 0 },
+        { 'border-border border-b': latestTalks.length > 0 },
       ]"
     >
       <h2 class="text-2xl font-semibold tracking-wide">
-        {{ t.home.featured }}
+        {{ t.home.featuredTalks }}
       </h2>
-      <ul>
-        <PostCard
-          v-for="post in featuredPosts"
-          :key="post.path"
-          :post="post"
+      <ul class="mt-4 grid gap-8 sm:grid-cols-2">
+        <TalkCard
+          v-for="talk in featuredTalks"
+          :key="talk.path"
+          :talk="talk"
           variant="h3"
         />
       </ul>
     </section>
 
-    <section v-if="recentPosts.length > 0" id="recent-posts" class="pt-12 pb-6">
+    <section v-if="latestTalks.length > 0" id="latest-talks" class="pt-12 pb-6">
       <h2 class="text-2xl font-semibold tracking-wide">
-        {{ t.home.recentPosts }}
+        {{ t.home.latestTalks }}
       </h2>
-      <ul>
-        <PostCard
-          v-for="post in recentPosts.slice(0, POSTS.perIndex)"
-          :key="post.path"
-          :post="post"
+      <ul class="mt-4 grid gap-8 sm:grid-cols-2">
+        <TalkCard
+          v-for="talk in latestTalks"
+          :key="talk.path"
+          :talk="talk"
           variant="h3"
         />
       </ul>
+      <div class="mt-8 text-center">
+        <LinkButton href="/talks">
+          {{ t.home.allTalks }}
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+      </div>
     </section>
 
-    <div class="my-8 text-center">
-      <LinkButton href="/posts">
-        {{ t.home.allPosts }}
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
+    <section v-if="latestArticles.length > 0" id="latest-articles" class="border-border border-t pt-12 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide">
+        {{ t.home.latestArticles }}
+      </h2>
+      <ul class="mt-4 flex flex-col gap-8">
+        <ArticleCard
+          v-for="article in latestArticles"
+          :key="article.path"
+          :article="article"
+          variant="h3"
+        />
+      </ul>
+      <div class="mt-8 text-center">
+        <LinkButton href="/articles">
+          {{ t.home.allArticles }}
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+      </div>
+    </section>
+
+    <section v-if="topTags.length > 0" id="browse-by-tag" class="border-border mb-4 border-t pt-8 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide">
+        {{ t.home.browseByTag }}
+      </h2>
+      <ul class="mt-4 flex flex-wrap gap-x-6 gap-y-3">
+        <TagPill
+          v-for="{ tag, tagName, count, kind } in topTags"
+          :key="tag"
+          :tag="tag"
+          :tag-name="tagName"
+          :count="count"
+          :kind="kind"
+          size="sm"
+        />
+      </ul>
+    </section>
   </main>
 </template>

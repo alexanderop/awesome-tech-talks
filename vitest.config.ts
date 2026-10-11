@@ -9,7 +9,6 @@ export default defineConfig({
       include: ["app/**", "shared/**"],
       exclude: [
         "app/components/icons/**",
-        "app/components/OgImage/**",
         "app/app.vue",
         "app/error.vue",
         "app/plugins/**",
@@ -40,9 +39,6 @@ export default defineConfig({
           environmentOptions: {
             nuxt: {
               domEnvironment: "happy-dom",
-              overrides: {
-                ogImage: { enabled: false },
-              },
             },
           },
         },

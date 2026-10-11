@@ -120,6 +120,3 @@ jobs:
 
       - name: 🎭 Run E2E tests
         run: pnpm test:browser:prebuilt
-
-      - name: Verify publication across consecutive builds
-        run: pnpm test:publication

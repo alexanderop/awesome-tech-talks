@@ -1,28 +1,4 @@
-import { existsSync, readdirSync, statSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
-
 import { expect, test } from "./test-utils";
-
-// test/e2e/ → repo root → .output/public
-const PUBLIC_DIR = join(
-  dirname(fileURLToPath(import.meta.url)),
-  "..",
-  "..",
-  ".output",
-  "public"
-);
-
-function collectPngs(dir: string): string[] {
-  if (!existsSync(dir)) return [];
-  const out: string[] = [];
-  for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    const full = join(dir, entry.name);
-    if (entry.isDirectory()) out.push(...collectPngs(full));
-    else if (entry.isFile() && entry.name.endsWith(".png")) out.push(full);
-  }
-  return out;
-}
 
 test.describe("prerender artifacts", () => {
   test("GET /rss.xml is valid XML with at least one item", async ({
@@ -36,6 +12,8 @@ test.describe("prerender artifacts", () => {
     expect(body).toMatch(/^<\?xml\s/);
     expect(body).toContain("<rss");
     expect(body).toMatch(/<item>/);
+    expect(body).toContain("/articles/what-is-codemode</link>");
+    expect(body).toContain("/talks/state-of-the-tech-industry-2026</link>");
   });
 
   test("GET /sitemap.xml is valid XML with at least one url", async ({
@@ -48,17 +26,8 @@ test.describe("prerender artifacts", () => {
     expect(body).toMatch(/^<\?xml\s/);
     expect(body).toContain("<urlset");
     expect(body).toMatch(/<url>/);
-  });
-
-  test("OG image PNGs exist on disk and are non-empty", () => {
-    const ogDir = join(PUBLIC_DIR, "_og");
-    expect(existsSync(ogDir)).toBe(true);
-
-    const pngs = collectPngs(ogDir);
-    expect(pngs.length).toBeGreaterThan(0);
-
-    for (const png of pngs) {
-      expect(statSync(png).size).toBeGreaterThan(0);
-    }
+    expect(body).toContain("/articles</loc>");
+    expect(body).toContain("/articles/what-is-codemode</loc>");
+    expect(body).toContain("/people</loc>");
   });
 });

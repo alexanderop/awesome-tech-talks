@@ -1,0 +1,66 @@
+{
+  "minDurationMin": 20,
+  "perChannel": 15,
+  "perSpeaker": 5,
+  "channels": [
+    {
+      "name": "CraftHub",
+      "id": "UCrpEnk1GQmXhw0um0vsfHtg"
+    },
+    {
+      "name": "Devoxx",
+      "id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    },
+    {
+      "name": "dotconferences",
+      "id": "UCSRhwaM00ay0fasnsw6EXKA"
+    },
+    {
+      "name": "GOTO Conferences",
+      "id": "UCs_tLP3AiwYKwdUHpltJPuA"
+    },
+    {
+      "name": "InfoQ",
+      "id": "UCkQX1tChV7Z7l1LFF4L9j_g"
+    },
+    {
+      "name": "NDC Conferences",
+      "id": "UCTdw38Cw6jcm0atBPA39a0Q"
+    },
+    {
+      "name": "React Conf",
+      "id": "UC1hOCRBN2mnXgN5reSoO3pQ"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "id": "UCPbwhExawYrn9xxI21TFfyw"
+    },
+    {
+      "name": "ViteConf",
+      "id": "UCXXpIonjN9ATkXjOJsOwvjg"
+    },
+    {
+      "name": "Vuejs Amsterdam",
+      "id": "UCxV7lO6dUhpB-IyzmGuVgqg"
+    }
+  ],
+  "speakers": [
+    "Gergely Orosz"
+  ],
+  "blogs": [
+    {
+      "name": "Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org",
+      "feed": "https://lucumr.pocoo.org/feed.atom"
+    },
+    {
+      "name": "Geoffrey Huntley",
+      "url": "https://ghuntley.com",
+      "feed": "https://ghuntley.com/rss/"
+    }
+  ],
+  "authors": [
+    "Armin Ronacher",
+    "Geoffrey Huntley"
+  ]
+}

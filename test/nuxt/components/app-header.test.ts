@@ -3,21 +3,23 @@ import { reactive } from "vue";
 import { beforeEach, describe, expect, it } from "vitest";
 import AppHeader from "~/components/AppHeader.vue";
 
-const route = reactive({ path: "/posts" });
+const route = reactive({ path: "/channels" });
 
 mockNuxtImport("useRoute", () => () => route);
 
 describe("AppHeader", () => {
   beforeEach(() => {
-    route.path = "/posts";
+    route.path = "/channels";
   });
 
   it("renders the site title linking home and the primary nav items", async () => {
     const wrapper = await mountSuspended(AppHeader);
-    expect(wrapper.text()).toContain("NuxtPaper");
+    expect(wrapper.text()).toContain("Awesome Tech Talks");
     const labels = wrapper.findAll("#menu-items a").map(a => a.text());
-    expect(labels).toContain("Posts");
-    expect(labels).toContain("Tags");
+    expect(labels[0]).toBe("Talks");
+    expect(labels.slice(0, 6)).toEqual(["Talks", "Articles", "Channels", "People", "Tags", "About"]);
+    expect(labels).not.toContain("Posts");
+    expect(labels).not.toContain("Archives");
     expect(labels).toContain("About");
   });
 
@@ -25,7 +27,13 @@ describe("AppHeader", () => {
     const wrapper = await mountSuspended(AppHeader);
     const active = wrapper.find("a.active-nav");
     expect(active.exists()).toBe(true);
-    expect(active.text()).toBe("Posts");
+    expect(active.text()).toBe("Channels");
+  });
+
+  it("marks Articles active on an article page", async () => {
+    route.path = "/articles/what-is-codemode";
+    const wrapper = await mountSuspended(AppHeader);
+    expect(wrapper.find("a.active-nav").text()).toBe("Articles");
   });
 
   it("toggles the mobile menu open and closed", async () => {

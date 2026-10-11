@@ -2,20 +2,27 @@ import { queryCollection } from "@nuxt/content/server";
 import { joinURL } from "ufo";
 
 export default defineEventHandler(async event => {
-  const posts = await queryCollection(event, "posts")
-    .select("path", "pubDatetime", "modDatetime", "draft", "tags")
-    .all();
-
-  const visible = publishedPosts(posts.map(post => Object.assign({}, post, { modDatetime: post.modDatetime ? toDate(post.modDatetime) : null })), useRuntimeConfig(event).public.publication);
-  const lastModified = new Map(visible.map(post => [post.path, toDate(post.modDatetime ?? post.pubDatetime).toISOString()]));
-  const urls = publicationRoutes(visible, { perPage: POSTS.perPage, archives: FEATURES.showArchives, search: FEATURES.search })
-    .map(path => ({ path, lastmod: lastModified.get(path) }));
+  const [talks, articles] = await Promise.all([
+    queryCollection(event, "talks").select("path", "addedAt").all(),
+    queryCollection(event, "articles").select("path", "addedAt").all(),
+  ]);
+  const urls = [
+    { path: "/" },
+    { path: "/talks" },
+    { path: "/articles" },
+    { path: "/channels" },
+    { path: "/people" },
+    { path: "/tags" },
+    { path: "/about" },
+    ...(FEATURES.search ? [{ path: "/search" }] : []),
+    ...[...talks, ...articles].map(entry => ({ path: entry.path, lastmod: new Date(entry.addedAt).toISOString() })),
+  ];
 
   const body = urls
     .map(
       url => `  <url>
     <loc>${escapeXml(joinURL(SITE.url, url.path))}</loc>${
-      "lastmod" in url && url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ""
+      "lastmod" in url ? `\n    <lastmod>${url.lastmod}</lastmod>` : ""
     }
   </url>`
     )

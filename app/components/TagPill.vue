@@ -1,21 +1,21 @@
 <script setup lang="ts">
-const props = withDefaults(
+withDefaults(
   defineProps<{
     tag: string;
     tagName: string;
+    count?: number;
     size?: "sm" | "lg";
+    /** List the pill filters. */
+    kind?: "talks" | "articles";
   }>(),
-  { size: "lg" }
+  { size: "lg", count: undefined, kind: "talks" }
 );
-const transitionName = computed(() => `tag-${toTransitionName(props.tag)}`);
 </script>
 
 <template>
   <li>
-    <component :is="'style'">{{ cardTransitionStyles(transitionName) }}</component>
     <NuxtLink
-      :to="`/tags/${tag}`"
-      :style="{ viewTransitionName: transitionName }"
+      :to="{ path: `/${kind}`, query: { tag } }"
       :class="[
         'flex items-center gap-0.5',
         'border-foreground border-b-2 border-dashed',
@@ -28,6 +28,7 @@ const transitionName = computed(() => `tag-${toTransitionName(props.tag)}`);
         :class="['opacity-80', size === 'lg' ? 'size-5' : 'size-4']"
       />
       {{ tagName }}
+      <span v-if="count !== undefined" class="text-muted-foreground ms-1 text-sm">{{ count }}</span>
     </NuxtLink>
   </li>
 </template>

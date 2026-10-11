@@ -43,27 +43,10 @@ export function usePageSeo(options: PageSeoOptions = {}) {
     twitterDescription: description,
   });
 
-  const image = options.ogImage || (!FEATURES.dynamicOgImage || options.ogType !== "article" ? useRuntimeConfig().public.defaultOgImage : "");
-  if (image) {
-    const socialImageURL = /^https?:\/\//.test(image) ? image : joinURL(SITE.url, image);
-    useSeoMeta({
-      ogImage: socialImageURL,
-      twitterImage: socialImageURL,
-    });
-  } else if (FEATURES.dynamicOgImage) {
-    // Page titles carry a " | NuxtPaper" suffix; the template shows the
-    // site name separately, so strip it from the image headline.
-    const suffix = ` | ${SITE.title}`;
-    const imageTitle = title.endsWith(suffix)
-      ? title.slice(0, -suffix.length)
-      : title;
-
-    defineOgImageComponent("BlogPostSatori", {
-      title: imageTitle,
-      description: description,
-      author: options.author ?? SITE.author,
-      article: options.ogType === "article",
-      fontFamily: "Google Sans Code OG",
-    });
-  }
+  const image = options.ogImage || useRuntimeConfig().public.defaultOgImage;
+  const socialImageURL = /^https?:\/\//.test(image) ? image : joinURL(SITE.url, image);
+  useSeoMeta({
+    ogImage: socialImageURL,
+    twitterImage: socialImageURL,
+  });
 }

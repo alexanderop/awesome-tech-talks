@@ -1,8 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
   FEATURES,
-  POSTS,
-  SHARE_LINKS,
   SITE,
   SOCIALS,
   type SocialLink,
@@ -19,29 +17,16 @@ describe("SITE", () => {
   });
 });
 
-describe("POSTS", () => {
-  it("paginates a positive number of posts per page", () => {
-    expect(POSTS.perPage).toBeGreaterThan(0);
-    expect(POSTS.perIndex).toBeGreaterThan(0);
-  });
-
-  it("uses a non-negative scheduled post margin", () => {
-    expect(POSTS.scheduledPostMargin).toBeGreaterThanOrEqual(0);
-  });
-});
-
 describe("FEATURES", () => {
   it("exposes boolean toggles", () => {
     expect(typeof FEATURES.search).toBe("boolean");
-    expect(typeof FEATURES.giscus).toBe("boolean");
-    expect(typeof FEATURES.editPost.enabled).toBe("boolean");
+    expect(typeof FEATURES.lightAndDarkMode).toBe("boolean");
   });
 });
 
-describe.each([
-  ["SOCIALS", SOCIALS],
-  ["SHARE_LINKS", SHARE_LINKS],
-])("%s", (_label, links: SocialLink[]) => {
+describe("SOCIALS", () => {
+  const links: SocialLink[] = SOCIALS;
+
   it("is a non-empty list", () => {
     expect(links.length).toBeGreaterThan(0);
   });

@@ -2,10 +2,12 @@
 const route = useRoute();
 
 const navLabels: Record<string, string> = {
-  posts: t.nav.posts,
+  talks: t.nav.talks,
+  articles: t.nav.articles,
+  channels: t.nav.channels,
+  people: t.nav.people,
   tags: t.nav.tags,
   about: t.nav.about,
-  archives: t.nav.archives,
   search: t.nav.search,
 };
 
@@ -18,32 +20,7 @@ function decodeSegment(value: string) {
 }
 
 function breadcrumbSegments(path: string) {
-  const list = path.replace(/\/+$/, "").split("/").slice(1).filter(Boolean);
-
-  // if breadcrumb is Home > Posts > [page] replace with "Posts (page n)"
-  if (list[0] === "posts") {
-    list.splice(
-      0,
-      2,
-      `${t.nav.posts} (${t.pagination.page.toLowerCase()} ${list[1] || 1})`
-    );
-  }
-
-  // if breadcrumb is Home > Tags > [tag] > [page] replace [tag] > [page]
-  // with "[tag] (page n)"
-  if (list[0] === "tags" && list[2] && !isNaN(Number(list[2]))) {
-    list.splice(
-      1,
-      3,
-      `${decodeSegment(list[1]!)} ${
-        Number(list[2]) === 1
-          ? ""
-          : `(${t.pagination.page.toLowerCase()} ${list[2]})`
-      }`
-    );
-  }
-
-  return list;
+  return path.replace(/\/+$/, "").split("/").slice(1).filter(Boolean);
 }
 
 const crumbs = computed(() =>

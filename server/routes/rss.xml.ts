@@ -2,21 +2,20 @@ import { queryCollection } from "@nuxt/content/server";
 import { joinURL } from "ufo";
 
 export default defineEventHandler(async event => {
-  const posts = await queryCollection(event, "posts")
-    .select("path", "title", "description", "pubDatetime", "modDatetime", "draft")
-    .all();
+  const [talks, articles] = await Promise.all([
+    queryCollection(event, "talks").select("path", "title", "description", "addedAt").all(),
+    queryCollection(event, "articles").select("path", "title", "description", "addedAt").all(),
+  ]);
 
-  const visible = publishedPosts(posts.map(post => Object.assign({}, post, { modDatetime: post.modDatetime ? toDate(post.modDatetime) : null })), useRuntimeConfig(event).public.publication);
-
-  const items = visible
-    .map(post => {
-      const url = escapeXml(joinURL(SITE.url, post.path));
+  const items = sortByAddedAt([...talks, ...articles])
+    .map(entry => {
+      const url = escapeXml(joinURL(SITE.url, entry.path));
       return `    <item>
-      <title>${escapeXml(post.title)}</title>
+      <title>${escapeXml(entry.title)}</title>
       <link>${url}</link>
       <guid>${url}</guid>
-      <description>${escapeXml(post.description ?? "")}</description>
-      <pubDate>${toDate(post.modDatetime ?? post.pubDatetime).toUTCString()}</pubDate>
+      <description>${escapeXml(entry.description)}</description>
+      <pubDate>${new Date(entry.addedAt).toUTCString()}</pubDate>
     </item>`;
     })
     .join("\n");

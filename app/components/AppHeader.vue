@@ -5,7 +5,10 @@ const { toggle } = useTheme();
 const menuExpanded = ref(false);
 
 const navItems = [
-  { to: "/posts", label: t.nav.posts },
+  { to: "/talks", label: t.nav.talks },
+  { to: "/articles", label: t.nav.articles },
+  { to: "/channels", label: t.nav.channels },
+  { to: "/people", label: t.nav.people },
   { to: "/tags", label: t.nav.tags },
   { to: "/about", label: t.nav.about },
 ];
@@ -52,24 +55,24 @@ function focusMain() {
   </a>
 
   <header
-    class="app-layout flex flex-col items-center justify-between sm:flex-row"
+    class="app-layout flex flex-col items-center justify-between md:flex-row"
   >
     <div
-      class="border-border bg-background relative flex w-full items-baseline justify-between border-b py-4 sm:items-center sm:py-6"
+      class="border-border bg-background relative flex w-full items-baseline justify-between border-b py-4 md:items-center md:py-6"
     >
       <NuxtLink
         to="/"
-        class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
+        class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap md:static md:my-auto md:leading-none"
       >
         {{ SITE.title }}
       </NuxtLink>
       <nav
         id="nav-menu"
-        class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
+        class="flex w-full flex-col items-center md:ms-2 md:flex-row md:justify-end md:space-x-4 md:py-0"
       >
         <button
           id="menu-btn"
-          class="focus-outline self-end p-2 sm:hidden"
+          class="focus-outline self-end p-2 md:hidden"
           :aria-label="menuExpanded ? t.a11y.closeMenu : t.a11y.openMenu"
           :aria-expanded="menuExpanded"
           aria-controls="menu-items"
@@ -82,34 +85,13 @@ function focusMain() {
           id="menu-items"
           :class="[
             menuExpanded ? 'grid' : 'hidden',
-            '[&>li>a]:hover:text-accent mt-4 w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0 sm:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium sm:[&>li>a]:px-2 sm:[&>li>a]:py-1',
+            '[&>li>a]:hover:text-accent mt-4 w-44 grid-cols-2 place-content-center gap-2 md:mt-0 md:flex md:w-auto md:gap-x-1 md:gap-y-0 md:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium md:[&>li>a]:px-1.5 md:[&>li>a]:py-1',
           ]"
         >
           <li v-for="item in navItems" :key="item.to" class="col-span-2">
             <NuxtLink :to="item.to" :class="{ 'active-nav': isActive(item.to) }">
               {{ item.label }}
             </NuxtLink>
-          </li>
-          <li v-if="FEATURES.showArchives" class="col-span-2">
-            <LinkButton
-              href="/archives"
-              :class="[
-                'focus-outline flex size-full justify-center p-3 sm:relative sm:size-8 sm:p-0',
-                { 'active-nav': isActive('/archives') },
-              ]"
-              :title="t.nav.archives"
-              :aria-label="t.nav.archives"
-            >
-              <IconArchive
-                class="hidden sm:absolute sm:top-1/2 sm:left-1/2 sm:block sm:size-6 sm:-translate-x-1/2 sm:-translate-y-1/2"
-              />
-              <span class="sm:sr-only">{{ t.nav.archives }}</span>
-              <IconUnderline
-                v-if="isActive('/archives')"
-                aria-hidden="true"
-                class="scale-125 max-sm:hidden sm:absolute sm:bottom-0 sm:w-6"
-              />
-            </LinkButton>
           </li>
           <li
             v-if="FEATURES.search"
@@ -128,7 +110,7 @@ function focusMain() {
               <IconUnderline
                 v-if="isActive('/search')"
                 aria-hidden="true"
-                class="absolute bottom-0 w-6 scale-125 max-sm:inset-s-2"
+                class="absolute bottom-0 w-6 scale-125 max-md:inset-s-2"
               />
             </LinkButton>
           </li>
@@ -138,7 +120,7 @@ function focusMain() {
           >
             <button
               id="theme-btn"
-              class="focus-outline hover:[&>svg]:stroke-accent relative size-12 p-4 sm:size-8"
+              class="focus-outline hover:[&>svg]:stroke-accent relative size-12 p-4 md:size-8"
               :title="t.a11y.toggleTheme"
               aria-live="polite"
               :aria-label="t.a11y.toggleTheme"

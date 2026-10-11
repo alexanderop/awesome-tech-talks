@@ -3,14 +3,9 @@ import { renderSSRHead } from "@unhead/vue/server";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { usePageSeo } from "~/composables/usePageSeo";
 
-const { routeMock, ogImageSpy } = vi.hoisted(() => ({
-  routeMock: { path: "/" },
-  ogImageSpy: vi.fn<(component: string, options: unknown) => void>(),
-}));
+const { routeMock } = vi.hoisted(() => ({ routeMock: { path: "/" } }));
 
 mockNuxtImport("useRoute", () => () => routeMock);
-// og-image module is disabled in tests; stub the auto-import.
-mockNuxtImport("defineOgImageComponent", () => ogImageSpy);
 
 // Resolves the head built during a composable's setup into rendered HTML so we
 // can assert on the actual tags unhead would emit.
@@ -33,14 +28,13 @@ async function renderHead(
 describe("usePageSeo", () => {
   beforeEach(() => {
     routeMock.path = "/";
-    ogImageSpy.mockReset();
   });
 
   it("falls back to the site title and description", async () => {
     const html = await renderHead();
-    expect(html).toContain("<title>NuxtPaper</title>");
+    expect(html).toContain("<title>Awesome Tech Talks</title>");
     expect(html).toContain('name="description"');
-    expect(html).toContain("minimal");
+    expect(html).toContain("curated");
   });
 
   it("uses the provided title and description", async () => {
@@ -54,11 +48,11 @@ describe("usePageSeo", () => {
   });
 
   it("derives the canonical URL from the route path", async () => {
-    routeMock.path = "/posts/hello";
+    routeMock.path = "/talks/hello";
     const html = await renderHead();
     expect(html).toContain('rel="canonical"');
     expect(html).toContain(
-      'href="https://alexanderop.github.io/nuxt-paper/posts/hello"'
+      'href="https://alexanderop.github.io/awesome-tech-talks/talks/hello"'
     );
   });
 
@@ -81,20 +75,15 @@ describe("usePageSeo", () => {
   it("emits an absolute og:image when ogImage is provided", async () => {
     const html = await renderHead({ ogImage: "/custom.jpg" });
     expect(html).toContain(
-      'content="https://alexanderop.github.io/nuxt-paper/custom.jpg"'
+      'content="https://alexanderop.github.io/awesome-tech-talks/custom.jpg"'
     );
-    expect(ogImageSpy).not.toHaveBeenCalled();
   });
 
-  it("generates an og image component when none is provided", async () => {
-    await renderHead({ title: "Hello | NuxtPaper", description: "d", ogType: "article" });
-    expect(ogImageSpy).toHaveBeenCalledWith("BlogPostSatori", {
-      title: "Hello",
-      description: "d",
-      author: "Sat Naing",
-      article: true,
-      fontFamily: "Google Sans Code OG",
-    });
+  it("falls back to the default og:image", async () => {
+    const html = await renderHead();
+    expect(html).toContain(
+      'content="https://alexanderop.github.io/awesome-tech-talks/default-og.jpg"'
+    );
   });
 
   it("omits the google verification meta by default", async () => {

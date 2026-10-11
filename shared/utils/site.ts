@@ -1,56 +1,23 @@
 export const SITE = {
-  url: "https://alexanderop.github.io/nuxt-paper",
-  title: "NuxtPaper",
+  url: "https://alexanderop.github.io/awesome-tech-talks",
+  title: "Awesome Tech Talks",
   description:
-    "A minimal, responsive and SEO-friendly blog theme — AstroPaper ported to Nuxt 4 and Nuxt Content.",
-  author: "Sat Naing",
-  profile: "https://satna.ing",
+    "A curated collection of software engineering conference talks and articles — summarized, tagged, and linked.",
+  author: "Alexander Opalic",
+  profile: "https://alexop.dev",
   ogImage: "/default-og.jpg",
   lang: "en",
-  timezone: "Asia/Bangkok",
+  timezone: "Europe/Berlin",
   dir: "ltr" as const,
   // Set to the content value from Google Search Console to emit the
   // <meta name="google-site-verification"> tag. Leave empty to omit it.
   googleVerification: "" as string,
 };
 
-export const POSTS = {
-  perPage: 4,
-  perIndex: 4,
-  /**
-   * Scheduled posts within this window (ms) of their pubDatetime
-   * are shown as published.
-   */
-  scheduledPostMargin: 15 * 60 * 1000,
-};
-
 export const FEATURES = {
-  dynamicOgImage: true,
   lightAndDarkMode: true,
-  showArchives: true,
   showBackButton: true,
-  editPost: {
-    enabled: true,
-    url: "https://github.com/alexanderop/nuxt-paper/edit/main/",
-  },
   search: true,
-  giscus: false,
-};
-
-/**
- * Giscus (GitHub Discussions) comments. Disabled by default.
- * To enable: set FEATURES.giscus to true, enable Discussions on the repo,
- * install the giscus GitHub app, then fill in the values from
- * https://giscus.app (repo, repoId, category, categoryId).
- */
-export const GISCUS = {
-  repo: "",
-  repoId: "",
-  category: "",
-  categoryId: "",
-  mapping: "pathname",
-  reactionsEnabled: true,
-  inputPosition: "bottom" as "top" | "bottom",
 };
 
 export interface SocialLink {
@@ -60,26 +27,12 @@ export interface SocialLink {
 }
 
 export const SOCIALS: SocialLink[] = [
-  { name: "github", url: "https://github.com/satnaing/astro-paper" },
-  { name: "x", url: "https://x.com/username" },
-  { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-  { name: "mail", url: "mailto:yourmail@gmail.com" },
-];
-
-export const SHARE_LINKS: SocialLink[] = [
-  { name: "whatsapp", url: "https://wa.me/?text=" },
-  { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
-  { name: "x", url: "https://x.com/intent/post?url=" },
-  { name: "telegram", url: "https://t.me/share/url?url=" },
-  { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-  { name: "mail", url: "mailto:?subject=See%20this%20post&body=" },
+  { name: "github", url: "https://github.com/alexanderop" },
+  { name: "x", url: "https://x.com/alexanderopalic" },
+  { name: "linkedin", url: "https://www.linkedin.com/in/alexanderopalic/" },
 ];
 
 export const HOME = {
-  title: "Mingalaba",
-  description: "NuxtPaper is a minimal, responsive, accessible and SEO-friendly blog theme — a port of AstroPaper to Nuxt 4 and Nuxt Content. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default.",
-  readMorePrefix: "Read the blog posts or check",
-  readMoreLabel: "README",
-  readMoreUrl: "https://github.com/alexanderop/nuxt-paper#readme",
-  readMoreSuffix: "of the theme for more info.",
+  title: "Awesome Tech Talks",
+  pitch: "Software engineering conference talks and articles worth your time. Each one has a short summary, key takeaways, tags and a link to the original, so you can decide what to watch or read before you start.",
 };
