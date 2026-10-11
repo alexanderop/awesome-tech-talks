@@ -5,6 +5,10 @@ const props = defineProps<{
 }>();
 
 const playing = ref(false);
+const startSeconds = ref(0);
+// Bumped on every seek so jumping to the same chapter twice still reloads the player.
+const seekCount = ref(0);
+const root = useTemplateRef<HTMLDivElement>("root");
 const frame = useTemplateRef<HTMLIFrameElement>("frame");
 
 async function play() {
@@ -12,14 +16,25 @@ async function play() {
   await nextTick();
   frame.value?.focus();
 }
+
+/** Starts (or restarts) playback at `seconds` and scrolls the player into view. */
+async function seek(seconds: number) {
+  startSeconds.value = seconds;
+  seekCount.value += 1;
+  root.value?.scrollIntoView({ block: "center" });
+  await play();
+}
+
+defineExpose({ seek });
 </script>
 
 <template>
-  <div class="border-border relative aspect-video w-full overflow-hidden rounded border bg-black">
+  <div ref="root" class="border-border relative aspect-video w-full overflow-hidden rounded border bg-black">
     <iframe
       v-if="playing"
       ref="frame"
-      :src="youtubeEmbedUrl(props.videoId)"
+      :key="seekCount"
+      :src="youtubeEmbedUrl(props.videoId, startSeconds)"
       :title="props.title"
       class="absolute inset-0 size-full"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

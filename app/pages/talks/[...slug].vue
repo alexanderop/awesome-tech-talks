@@ -43,6 +43,19 @@ useHead({
 });
 
 const publishedOn = computed(() => dayjs(talk.value.publishedAt).format("D MMM, YYYY"));
+
+const body = computed(() => ({ ...talk.value, body: prepareTalkBody(talk.value.body, talk.value.youtubeId) }));
+
+const embed = useTemplateRef<{ seek: (seconds: number) => Promise<void> }>("embed");
+
+// Chapter timestamps link to YouTube; a plain click plays that moment in the embed instead.
+function onArticleClick(event: MouseEvent) {
+  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  const link = (event.target as Element).closest<HTMLElement>("[data-seek]");
+  if (!link) return;
+  event.preventDefault();
+  embed.value?.seek(Number(link.dataset.seek));
+}
 </script>
 
 <template>
@@ -70,11 +83,11 @@ const publishedOn = computed(() => dayjs(talk.value.publishedAt).format("D MMM, 
     </div>
 
     <div class="mt-6" data-pagefind-ignore>
-      <YouTubeEmbed :video-id="talk.youtubeId" :title="talk.title" />
+      <YouTubeEmbed ref="embed" :video-id="talk.youtubeId" :title="talk.title" />
     </div>
 
-    <article id="article" class="app-prose max-w-app mt-8 w-full">
-      <ContentRenderer :value="talk" />
+    <article id="article" class="app-prose max-w-app mt-8 w-full" @click="onArticleClick">
+      <ContentRenderer :value="body" />
     </article>
 
     <section v-if="talk.resources?.length" id="resources" class="mt-8">

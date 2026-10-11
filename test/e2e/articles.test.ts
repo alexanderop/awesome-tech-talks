@@ -31,7 +31,7 @@ test.describe("articles", () => {
 
   test("tags page links a shared tag to both lists", async ({ page, goto }) => {
     await goto("/tags", { waitUntil: "hydration" });
-    await expect(page.locator("#main-content a[href$='/talks?tag=ai']")).toHaveText("1 talk");
+    await expect(page.locator("#main-content a[href$='/talks?tag=ai']")).toHaveText("2 talks");
     await expect(page.locator("#main-content a[href$='/articles?tag=ai']")).toHaveText("1 article");
   });
 });

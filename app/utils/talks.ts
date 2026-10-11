@@ -23,6 +23,8 @@ export interface TalkItem {
 }
 
 export interface TalkFilters {
+  /** Free-text search over title, description, speakers, conference and tags. */
+  q?: string;
   tag?: string;
   level?: string;
   conference?: string;
@@ -60,8 +62,9 @@ export function youtubeWatchUrl(id: string): string {
   return `https://www.youtube.com/watch?v=${id}`;
 }
 
-export function youtubeEmbedUrl(id: string): string {
-  return `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+export function youtubeEmbedUrl(id: string, startSeconds = 0): string {
+  const start = startSeconds > 0 ? `&start=${startSeconds}` : "";
+  return `https://www.youtube-nocookie.com/embed/${id}?autoplay=1${start}`;
 }
 
 export function sortTalksByAddedAt<T extends Pick<TalkItem, "addedAt">>(talks: readonly T[]): T[] {
@@ -74,12 +77,28 @@ export function isNewTalk(talk: Pick<TalkItem, "addedAt">, now: number): boolean
   return age >= 0 && age <= NEW_TALK_WINDOW_MS;
 }
 
-export function filterTalks<T extends Pick<TalkItem, "tags" | "level" | "conference" | "speakers" | "channelId">>(
+type SearchableTalk = Pick<TalkItem, "tags" | "conference" | "speakers"> & Partial<Pick<TalkItem, "title" | "description">>;
+
+/** True when every word of `query` appears in the talk's title, description, speakers, conference or tags. */
+export function matchesTalkQuery(talk: SearchableTalk, query: string): boolean {
+  const haystack = [talk.title, talk.description, talk.conference, ...talk.speakers, ...talk.tags]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return query
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .every(word => haystack.includes(word));
+}
+
+export function filterTalks<T extends SearchableTalk & Pick<TalkItem, "level" | "channelId">>(
   talks: readonly T[],
   filters: TalkFilters
 ): T[] {
   return talks.filter(
     talk =>
+      (!filters.q || matchesTalkQuery(talk, filters.q)) &&
       (!filters.tag || hasTag(talk, filters.tag)) &&
       (!filters.level || talk.level === filters.level) &&
       (!filters.conference || talk.conference === filters.conference) &&

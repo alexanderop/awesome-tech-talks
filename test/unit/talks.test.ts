@@ -47,6 +47,7 @@ describe("youtube urls", () => {
     expect(youtubeThumbnail("abc")).toBe("https://i.ytimg.com/vi/abc/hqdefault.jpg");
     expect(youtubeThumbnail("abc", "maxresdefault")).toBe("https://i.ytimg.com/vi/abc/maxresdefault.jpg");
     expect(youtubeEmbedUrl("abc")).toBe("https://www.youtube-nocookie.com/embed/abc?autoplay=1");
+    expect(youtubeEmbedUrl("abc", 88)).toBe("https://www.youtube-nocookie.com/embed/abc?autoplay=1&start=88");
   });
 });
 
@@ -75,6 +76,13 @@ describe("isNewTalk", () => {
 describe("filterTalks", () => {
   it("returns everything without filters", () => {
     expect(filterTalks(talks, {})).toHaveLength(3);
+  });
+
+  it("filters by free-text query across speakers, conference and tags", () => {
+    expect(filterTalks(talks, { q: "orosz" })).toHaveLength(1);
+    expect(filterTalks(talks, { q: "b conf" })).toHaveLength(1);
+    expect(filterTalks(talks, { q: "ddd jane" })).toHaveLength(1);
+    expect(filterTalks(talks, { q: "nothing-matches" })).toHaveLength(0);
   });
 
   it("filters by tag slug case-insensitively", () => {

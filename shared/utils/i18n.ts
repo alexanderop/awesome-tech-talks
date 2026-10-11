@@ -20,6 +20,9 @@ export const t = {
     filterConference: "Conference",
     filterSpeaker: "Speaker",
     filterChannel: "Channel",
+    filterSearch: "Search talks",
+    filterSearchPlaceholder: "Title, speaker, conference…",
+    moreFilters: "More filters",
     filteredBySpeaker: "Speaker: {{name}}",
     filteredByChannel: "Channel: {{name}}",
     clear: "clear",
@@ -39,6 +42,9 @@ export const t = {
     playVideo: "Play video: {{title}}",
     thumbnailAlt: "Thumbnail of the talk {{title}}",
     addedOn: "Added",
+  },
+  tags: {
+    moreTags: "{{count}} more tags",
   },
   levels: {
     beginner: "Beginner",

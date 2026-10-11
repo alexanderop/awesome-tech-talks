@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { TalkItem } from "~/utils/talks";
 
+const CARD_TAG_LIMIT = 3;
+
 withDefaults(
   defineProps<{
     talk: TalkItem;
@@ -12,16 +14,24 @@ withDefaults(
 
 <template>
   <li class="flex flex-col gap-2">
-    <NuxtLink :to="talk.path" tabindex="-1" aria-hidden="true" class="block">
-      <img
-        :src="youtubeThumbnail(talk.youtubeId)"
-        :alt="tplStr(t.talks.thumbnailAlt, { title: talk.title })"
-        loading="lazy"
-        width="480"
-        height="360"
-        class="border-border aspect-video w-full rounded border object-cover"
-      />
-    </NuxtLink>
+    <div class="relative">
+      <NuxtLink :to="talk.path" tabindex="-1" aria-hidden="true" class="block">
+        <img
+          :src="youtubeThumbnail(talk.youtubeId)"
+          :alt="tplStr(t.talks.thumbnailAlt, { title: talk.title })"
+          loading="lazy"
+          width="480"
+          height="360"
+          class="border-border aspect-video w-full rounded border object-cover"
+        />
+      </NuxtLink>
+      <span class="pointer-events-none absolute bottom-2 left-2 rounded bg-black/75 px-1.5 py-0.5 text-xs text-white">
+        {{ t.levels[talk.level] }}
+      </span>
+      <span class="pointer-events-none absolute right-2 bottom-2 rounded bg-black/75 px-1.5 py-0.5 text-xs text-white">
+        {{ tplStr(t.talks.minutes, { count: String(talk.durationMin) }) }}
+      </span>
+    </div>
     <NuxtLink
       :to="talk.path"
       class="text-accent inline-block text-lg font-medium decoration-dashed underline-offset-4 hover:underline focus-visible:no-underline focus-visible:underline-offset-0"
@@ -32,11 +42,8 @@ withDefaults(
       <PeopleLinks :names="talk.speakers" />
       <span aria-hidden="true">·</span>
       <span>{{ talk.conference }}</span>
-      <span aria-hidden="true">·</span>
-      <span>{{ tplStr(t.talks.minutes, { count: String(talk.durationMin) }) }}</span>
-      <LevelBadge :level="talk.level" />
     </div>
-    <p>{{ talk.description }}</p>
-    <TagLinks :tags="talk.tags" />
+    <p class="line-clamp-2">{{ talk.description }}</p>
+    <TagLinks :tags="talk.tags" :limit="CARD_TAG_LIMIT" quiet />
   </li>
 </template>
