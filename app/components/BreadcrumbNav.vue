@@ -4,6 +4,7 @@ const route = useRoute();
 const navLabels: Record<string, string> = {
   talks: t.nav.talks,
   articles: t.nav.articles,
+  tweets: t.nav.tweets,
   feed: t.nav.feed,
   channels: t.nav.channels,
   people: t.nav.people,

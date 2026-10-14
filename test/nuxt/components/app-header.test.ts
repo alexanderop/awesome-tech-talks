@@ -17,7 +17,7 @@ describe("AppHeader", () => {
     expect(wrapper.text()).toContain("Awesome Tech Talks");
     const labels = wrapper.findAll("#menu-items a").map(a => a.text());
     expect(labels[0]).toBe("Talks");
-    expect(labels.slice(0, 7)).toEqual(["Talks", "Articles", "Feed", "Channels", "People", "Tags", "About"]);
+    expect(labels.slice(0, 8)).toEqual(["Talks", "Articles", "Tweets", "Feed", "Channels", "People", "Tags", "About"]);
     expect(labels).not.toContain("Posts");
     expect(labels).not.toContain("Archives");
     expect(labels).toContain("About");

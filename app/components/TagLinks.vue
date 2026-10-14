@@ -3,7 +3,7 @@ const props = withDefaults(
   defineProps<{
     tags: string[];
     /** Which list each tag filters. */
-    kind?: "talks" | "articles";
+    kind?: "talks" | "articles" | "tweets";
     /** Show at most this many tags, then a `+N` count. */
     limit?: number;
     /** Muted text without the dashed underline, for dense card lists. */

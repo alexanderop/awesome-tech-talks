@@ -3,6 +3,7 @@ import { joinURL } from "ufo";
 
 const TALKS_PER_INDEX = 6;
 const ARTICLES_PER_INDEX = 5;
+const TWEETS_PER_INDEX = 3;
 const FEED_PER_INDEX = 5;
 const TAGS_PER_INDEX = 16;
 
@@ -11,12 +12,18 @@ useRememberBackUrl();
 
 const rssHref = joinURL(useRuntimeConfig().app.baseURL, "rss.xml");
 
-const [{ data: talks }, { data: articles }, { data: feed }] = await Promise.all([useAllTalks(), useAllArticles(), useFeed()]);
+const [{ data: talks }, { data: articles }, { data: tweets }, { data: feed }] = await Promise.all([
+  useAllTalks(),
+  useAllArticles(),
+  useAllTweets(),
+  useFeed(),
+]);
 
 const latestFeed = computed(() => (feed.value?.items ?? []).slice(0, FEED_PER_INDEX));
 const featuredTalks = computed(() => talks.value.filter(talk => talk.featured));
 const latestTalks = computed(() => talks.value.slice(0, TALKS_PER_INDEX));
 const latestArticles = computed(() => articles.value.slice(0, ARTICLES_PER_INDEX));
+const latestTweets = computed(() => tweets.value.slice(0, TWEETS_PER_INDEX));
 // Each pill links to the list where the tag is most used and shows that list's count.
 const topTags = computed(() =>
   countSiteTags(talks.value, articles.value)
@@ -36,6 +43,7 @@ function countLabel(count: number, one: string, many: string) {
 const stats = computed(() => [
   { to: "/talks", label: countLabel(talks.value.length, t.home.statTalk, t.home.statTalks) },
   { to: "/articles", label: countLabel(articles.value.length, t.home.statArticle, t.home.statArticles) },
+  { to: "/tweets", label: countLabel(tweets.value.length, t.home.statTweet, t.home.statTweets) },
   {
     to: "/channels",
     label: countLabel(getTalkChannels(talks.value, followedChannels).length, t.home.statChannel, t.home.statChannels),
@@ -138,6 +146,26 @@ const stats = computed(() => [
       <div class="mt-8 text-center">
         <LinkButton href="/articles">
           {{ t.home.allArticles }}
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+      </div>
+    </section>
+
+    <section v-if="latestTweets.length > 0" id="latest-tweets" class="border-border border-t pt-12 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide">
+        {{ t.home.latestTweets }}
+      </h2>
+      <ul class="mt-4 flex flex-col gap-8">
+        <TweetCard
+          v-for="tweet in latestTweets"
+          :key="tweet.path"
+          :tweet="tweet"
+          variant="h3"
+        />
+      </ul>
+      <div class="mt-8 text-center">
+        <LinkButton href="/tweets">
+          {{ t.home.allTweets }}
           <IconArrowRight class="inline-block rtl:-rotate-180" />
         </LinkButton>
       </div>

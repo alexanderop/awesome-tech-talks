@@ -51,6 +51,25 @@ export default defineContentConfig({
         featured: z.boolean().optional(),
       }),
     }),
+    tweets: defineCollection({
+      type: "page",
+      source: {
+        cwd: contentRoot,
+        include: "tweets/**/*.md",
+        prefix: "/tweets",
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        url: z.string().url(),
+        author: z.string(),
+        handle: z.string().regex(/^\w{1,15}$/),
+        publishedAt: z.string(),
+        addedAt: z.string(),
+        tags: z.array(z.string()).min(1),
+        featured: z.boolean().optional(),
+      }),
+    }),
     pages: defineCollection({
       type: "page",
       source: {

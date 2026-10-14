@@ -167,6 +167,54 @@
       "url": "https://addyosmani.com",
       "feed": "https://addyosmani.com/rss.xml",
       "note": "engineering"
+    },
+    {
+      "name": "Martin Fowler",
+      "url": "https://martinfowler.com",
+      "feed": "https://martinfowler.com/feed.atom",
+      "note": "engineering, ai"
+    },
+    {
+      "name": "Kent Beck",
+      "url": "https://tidyfirst.substack.com",
+      "feed": "https://tidyfirst.substack.com/feed",
+      "note": "engineering, testing"
+    },
+    {
+      "name": "Hillel Wayne",
+      "url": "https://buttondown.com/hillelwayne",
+      "feed": "https://buttondown.com/hillelwayne/rss",
+      "note": "formal methods"
+    },
+    {
+      "name": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com",
+      "feed": "https://mitchellh.com/feed.xml",
+      "note": "engineering"
+    },
+    {
+      "name": "Kent C. Dodds",
+      "url": "https://kentcdodds.com/blog",
+      "feed": "https://kentcdodds.com/blog/rss.xml",
+      "note": "engineering, ai"
+    },
+    {
+      "name": "Matt Pocock",
+      "url": "https://www.aihero.dev",
+      "feed": "https://www.aihero.dev/rss.xml",
+      "note": "typescript, ai"
+    },
+    {
+      "name": "Thorsten Ball",
+      "url": "https://registerspill.thorstenball.com",
+      "feed": "https://registerspill.thorstenball.com/feed",
+      "note": "ai, agents"
+    },
+    {
+      "name": "Lea Verou",
+      "url": "https://lea.verou.me",
+      "feed": "https://lea.verou.me/feed.xml",
+      "note": "css"
     }
   ]
 }

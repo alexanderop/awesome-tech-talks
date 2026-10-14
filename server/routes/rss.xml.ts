@@ -2,12 +2,13 @@ import { queryCollection } from "@nuxt/content/server";
 import { joinURL } from "ufo";
 
 export default defineEventHandler(async event => {
-  const [talks, articles] = await Promise.all([
+  const [talks, articles, tweets] = await Promise.all([
     queryCollection(event, "talks").select("path", "title", "description", "addedAt").all(),
     queryCollection(event, "articles").select("path", "title", "description", "addedAt").all(),
+    queryCollection(event, "tweets").select("path", "title", "description", "addedAt").all(),
   ]);
 
-  const items = sortByAddedAt([...talks, ...articles])
+  const items = sortByAddedAt([...talks, ...articles, ...tweets])
     .map(entry => {
       const url = escapeXml(joinURL(SITE.url, entry.path));
       return `    <item>

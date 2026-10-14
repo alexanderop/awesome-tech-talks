@@ -7,6 +7,7 @@ const menuExpanded = ref(false);
 const navItems = [
   { to: "/talks", label: t.nav.talks },
   { to: "/articles", label: t.nav.articles },
+  { to: "/tweets", label: t.nav.tweets },
   { to: "/feed", label: t.nav.feed },
   { to: "/channels", label: t.nav.channels },
   { to: "/people", label: t.nav.people },

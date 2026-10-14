@@ -5,13 +5,14 @@ import { makeArticle } from "./_article-helpers";
 import { makeFeed, makeFeedItem } from "./_feed-helpers";
 import { makeTalk } from "./_talk-helpers";
 
-const { talks, articles, feed } = vi.hoisted(() => {
+const { talks, articles, tweets, feed } = vi.hoisted(() => {
   const { ref } = require("vue");
-  return { talks: ref([]), articles: ref([]), feed: ref(undefined) };
+  return { talks: ref([]), articles: ref([]), tweets: ref([]), feed: ref(undefined) };
 });
 
 mockNuxtImport("useAllTalks", () => () => ({ data: talks }));
 mockNuxtImport("useAllArticles", () => () => ({ data: articles }));
+mockNuxtImport("useAllTweets", () => () => ({ data: tweets }));
 mockNuxtImport("useFeed", () => () => ({ data: feed }));
 
 describe("index page", () => {
@@ -43,7 +44,7 @@ describe("index page", () => {
     expect(stats.text()).toContain("channels");
     expect(stats.text()).toContain("people");
     const hrefs = stats.findAll("a").map(a => a.attributes("href"));
-    expect(hrefs).toEqual(["/talks", "/articles", "/channels", "/people"]);
+    expect(hrefs).toEqual(["/talks", "/articles", "/tweets", "/channels", "/people"]);
   });
 
   it("pluralizes the article count", async () => {

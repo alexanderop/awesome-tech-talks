@@ -3,7 +3,7 @@ withDefaults(
   defineProps<{
     names: string[];
     /** Which list each name filters: talk speakers or article authors. */
-    kind?: "talks" | "articles";
+    kind?: "talks" | "articles" | "tweets";
   }>(),
   { kind: "talks" }
 );
