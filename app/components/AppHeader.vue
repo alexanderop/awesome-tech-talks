@@ -9,7 +9,9 @@ const navItems = [
   { to: "/articles", label: t.nav.articles },
   { to: "/tweets", label: t.nav.tweets },
   { to: "/feed", label: t.nav.feed },
-  { to: "/channels", label: t.nav.channels },
+  // Between md and lg the bar is too narrow for every item, so Channels moves
+  // to the footer there.
+  { to: "/channels", label: t.nav.channels, hiddenOnTablet: true },
   { to: "/people", label: t.nav.people },
   // Tags is the lowest-traffic page and the desktop bar is full, so from md up
   // it lives in the footer; the mobile menu still lists it.
@@ -92,7 +94,7 @@ function focusMain() {
             '[&>li>a]:hover:text-accent mt-4 w-44 grid-cols-2 place-content-center gap-2 md:mt-0 md:flex md:w-auto md:gap-x-1 md:gap-y-0 md:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium md:[&>li>a]:px-1.5 md:[&>li>a]:py-1',
           ]"
         >
-          <li v-for="item in navItems" :key="item.to" :class="['col-span-2', { 'md:hidden': item.mobileOnly }]">
+          <li v-for="item in navItems" :key="item.to" :class="['col-span-2', { 'md:hidden': item.mobileOnly, 'md:max-lg:hidden': item.hiddenOnTablet }]">
             <NuxtLink :to="item.to" :class="{ 'active-nav': isActive(item.to) }">
               {{ item.label }}
             </NuxtLink>

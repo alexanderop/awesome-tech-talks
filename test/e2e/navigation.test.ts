@@ -79,6 +79,14 @@ test.describe("main navigation", () => {
     });
   }
 
+  test("at 768px Channels moves from the bar to the footer", async ({ page, goto }) => {
+    await page.setViewportSize({ width: 768, height: 900 });
+    await goto("/", { waitUntil: "hydration" });
+    await expect(page.locator("#menu-items").getByRole("link", { name: "Channels" })).toBeHidden();
+    await page.locator("footer").getByRole("link", { name: "Channels" }).click();
+    await expect(page).toHaveURL(/\/channels\/?$/);
+  });
+
   test("footer links to Tags", async ({ page, goto }) => {
     await goto("/", { waitUntil: "hydration" });
     await page.locator("footer").getByRole("link", { name: "Tags" }).click();
