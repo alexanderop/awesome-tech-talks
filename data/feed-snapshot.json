@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T04:12:43.882Z",
+  "generatedAt": "2026-10-14T05:30:21.136Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -179,7 +179,8 @@
       "name": "Kent Beck",
       "url": "https://tidyfirst.substack.com",
       "feed": "https://tidyfirst.substack.com/feed",
-      "ok": true
+      "ok": false,
+      "error": "HTTP 403"
     },
     {
       "name": "Hillel Wayne",
@@ -286,13 +287,6 @@
       "date": "2026-10-13T13:32:00.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Decompose Run-On Tests",
-      "url": "https://newsletter.kentbeck.com/p/decompose-run-on-tests",
-      "date": "2026-10-13T13:31:10.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "The Last Answer",
@@ -470,13 +464,6 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Thinkie: Fix Time, Flex Scope",
-      "url": "https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope",
-      "date": "2026-10-09T13:44:50.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
       "url": "https://ghuntley.com/replaced/",
       "date": "2026-10-09T09:07:26.000Z",
@@ -587,13 +574,6 @@
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "Tools Aren’t Here to Make Us Feel Good",
-      "url": "https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel",
-      "date": "2026-10-07T18:58:24.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Building resilient systems with Sam Newman",
@@ -895,13 +875,6 @@
       "date": "2026-09-29T13:43:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Mathematicians, Here’s a Way To Think About Your Existential Crisis",
-      "url": "https://newsletter.kentbeck.com/p/mathematicians-heres-a-way-to-think",
-      "date": "2026-09-29T13:32:57.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Fragments: September 29",
@@ -1212,13 +1185,6 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "Formal Methods Pay Off",
-      "url": "https://newsletter.kentbeck.com/p/formal-methods-pay-off",
-      "date": "2026-09-17T18:00:28.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "I don't like LLMs",
       "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
       "date": "2026-09-17T13:50:00.000Z",
@@ -1471,13 +1437,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "Reject Change, Sometimes",
-      "url": "https://newsletter.kentbeck.com/p/reject-change-sometimes",
-      "date": "2026-09-02T13:29:36.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Tales from the Void: August 2026 Recap",
       "url": "https://voidzero.dev/posts/whats-new-aug-2026",
       "date": "2026-09-02T00:00:00.000Z",
@@ -1688,13 +1647,6 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
-      "title": "Baking a Model",
-      "url": "https://newsletter.kentbeck.com/p/baking-a-model",
-      "date": "2026-08-14T13:35:21.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "date": "2026-08-14T11:24:35.000Z",
@@ -1714,13 +1666,6 @@
       "date": "2026-08-13T21:24:55.000Z",
       "source": "WebKit blog",
       "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
-      "title": "Busy is Short Volatility",
-      "url": "https://newsletter.kentbeck.com/p/busy-is-short-volatility",
-      "date": "2026-08-13T13:32:30.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Tales from the Void: July 2026 Recap",
@@ -1758,13 +1703,6 @@
       "sourceUrl": "https://lea.verou.me"
     },
     {
-      "title": "Speculative Short Volatility & Neglectful Short Volatility",
-      "url": "https://newsletter.kentbeck.com/p/speculative-short-volatility-and",
-      "date": "2026-08-05T13:21:38.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Bringing State Machines in effect",
       "url": "https://www.sandromaglione.com/newsletter/bringing-state-machines-in-effect",
       "date": "2026-08-05T00:00:00.000Z",
@@ -1784,13 +1722,6 @@
       "date": "2026-07-31T00:00:00.000Z",
       "source": "Ahmad Shadeed",
       "sourceUrl": "https://ishadeed.com"
-    },
-    {
-      "title": "Canon 3X: Explore/Expand/Extract",
-      "url": "https://newsletter.kentbeck.com/p/canon-3x-exploreexpandextract",
-      "date": "2026-07-30T13:04:07.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "You have been mislead about lightbulbs",
@@ -2330,6 +2261,76 @@
       "date": "2026-03-03T00:00:00.000Z",
       "source": "Daniel Roe",
       "sourceUrl": "https://roe.dev"
+    },
+    {
+      "title": "External import maps, today!",
+      "url": "https://lea.verou.me/blog/2026/external-import-maps-today/",
+      "date": "2026-03-02T00:00:00.000Z",
+      "source": "Lea Verou",
+      "sourceUrl": "https://lea.verou.me"
+    },
+    {
+      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
+      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "React blog",
+      "sourceUrl": "https://react.dev/blog"
+    },
+    {
+      "title": "Building Semantic Search on my Content",
+      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Helping YOU ask ME questions with AI",
+      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Sprites on the Web",
+      "url": "https://www.joshwcomeau.com/animation/sprites/",
+      "date": "2026-02-23T11:00:00.000Z",
+      "source": "Josh W. Comeau",
+      "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Creating Query Abstractions",
+      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
+      "date": "2026-02-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
+      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "How I used Cursor to Migrate Frameworks",
+      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
     }
   ]
 }
