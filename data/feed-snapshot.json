@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T05:30:21.136Z",
+  "generatedAt": "2026-10-15T05:30:02.725Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,83 @@
   ],
   "items": [
     {
+      "title": "Fit height to background pattern size with calc-size()",
+      "url": "https://ishadeed.com/article/fit-height-background-pattern-calc-size/",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "Ahmad Shadeed",
+      "sourceUrl": "https://ishadeed.com"
+    },
+    {
+      "title": "a new model for open source: closed to pull requests, open to remix.",
+      "url": "https://ghuntley.com/remix/",
+      "date": "2026-10-14T23:30:12.000Z",
+      "source": "Geoffrey Huntley",
+      "sourceUrl": "https://ghuntley.com"
+    },
+    {
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "date": "2026-10-14T21:23:01.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] WorkOS AuthKit: Auth for Your App, Free Up to 1M Monthly Active Users",
+      "url": "https://workos.com/?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
+      "date": "2026-10-14T21:03:43.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The FBI Arrested a Saudi National OpenAI Employee for Planting a Recording Device in the Company’s Executive Conference Room",
+      "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "date": "2026-10-14T20:58:01.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Scroll-Triggered Animations Debugger (DevTools Extension)",
+      "url": "https://www.bram.us/2026/10/14/scroll-triggered-animations-debugger-devtools-extension/",
+      "date": "2026-10-14T17:27:10.000Z",
+      "source": "Bramus",
+      "sourceUrl": "https://www.bram.us"
+    },
+    {
+      "title": "Uber’s AI infra, from the inside",
+      "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
+      "date": "2026-10-14T17:06:56.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "date": "2026-10-14T16:26:53.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "date": "2026-10-14T14:22:49.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "Build your slide template",
+      "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
+      "date": "2026-10-14T14:20:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Formlabs dropped the Raspberry Pi on the way to a $699 SLA printer",
+      "url": "https://www.jeffgeerling.com/blog/2026/formlabs-form-studio-1-resin-printer/",
+      "date": "2026-10-14T13:00:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
       "date": "2026-10-13T23:24:53.000Z",
@@ -352,18 +429,18 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "datasette-ports 0.4",
-      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "date": "2026-10-12T04:57:07.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Software engineers don't get to be Luddites about AI",
       "url": "https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
       "date": "2026-10-12T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Module of the Week - Cluster, Part 3",
+      "url": "https://effect.website/blog/module-of-the-week/cluster-delivery/",
+      "date": "2026-10-12T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "★ X Once Again Marks the Spot",
@@ -392,13 +469,6 @@
       "date": "2026-10-11T11:33:36.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "date": "2026-10-11T00:52:37.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Don't diagnose your opponents",
@@ -527,13 +597,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Joz Announces ‘Welcome Home’ Keynote Coming Tuesday, 13 October",
-      "url": "https://x.com/gregjoz/status/2108226096407994858",
-      "date": "2026-10-08T19:00:09.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal",
       "date": "2026-10-08T16:55:51.000Z",
@@ -553,13 +616,6 @@
       "date": "2026-10-08T00:00:00.000Z",
       "source": "Effect blog",
       "sourceUrl": "https://effect.website/blog"
-    },
-    {
-      "title": "Jaguar Type 01",
-      "url": "https://insideevs.com/news/810839/jaguar-type-01-launch-ev/",
-      "date": "2026-10-07T23:22:28.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "to Kodak yourself out of business",
@@ -919,13 +975,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "the eighteen-month recap: AI Engineer, Singapore, May 2026",
-      "url": "https://ghuntley.com/eighteen-month-recap/",
-      "date": "2026-09-27T08:34:40.000Z",
-      "source": "Geoffrey Huntley",
-      "sourceUrl": "https://ghuntley.com"
-    },
-    {
       "title": "Enforce Tailwind CSS Design Tokens in Vue with @shadcn/lint",
       "url": "https://alexop.dev/posts/enforce-tailwind-design-system-shadcn-lint/",
       "date": "2026-09-27T00:00:00.000Z",
@@ -1094,13 +1143,6 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "How will AI change operating systems? Part 2: Windows",
-      "url": "https://newsletter.pragmaticengineer.com/p/windows-and-ai",
-      "date": "2026-09-22T17:17:31.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "It's Not Just True, It's False",
       "url": "https://idiallo.com/byte-size/its-not-just-true-its-false",
       "date": "2026-09-22T01:49:51.000Z",
@@ -1171,13 +1213,6 @@
       "sourceUrl": "https://overreacted.io"
     },
     {
-      "title": "This Week in Effect - 136",
-      "url": "https://effect.website/blog/this-week-in-effect/136/",
-      "date": "2026-09-18T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
-    },
-    {
       "title": "The Front Page of the Internet Is Up for Grabs",
       "url": "https://idiallo.com/byte-size/the-front-page-of-the-internet",
       "date": "2026-09-17T23:43:19.000Z",
@@ -1204,13 +1239,6 @@
       "date": "2026-09-17T05:05:56.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Fragments: September 16",
-      "url": "https://martinfowler.com/fragments/2026-09-16.html",
-      "date": "2026-09-16T20:05:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "The LLMs yearn for the spines",
@@ -1323,13 +1351,6 @@
       "date": "2026-09-10T17:51:24.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Introducing <​mermaid-element>, a custom element to display Mermaid diagrams",
-      "url": "https://www.bram.us/2026/09/10/introducing-mermaid-element-a-custom-element-to-display-mermaid-diagrams/",
-      "date": "2026-09-10T12:48:19.000Z",
-      "source": "Bramus",
-      "sourceUrl": "https://www.bram.us"
     },
     {
       "title": "We own the Glass",
@@ -1605,13 +1626,6 @@
       "sourceUrl": "https://addyosmani.com"
     },
     {
-      "title": "Getting the Steam Deck LCD working on a Raspberry Pi",
-      "url": "https://www.jeffgeerling.com/blog/2026/steam-deck-lcd-pi-hat/",
-      "date": "2026-08-20T14:00:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
       "title": "API design for agents",
       "url": "https://www.sandromaglione.com/newsletter/api-design-for-agents",
       "date": "2026-08-19T00:00:00.000Z",
@@ -1645,13 +1659,6 @@
       "date": "2026-08-16T07:28:14.000Z",
       "source": "Thorsten Ball",
       "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "date": "2026-08-14T11:24:35.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "Practical Loop Engineering",
@@ -2324,13 +2331,6 @@
       "date": "2026-02-18T00:00:00.000Z",
       "source": "Julia Evans",
       "sourceUrl": "https://jvns.ca"
-    },
-    {
-      "title": "February Pebble Production and Software Updates",
-      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
-      "date": "2026-02-18T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
     }
   ]
 }
