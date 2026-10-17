@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T05:30:01.653Z",
+  "generatedAt": "2026-10-17T05:28:09.636Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -11,8 +11,7 @@
       "name": "Julia Evans",
       "url": "https://jvns.ca",
       "feed": "https://jvns.ca/atom.xml",
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true
     },
     {
       "name": "Simon Willison",
@@ -234,6 +233,83 @@
   ],
   "items": [
     {
+      "title": "The Late Charlie Munger on Elon Musk and Tesla",
+      "url": "https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html",
+      "date": "2026-10-17T01:22:34.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple: ‘Strengthening App Review Guidelines Against Nonconsensual Intimate Imagery and Bait-And-Switch Apps’",
+      "url": "https://developer.apple.com/news/?id=vvzx6cul",
+      "date": "2026-10-17T01:00:00.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple TV Started at $69 in 2015",
+      "url": "https://www.macrumors.com/2015/03/09/tim-cook-apple-tv-now-costs-69/",
+      "date": "2026-10-17T00:37:01.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Strange Times Make for Strange Bedfellows",
+      "url": "https://x.com/finkd/status/2110778025629347999",
+      "date": "2026-10-16T23:34:03.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "date": "2026-10-16T22:06:37.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "How They Got Duo Support in NetNewsWire",
+      "url": "https://netnewswire.blog/2026/10/16/how-we-got-duo-support.html",
+      "date": "2026-10-16T20:53:42.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "★ Real Artists Ship, Tesla Edition",
+      "url": "https://daringfireball.net/2026/10/real_artists_ship_tesla_edition",
+      "date": "2026-10-16T20:11:23.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Shyam Sankar, CTO of Palantir, Says AI Researchers Have Started Smoking Because They’re Convinced AI (Claude, Probably) Is Going to Cure Cancer",
+      "url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
+      "date": "2026-10-16T17:01:22.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "iPhone Duo Pre-Orders Launched, and Three Hours Later It’s Sold Out Through the End of January",
+      "url": "https://www.macrumors.com/2026/10/16/iphone-duo-sold-out-for-christmas/",
+      "date": "2026-10-16T15:19:28.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "state of agentic coding #11: the curiosity test, lisp, and labs that can't fail",
+      "url": "https://ghuntley.com/toronto/",
+      "date": "2026-10-16T11:41:01.000Z",
+      "source": "Geoffrey Huntley",
+      "sourceUrl": "https://ghuntley.com"
+    },
+    {
+      "title": "revisiting some of my priors about openclaw",
+      "url": "https://ghuntley.com/bot/",
+      "date": "2026-10-16T09:26:33.000Z",
+      "source": "Geoffrey Huntley",
+      "sourceUrl": "https://ghuntley.com"
+    },
+    {
       "title": "This video is 2 minutes long",
       "url": "https://idiallo.com/byte-size/two-minutes-long-video",
       "date": "2026-10-16T05:28:42.000Z",
@@ -246,6 +322,20 @@
       "date": "2026-10-16T01:18:29.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "AI is driving a boom in modestly successful software projects",
+      "url": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
+      "date": "2026-10-16T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "This Week in Effect - 140",
+      "url": "https://effect.website/blog/this-week-in-effect/140/",
+      "date": "2026-10-16T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "Chirp Pong",
@@ -283,6 +373,13 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "date": "2026-10-15T02:07:28.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "The death of the software developer",
       "url": "https://alexop.dev/posts/the-death-of-the-software-developer/",
       "date": "2026-10-15T00:00:00.000Z",
@@ -309,20 +406,6 @@
       "date": "2026-10-14T21:23:01.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "[Sponsor] WorkOS AuthKit: Auth for Your App, Free Up to 1M Monthly Active Users",
-      "url": "https://workos.com/?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
-      "date": "2026-10-14T21:03:43.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The FBI Arrested a Saudi National OpenAI Employee for Planting a Recording Device in the Company’s Executive Conference Room",
-      "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
-      "date": "2026-10-14T20:58:01.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Scroll-Triggered Animations Debugger (DevTools Extension)",
@@ -395,13 +478,6 @@
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
-      "title": "Apple HomeView",
-      "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
-      "date": "2026-10-13T14:52:24.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Craft of Practitioner Voice",
       "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
       "date": "2026-10-13T14:06:00.000Z",
@@ -451,27 +527,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "date": "2026-10-12T23:58:46.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "date": "2026-10-12T18:15:38.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Mark Stephens, a.k.a. Robert X. Cringely, Died at 73",
-      "url": "https://www.facebook.com/story.php?story_fbid=pfbid0YbCLrAJfBirAWuPBy4a7pauaQ6gHkAPUwtbzyg2wAjeMcruFC7dWUZKQJKkNChP9l&amp;id=536506060&amp;_rdr",
-      "date": "2026-10-12T16:43:46.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Software engineers don't get to be Luddites about AI",
       "url": "https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
       "date": "2026-10-12T00:00:00.000Z",
@@ -484,20 +539,6 @@
       "date": "2026-10-12T00:00:00.000Z",
       "source": "Effect blog",
       "sourceUrl": "https://effect.website/blog"
-    },
-    {
-      "title": "★ X Once Again Marks the Spot",
-      "url": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot",
-      "date": "2026-10-11T21:05:33.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Apple Only Started Suggesting iOS 26 Users Upgrade to 27 Three Days Ago",
-      "url": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27/",
-      "date": "2026-10-11T19:02:38.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Why I Get Bored",
@@ -526,20 +567,6 @@
       "date": "2026-10-11T00:00:00.000Z",
       "source": "Lea Verou",
       "sourceUrl": "https://lea.verou.me"
-    },
-    {
-      "title": "Sunnny",
-      "url": "https://sunnny.com/",
-      "date": "2026-10-10T16:11:45.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "‘Proof-of-Human’",
-      "url": "https://x.com/bzamayo/status/2108498107184934914",
-      "date": "2026-10-10T16:06:17.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "unikernels were hard. key word: were.",
@@ -850,20 +877,6 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "software doesn't need to be readable anymore. it needs to be explainable.",
-      "url": "https://ghuntley.com/readable/",
-      "date": "2026-10-02T06:06:40.000Z",
-      "source": "Geoffrey Huntley",
-      "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "the craft has been commoditized, but access has not",
-      "url": "https://ghuntley.com/access/",
-      "date": "2026-10-02T04:38:26.000Z",
-      "source": "Geoffrey Huntley",
-      "sourceUrl": "https://ghuntley.com"
-    },
-    {
       "title": "Do not build the LLM torture factory",
       "url": "https://seangoedecke.com/do-not-build-the-llm-torture-factory/",
       "date": "2026-10-02T00:00:00.000Z",
@@ -1011,6 +1024,13 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
+      "title": "Replacing the old battery on rechargeable bike lights",
+      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+      "date": "2026-09-27T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
       "title": "Human-AI partnerships are for alignment, not capability",
       "url": "https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/",
       "date": "2026-09-27T00:00:00.000Z",
@@ -1044,13 +1064,6 @@
       "date": "2026-09-25T15:16:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "You should all be asking way more questions",
-      "url": "https://seangoedecke.com/you-should-all-be-asking-way-more-questions/",
-      "date": "2026-09-25T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "This Week in Effect - 137",
@@ -1170,13 +1183,6 @@
       "date": "2026-09-21T17:00:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Module of the Week - RcMap",
-      "url": "https://effect.website/blog/module-of-the-week/rcmap/",
-      "date": "2026-09-21T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "Ship cleaner packages (without the ./dist or ./src folder) by publishing a subfolder to NPM",
@@ -1816,6 +1822,13 @@
       "sourceUrl": "https://mitchellh.com"
     },
     {
+      "title": "Some more things about Django I've been enjoying",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+      "date": "2026-07-21T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
       "title": "Software Factories, Light and Dark",
       "url": "https://addyosmani.com/blog/software-factories/",
       "date": "2026-07-20T00:00:00.000Z",
@@ -1835,6 +1848,13 @@
       "date": "2026-07-18T10:00:00.000Z",
       "source": "Nuxt blog",
       "sourceUrl": "https://nuxt.com/blog"
+    },
+    {
+      "title": "Learning a few things about running SQLite",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "date": "2026-07-17T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
     },
     {
       "title": "Own the Outer Loop",
@@ -2033,6 +2053,13 @@
       "sourceUrl": "https://ishadeed.com"
     },
     {
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "date": "2026-05-15T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
       "title": "A few words on DS4",
       "url": "http://antirez.com/news/165",
       "date": "2026-05-14T22:22:45.000Z",
@@ -2061,11 +2088,25 @@
       "sourceUrl": "https://antirez.com"
     },
     {
+      "title": "Links to CSS colour palettes",
+      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
+      "date": "2026-05-04T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
       "title": "Media Queries Range Syntax",
       "url": "https://ishadeed.com/article/range-syntax/",
       "date": "2026-05-04T00:00:00.000Z",
       "source": "Ahmad Shadeed",
       "sourceUrl": "https://ishadeed.com"
+    },
+    {
+      "title": "Testing Vue components in the browser",
+      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
+      "date": "2026-05-02T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
     },
     {
       "title": "Introducing the Nuxt Agent",
@@ -2194,6 +2235,13 @@
       "sourceUrl": "https://kentcdodds.com/blog"
     },
     {
+      "title": "Examples for the tcpdump and dig man pages",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "date": "2026-03-10T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
       "title": "Migrating to Workspaces and Nx",
       "url": "https://kentcdodds.com/blog/migrating-to-workspaces-and-nx",
       "date": "2026-03-10T00:00:00.000Z",
@@ -2278,60 +2326,11 @@
       "sourceUrl": "https://kentcdodds.com/blog"
     },
     {
-      "title": "February Pebble Production and Software Updates",
-      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
       "date": "2026-02-18T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "Announcing TypeScript 6.0 Beta",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
-      "date": "2026-02-11T18:50:26.000Z",
-      "source": "TypeScript blog",
-      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
-    },
-    {
-      "title": "My AI Adoption Journey",
-      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "date": "2026-02-05T00:00:00.000Z",
-      "source": "Mitchell Hashimoto",
-      "sourceUrl": "https://mitchellh.com"
-    },
-    {
-      "title": "The Too Early Breakpoint",
-      "url": "https://ishadeed.com/article/too-early-breakpoint/",
-      "date": "2026-01-31T00:00:00.000Z",
-      "source": "Ahmad Shadeed",
-      "sourceUrl": "https://ishadeed.com"
-    },
-    {
-      "title": "On Being A Canadian In America In 2026",
-      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
-      "date": "2026-01-25T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "Nuxt 4.3",
-      "url": "https://nuxt.com/blog/v4-3",
-      "date": "2026-01-22T00:00:00.000Z",
-      "source": "Nuxt blog",
-      "sourceUrl": "https://nuxt.com/blog"
-    },
-    {
-      "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
-      "url": "https://mitchellh.com/writing/tripwire",
-      "date": "2026-01-21T00:00:00.000Z",
-      "source": "Mitchell Hashimoto",
-      "sourceUrl": "https://mitchellh.com"
-    },
-    {
-      "title": "A Social Filesystem",
-      "url": "https://overreacted.io/a-social-filesystem/",
-      "date": "2026-01-18T00:00:00.000Z",
-      "source": "Dan Abramov",
-      "sourceUrl": "https://overreacted.io"
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
     }
   ]
 }
