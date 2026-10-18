@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:28:09.636Z",
+  "generatedAt": "2026-10-18T05:27:48.281Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,55 @@
   ],
   "items": [
     {
+      "title": "Whatever You Say Bounces Off Me and Sticks to You",
+      "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/",
+      "date": "2026-10-18T00:55:42.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Writing is no longer proof of work",
+      "url": "https://seangoedecke.com/writing-is-no-longer-proof-of-work/",
+      "date": "2026-10-18T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "date": "2026-10-17T21:11:12.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "★ HomeView Thoughts and Observations",
+      "url": "https://daringfireball.net/2026/10/homeview_thoughts_and_observations",
+      "date": "2026-10-17T17:25:13.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple TV Price History, Charted",
+      "url": "https://glog.glennf.com/blog/2026/10/17/apple-tv-price-history/",
+      "date": "2026-10-17T14:06:18.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "date": "2026-10-17T13:16:49.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
+      "url": "https://ghuntley.com/underclass/",
+      "date": "2026-10-17T08:01:21.000Z",
+      "source": "Geoffrey Huntley",
+      "sourceUrl": "https://ghuntley.com"
+    },
+    {
       "title": "The Late Charlie Munger on Elon Musk and Tesla",
       "url": "https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html",
       "date": "2026-10-17T01:22:34.000Z",
@@ -289,13 +338,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "iPhone Duo Pre-Orders Launched, and Three Hours Later It’s Sold Out Through the End of January",
-      "url": "https://www.macrumors.com/2026/10/16/iphone-duo-sold-out-for-christmas/",
-      "date": "2026-10-16T15:19:28.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "state of agentic coding #11: the curiosity test, lisp, and labs that can't fail",
       "url": "https://ghuntley.com/toronto/",
       "date": "2026-10-16T11:41:01.000Z",
@@ -315,13 +357,6 @@
       "date": "2026-10-16T05:28:42.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "★ Initial Thoughts on This Week’s New Apple TV 4K (4th Generation) and HomePod Mini 2",
-      "url": "https://daringfireball.net/2026/10/thoughts_on_new_apple_tv_4k_and_homepod_mini_2",
-      "date": "2026-10-16T01:18:29.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "AI is driving a boom in modestly successful software projects",
@@ -350,13 +385,6 @@
       "date": "2026-10-15T16:55:18.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Secret Documents Reveal Donors Behind $330 Million for Trump’s Ballroom — Apple and Nvidia Top the List at $25 Million Each",
-      "url": "https://www.washingtonpost.com/investigations/2026/10/15/secret-documents-reveal-donors-behind-330-million-trumps-ballroom/",
-      "date": "2026-10-15T16:11:12.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "When Software Meets Hardware",
@@ -492,13 +520,6 @@
       "sourceUrl": "https://martinfowler.com"
     },
     {
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "date": "2026-10-13T13:32:00.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "The Last Answer",
       "url": "https://idiallo.com/blog/the-last-answer",
       "date": "2026-10-13T10:00:00.000Z",
@@ -518,13 +539,6 @@
       "date": "2026-10-13T06:32:04.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "date": "2026-10-13T01:40:05.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Software engineers don't get to be Luddites about AI",
@@ -756,13 +770,6 @@
       "date": "2026-10-05T23:00:00.000Z",
       "source": "Nuxt blog",
       "sourceUrl": "https://nuxt.com/blog"
-    },
-    {
-      "title": "an application in lisp you grow by talking to it",
-      "url": "https://ghuntley.com/lisp/",
-      "date": "2026-10-05T12:07:33.000Z",
-      "source": "Geoffrey Huntley",
-      "sourceUrl": "https://ghuntley.com"
     },
     {
       "title": "v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md",
@@ -1043,13 +1050,6 @@
       "date": "2026-09-26T05:52:02.000Z",
       "source": "Thorsten Ball",
       "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
-      "title": "Advice to a beginning software engineer",
-      "url": "https://seangoedecke.com/advice-to-a-beginning-software-engineer/",
-      "date": "2026-09-26T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
