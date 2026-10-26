@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T05:28:55.994Z",
+  "generatedAt": "2026-10-26T05:34:11.675Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,48 @@
   ],
   "items": [
     {
+      "title": "Sunnny",
+      "url": "https://sunnny.com/",
+      "date": "2026-10-25T21:50:00.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Duo Users Are Registering the Base of Their Index Finger as a Touch ID Coping Strategy",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xehtcj/best_fingerprint_method/",
+      "date": "2026-10-25T21:47:57.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Talk Show: ‘Lubricate the Inside of the Hinge’",
+      "url": "https://daringfireball.net/thetalkshow/2026/10/25/ep-456",
+      "date": "2026-10-25T19:03:13.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "iPhone Portrait Mode, 10 Years In",
+      "url": "https://x.com/johnnie/status/2114007844605612167",
+      "date": "2026-10-25T18:09:19.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Seam Cutter",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "date": "2026-10-25T15:10:19.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Joy & Curiosity #103",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
+      "date": "2026-10-25T07:11:23.000Z",
+      "source": "Thorsten Ball",
+      "sourceUrl": "https://registerspill.thorstenball.com"
+    },
+    {
       "title": "Don't anthropomorphize big tech companies",
       "url": "https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/",
       "date": "2026-10-25T00:00:00.000Z",
@@ -282,13 +324,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Chan Karunamuni on the Duo’s Open/Close Translucent Transition",
-      "url": "https://x.com/chan_k/status/2113622379050246243",
-      "date": "2026-10-24T15:03:44.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "battledrones v14: Compass Rose, a four player map",
       "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
       "date": "2026-10-24T03:59:57.000Z",
@@ -324,20 +359,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "The Verge’s Duo Review: ‘Apple’s Folding Phone Is a Messy, Expensive Good Time’",
-      "url": "https://www.theverge.com/tech/1015028/iphone-duo-review",
-      "date": "2026-10-23T16:52:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Joanna Stern Reviews the Duo: ‘The Good, the Bad, and the Buggy’",
-      "url": "https://www.youtube.com/watch?v=bxDTWuL9GxY",
-      "date": "2026-10-23T14:42:06.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Ubiquiti's $99 Vape Detector is actually pretty good",
       "url": "https://www.jeffgeerling.com/blog/2026/ubiquiti-vape-detector-teardown/",
       "date": "2026-10-23T13:00:00.000Z",
@@ -371,13 +392,6 @@
       "date": "2026-10-22T19:42:26.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Apple Highlights 50+ iPhone Apps That Have Already Been Optimized for the Duo",
-      "url": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/",
-      "date": "2026-10-22T19:10:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
@@ -488,13 +502,6 @@
       "title": "eMudhra Intermediate CA Compromise",
       "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
       "date": "2026-10-20T23:50:25.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "date": "2026-10-20T19:34:19.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -1764,13 +1771,6 @@
       "date": "2026-08-05T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "Joy & Curiosity #93",
-      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-93",
-      "date": "2026-08-02T07:53:28.000Z",
-      "source": "Thorsten Ball",
-      "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
       "title": "The CSS lh unit",
