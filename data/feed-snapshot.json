@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T05:34:11.675Z",
+  "generatedAt": "2026-10-27T05:32:05.357Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,76 @@
   ],
   "items": [
     {
+      "title": "The NYT Seemingly Does Marissa Mayer Dirty",
+      "url": "https://www.nytimes.com/2026/10/25/style/marissa-mayer-ai-assistants-women.html?unlocked_article_code=1.L1E.xBwx.X_EjBGNsRNqr",
+      "date": "2026-10-27T00:30:08.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple Issues Statement on iPhone Duo’s Crack Problem",
+      "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/",
+      "date": "2026-10-26T23:54:26.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "date": "2026-10-26T23:53:07.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Glenn Fleishman on Apple Notes and Markdown",
+      "url": "https://sixcolors.com/post/2026/10/why-notes-will-never-let-us-edit-markdown/",
+      "date": "2026-10-26T20:03:53.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Quoting Jason Koebler",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "date": "2026-10-26T19:00:25.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "WebKit Features for Safari 27.2",
+      "url": "https://webkit.org/blog/18515/webkit-features-for-safari-27-2/",
+      "date": "2026-10-26T18:30:01.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "★ Apple Announces New A20 Pro iPad Mini",
+      "url": "https://daringfireball.net/2026/10/apple_announces_new_a20_pro_ipad_mini",
+      "date": "2026-10-26T18:04:34.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "A Simple Two-Step Shortcuts Shortcut Lets You Lock the iPhone Duo When You Close It",
+      "url": "https://x.com/viticci/status/2113888099784638932",
+      "date": "2026-10-26T17:00:11.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "date": "2026-10-26T16:15:00.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Tiny Computers for iPhone Duo",
+      "url": "https://www.fountaininteractive.com/TinyComputers/",
+      "date": "2026-10-26T15:04:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
       "title": "Sunnny",
       "url": "https://sunnny.com/",
       "date": "2026-10-25T21:50:00.000Z",
@@ -280,48 +350,6 @@
       "date": "2026-10-25T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "Nicole Nguyen’s Duo Review for the WSJ",
-      "url": "https://www.wsj.com/tech/personal-tech/iphone-duo-review-cafcbbe7?st=GaYVMf",
-      "date": "2026-10-24T22:15:00.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Reuters and the WSJ on the Duo Launch",
-      "url": "https://www.reuters.com/business/retail-consumer/apple-bets-iphone-duo-can-remake-foldable-market-sales-begin-2026-10-22/",
-      "date": "2026-10-24T22:08:17.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Marion Barry Meets the iPhone Duo",
-      "url": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
-      "date": "2026-10-24T21:10:06.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "MKBHD’s Duo Review",
-      "url": "https://youtu.be/ESABTN4VtrA",
-      "date": "2026-10-24T20:47:28.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Tim Pan’s iPhone Duo Review",
-      "url": "https://www.youtube.com/watch?v=8pCccpKjjos",
-      "date": "2026-10-24T19:15:45.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Apple Built a Photo-Realistic Functional Original iPod for Apple Music’s 404 Page",
-      "url": "https://music.apple.com/404",
-      "date": "2026-10-24T15:50:02.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "battledrones v14: Compass Rose, a four player map",
@@ -443,25 +471,11 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "date": "2026-10-21T18:41:53.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "The revised rules of engineering management with Will Larson",
       "url": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
       "date": "2026-10-21T16:58:21.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Panache — RTS Belle Époque pour mobile",
-      "url": "https://simonwillison.net/2026/Oct/21/panache/",
-      "date": "2026-10-21T16:25:16.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -497,13 +511,6 @@
       "date": "2026-10-21T00:00:00.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "eMudhra Intermediate CA Compromise",
-      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-      "date": "2026-10-20T23:50:25.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Announcing TypeScript 7.1 Beta",
@@ -1624,13 +1631,6 @@
       "date": "2026-08-27T00:00:00.000Z",
       "source": "Addy Osmani",
       "sourceUrl": "https://addyosmani.com"
-    },
-    {
-      "title": "Release Notes for Safari Technology Preview 251",
-      "url": "https://webkit.org/blog/18194/release-notes-for-safari-technology-preview-251/",
-      "date": "2026-08-26T21:36:31.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
     },
     {
       "title": "Writing when you have AI",
