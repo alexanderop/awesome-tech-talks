@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:32:05.357Z",
+  "generatedAt": "2026-10-28T05:24:43.984Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,76 @@
   ],
   "items": [
     {
+      "title": "Siri AI Expands to More Languages in OS 27.2",
+      "url": "https://nr.apple.com/Du9G9W8Nq1",
+      "date": "2026-10-27T22:19:39.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple Creator Studio Updated With a Slew of AI Features, Along With a New Open JSON File Format for Keynote",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+      "date": "2026-10-27T22:00:04.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "★ Prestructured WYSIWYG",
+      "url": "https://daringfireball.net/2026/10/prestructured_wysiwyg",
+      "date": "2026-10-27T21:24:20.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "date": "2026-10-27T19:34:18.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "What’s Left for ‘Pro and Tell’ Week: Touch-Enabled OLED MacBooks",
+      "url": "https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/",
+      "date": "2026-10-27T17:59:47.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple Also Announces iMac With M6",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+      "date": "2026-10-27T16:44:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
+      "url": "https://www.jeffgeerling.com/blog/2026/noctua-fan-swap-calnex-rb-gps-frequency-reference/",
+      "date": "2026-10-27T16:37:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
+      "title": "AI SRE: what is it, how could it change on-call – and does it work?",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-sre",
+      "date": "2026-10-27T16:19:22.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "[Sponsor] WorkOS: Let Agents Sign Up for Your App Without a Browser",
+      "url": "https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
+      "date": "2026-10-27T16:03:08.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple Introduces New Base MacBook Pro With M6, 14-Inch-Only",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "date": "2026-10-27T16:00:46.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
       "title": "The NYT Seemingly Does Marissa Mayer Dirty",
       "url": "https://www.nytimes.com/2026/10/25/style/marissa-mayer-ai-assistants-women.html?unlocked_article_code=1.L1E.xBwx.X_EjBGNsRNqr",
       "date": "2026-10-27T00:30:08.000Z",
@@ -275,20 +345,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "★ Apple Announces New A20 Pro iPad Mini",
-      "url": "https://daringfireball.net/2026/10/apple_announces_new_a20_pro_ipad_mini",
-      "date": "2026-10-26T18:04:34.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "A Simple Two-Step Shortcuts Shortcut Lets You Lock the iPhone Duo When You Close It",
-      "url": "https://x.com/viticci/status/2113888099784638932",
-      "date": "2026-10-26T17:00:11.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "webframe: evaluated as a scraper and a sandbox",
       "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
       "date": "2026-10-26T16:15:00.000Z",
@@ -296,39 +352,11 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Tiny Computers for iPhone Duo",
-      "url": "https://www.fountaininteractive.com/TinyComputers/",
-      "date": "2026-10-26T15:04:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Sunnny",
-      "url": "https://sunnny.com/",
-      "date": "2026-10-25T21:50:00.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Duo Users Are Registering the Base of Their Index Finger as a Touch ID Coping Strategy",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xehtcj/best_fingerprint_method/",
-      "date": "2026-10-25T21:47:57.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The Talk Show: ‘Lubricate the Inside of the Hinge’",
-      "url": "https://daringfireball.net/thetalkshow/2026/10/25/ep-456",
-      "date": "2026-10-25T19:03:13.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "iPhone Portrait Mode, 10 Years In",
-      "url": "https://x.com/johnnie/status/2114007844605612167",
-      "date": "2026-10-25T18:09:19.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
+      "title": "Some thoughts on hosting email",
+      "url": "https://maurycyz.com/misc/email_thoughts/",
+      "date": "2026-10-26T00:00:00.000Z",
+      "source": "Maurycy Z.",
+      "sourceUrl": "https://maurycyz.com"
     },
     {
       "title": "Seam Cutter",
@@ -441,13 +469,6 @@
       "date": "2026-10-22T16:56:14.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "date": "2026-10-22T15:34:13.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "NYC, New Webinar, Differential Testing",
@@ -1094,13 +1115,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "The Pulse: Firebase’s global outage & poor response",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage",
-      "date": "2026-10-01T16:43:19.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "Effect v4 RC: September 2026 Updates",
       "url": "https://effect.website/blog/effect-v4-rc-september-recap/",
       "date": "2026-10-01T00:00:00.000Z",
@@ -1598,13 +1612,6 @@
       "sourceUrl": "https://addyosmani.com"
     },
     {
-      "title": "Before NTP there were Time and Daytime",
-      "url": "https://www.jeffgeerling.com/blog/2026/rfc-867-868-time/",
-      "date": "2026-08-30T22:09:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
       "title": "Joy & Curiosity #97",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-97",
       "date": "2026-08-30T06:01:01.000Z",
@@ -1778,13 +1785,6 @@
       "date": "2026-07-31T00:00:00.000Z",
       "source": "Ahmad Shadeed",
       "sourceUrl": "https://ishadeed.com"
-    },
-    {
-      "title": "You have been mislead about lightbulbs",
-      "url": "https://maurycyz.com/misc/tungsten/",
-      "date": "2026-07-30T00:00:00.000Z",
-      "source": "Maurycy Z.",
-      "sourceUrl": "https://maurycyz.com"
     },
     {
       "title": "Logic for Programmers is Done",
