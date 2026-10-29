@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:24:43.984Z",
+  "generatedAt": "2026-10-29T05:24:35.017Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,69 @@
   ],
   "items": [
     {
+      "title": "Steven Levy on the New MacBook Pro, With, Yes, a Touchscreen",
+      "url": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+      "date": "2026-10-29T04:06:15.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "date": "2026-10-28T23:23:21.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "date": "2026-10-28T16:45:23.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Guessing the Name: MacBook Studio?",
+      "url": "https://www.macrumors.com/2026/10/28/macbook-studio/",
+      "date": "2026-10-28T14:58:45.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "date": "2026-10-28T13:55:15.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Fragments: October 28",
+      "url": "https://martinfowler.com/fragments/2026-10-28.html",
+      "date": "2026-10-28T12:55:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "date": "2026-10-28T10:09:07.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Getting good at AI takes time and practice",
+      "url": "https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice/",
+      "date": "2026-10-28T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Nuxt DevTools v4",
+      "url": "https://nuxt.com/blog/devtools-v4",
+      "date": "2026-10-28T00:00:00.000Z",
+      "source": "Nuxt blog",
+      "sourceUrl": "https://nuxt.com/blog"
+    },
+    {
       "title": "Siri AI Expands to More Languages in OS 27.2",
       "url": "https://nr.apple.com/Du9G9W8Nq1",
       "date": "2026-10-27T22:19:39.000Z",
@@ -310,25 +373,11 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Apple Issues Statement on iPhone Duo’s Crack Problem",
-      "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/",
-      "date": "2026-10-26T23:54:26.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "GPT-6.1 Terra",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "date": "2026-10-26T23:53:07.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Glenn Fleishman on Apple Notes and Markdown",
-      "url": "https://sixcolors.com/post/2026/10/why-notes-will-never-let-us-edit-markdown/",
-      "date": "2026-10-26T20:03:53.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Quoting Jason Koebler",
@@ -394,20 +443,6 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "Quick Study",
-      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "date": "2026-10-23T21:35:13.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Introducing Kimi K3.1 Pro",
-      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "date": "2026-10-23T19:40:54.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "WebKit Features for Safari 27.1",
       "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
       "date": "2026-10-23T17:00:59.000Z",
@@ -441,20 +476,6 @@
       "date": "2026-10-22T21:22:48.000Z",
       "source": "WebKit blog",
       "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
-      "title": "DE STAAT - FREEDOM (Official Music Video)",
-      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-      "date": "2026-10-22T19:42:26.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "date": "2026-10-22T18:09:56.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "GTA.js, a reimplementation of the 1997 Grand Theft Auto engine in JavaScript and WebGL",
@@ -499,6 +520,13 @@
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
+      "title": "Fragments: October 21",
+      "url": "https://martinfowler.com/fragments/2026-10-21.html",
+      "date": "2026-10-21T16:51:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "date": "2026-10-21T15:26:07.000Z",
@@ -511,13 +539,6 @@
       "date": "2026-10-21T14:10:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Fragments: October 21",
-      "url": "https://martinfowler.com/fragments/2026-10-21.html",
-      "date": "2026-10-21T10:51:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "Designing Whiskey Glasses with Denver Cramer",
@@ -574,6 +595,13 @@
       "date": "2026-10-20T00:00:00.000Z",
       "source": "TkDodo",
       "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "Effect 4.1 (Release)",
+      "url": "https://effect.website/blog/releases/effect/41/",
+      "date": "2026-10-20T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "Blocking Identity Resolution Infrastructure",
@@ -954,13 +982,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "How to read code",
-      "url": "https://seangoedecke.com/how-to-read-code/",
-      "date": "2026-10-07T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Longer essays, timeless content",
       "url": "https://www.sandromaglione.com/newsletter/longer-essays-timeless-content",
       "date": "2026-10-07T00:00:00.000Z",
@@ -1150,13 +1171,6 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "Effect 4.0",
-      "url": "https://effect.website/blog/releases/effect/40/",
-      "date": "2026-09-30T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
-    },
-    {
       "title": "What should you do when code becomes free",
       "url": "https://www.sandromaglione.com/newsletter/what-should-you-do-when-code-becomes-free",
       "date": "2026-09-30T00:00:00.000Z",
@@ -1239,13 +1253,6 @@
       "date": "2026-09-25T15:16:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Fragments: September 24",
-      "url": "https://martinfowler.com/fragments/2026-09-24.html",
-      "date": "2026-09-24T15:35:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "AI Coding Dictionary",
@@ -2324,13 +2331,6 @@
       "date": "2026-02-23T11:00:00.000Z",
       "source": "Josh W. Comeau",
       "sourceUrl": "https://www.joshwcomeau.com"
-    },
-    {
-      "title": "Creating Query Abstractions",
-      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
-      "date": "2026-02-23T00:00:00.000Z",
-      "source": "TkDodo",
-      "sourceUrl": "https://tkdodo.eu/blog"
     }
   ]
 }
