@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T05:24:35.017Z",
+  "generatedAt": "2026-10-30T05:24:12.386Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,11 +233,95 @@
   ],
   "items": [
     {
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "date": "2026-10-29T22:48:29.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Apple Drops App Store Commission by a Whopping 4 Percentage Points in Taiwan",
+      "url": "https://developer.apple.com/news/?id=w9mxlhek",
+      "date": "2026-10-29T21:03:42.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "A Health Update From Craig Hockenberry",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "date": "2026-10-29T19:57:21.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Rolfe Winkler at The WSJ: ‘The Beleaguered Chip Sellers Getting Their Revenge on Apple’",
+      "url": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT",
+      "date": "2026-10-29T19:44:11.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "date": "2026-10-29T17:00:26.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "The Space Shuttle Discovery’s Starboard Side ‘s’ Is Upside Down",
+      "url": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/",
+      "date": "2026-10-29T15:06:56.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Bliki: LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "date": "2026-10-29T14:28:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "date": "2026-10-29T14:06:27.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Why are good developers so wary of agentic development?",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "date": "2026-10-29T13:50:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "date": "2026-10-29T13:37:13.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
       "title": "Steven Levy on the New MacBook Pro, With, Yes, a Touchscreen",
       "url": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
       "date": "2026-10-29T04:06:15.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "You can just ask AI to do things",
+      "url": "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "date": "2026-10-29T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Custom Voices With Qwen3-TTS",
+      "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+      "date": "2026-10-29T00:00:00.000Z",
+      "source": "Armin Ronacher's Thoughts and Writings",
+      "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
       "title": "Quoting Ted Sanders",
@@ -331,13 +415,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Apple Also Announces iMac With M6",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
-      "date": "2026-10-27T16:44:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
       "url": "https://www.jeffgeerling.com/blog/2026/noctua-fan-swap-calnex-rb-gps-frequency-reference/",
       "date": "2026-10-27T16:37:00.000Z",
@@ -350,27 +427,6 @@
       "date": "2026-10-27T16:19:22.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "[Sponsor] WorkOS: Let Agents Sign Up for Your App Without a Browser",
-      "url": "https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
-      "date": "2026-10-27T16:03:08.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Apple Introduces New Base MacBook Pro With M6, 14-Inch-Only",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-      "date": "2026-10-27T16:00:46.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The NYT Seemingly Does Marissa Mayer Dirty",
-      "url": "https://www.nytimes.com/2026/10/25/style/marissa-mayer-ai-assistants-women.html?unlocked_article_code=1.L1E.xBwx.X_EjBGNsRNqr",
-      "date": "2026-10-27T00:30:08.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "GPT-6.1 Terra",
@@ -394,25 +450,11 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "webframe: evaluated as a scraper and a sandbox",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-      "date": "2026-10-26T16:15:00.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Some thoughts on hosting email",
       "url": "https://maurycyz.com/misc/email_thoughts/",
       "date": "2026-10-26T00:00:00.000Z",
       "source": "Maurycy Z.",
       "sourceUrl": "https://maurycyz.com"
-    },
-    {
-      "title": "Seam Cutter",
-      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "date": "2026-10-25T15:10:19.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Joy & Curiosity #103",
@@ -427,13 +469,6 @@
       "date": "2026-10-25T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "date": "2026-10-24T03:59:57.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
@@ -870,13 +905,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "Software's centaur age may last decades",
-      "url": "https://seangoedecke.com/softwares-centaur-age-may-last-decades/",
-      "date": "2026-10-10T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Radxa's Q8B has 2x the performance and expansion of the Pi 5",
       "url": "https://www.jeffgeerling.com/blog/2026/radxa-q8b-double-pi-5/",
       "date": "2026-10-09T20:00:00.000Z",
@@ -987,13 +1015,6 @@
       "date": "2026-10-07T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "The state of the tech industry in 2026",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in",
-      "date": "2026-10-06T16:25:03.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
       "title": "Tales from the Void: September 2026 Recap",
@@ -1176,20 +1197,6 @@
       "date": "2026-09-30T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "Bliki: Sensible Default",
-      "url": "https://martinfowler.com/bliki/SensibleDefault.html",
-      "date": "2026-09-29T13:43:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Fragments: September 29",
-      "url": "https://martinfowler.com/fragments/2026-09-29.html",
-      "date": "2026-09-29T12:41:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "Deser: Rethinking Rust Serialization",
@@ -1834,13 +1841,6 @@
       "date": "2026-07-24T00:00:00.000Z",
       "source": "Eric Migicovsky",
       "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "Codeberg Divides",
-      "url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
-      "date": "2026-07-24T00:00:00.000Z",
-      "source": "Armin Ronacher's Thoughts and Writings",
-      "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
       "title": "Not just development, distribution of software may change as well",
