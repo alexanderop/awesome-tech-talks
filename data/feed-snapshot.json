@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T05:24:12.386Z",
+  "generatedAt": "2026-10-31T05:22:25.753Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,76 @@
   ],
   "items": [
     {
+      "title": "College will only cost $20 a month",
+      "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
+      "date": "2026-10-30T23:35:13.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "Sponsorship Openings for Daring Fireball (Including The Talk Show)",
+      "url": "https://daringfireball.net/feeds/sponsors/",
+      "date": "2026-10-30T22:30:54.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "date": "2026-10-30T21:59:22.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "★ MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max",
+      "url": "https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max",
+      "date": "2026-10-30T21:56:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Only Good Easter Eggs Are Whole-Assed Easter Eggs",
+      "url": "https://unsung.aresluna.org/apples-ipod-recreation/",
+      "date": "2026-10-30T17:53:41.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "GM to Pay $220 Million After Betraying Their Own Drivers’ Privacy",
+      "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+      "date": "2026-10-30T17:18:56.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Patrick Stewart Dies at 86",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/patrick-stewart-dead-star-trek-x-men-1236742932/",
+      "date": "2026-10-30T16:53:09.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Pulse: Anthropic kills the coding interview",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+      "date": "2026-10-30T16:37:51.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Rejoice, leap seconds are dead!",
+      "url": "https://www.jeffgeerling.com/blog/2026/rejoice-the-utc-leap-second-is-dead/",
+      "date": "2026-10-30T14:00:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
+      "title": "Elegance and intelligence are anticorrelated",
+      "url": "https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/",
+      "date": "2026-10-30T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
       "title": "API credits benefit for eligible ChatGPT subscriptions",
       "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
       "date": "2026-10-29T22:48:29.000Z",
@@ -338,13 +408,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Guessing the Name: MacBook Studio?",
-      "url": "https://www.macrumors.com/2026/10/28/macbook-studio/",
-      "date": "2026-10-28T14:58:45.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The October inflection point for vibe game development",
       "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
       "date": "2026-10-28T13:55:15.000Z",
@@ -380,39 +443,11 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
-      "title": "Siri AI Expands to More Languages in OS 27.2",
-      "url": "https://nr.apple.com/Du9G9W8Nq1",
-      "date": "2026-10-27T22:19:39.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Apple Creator Studio Updated With a Slew of AI Features, Along With a New Open JSON File Format for Keynote",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
-      "date": "2026-10-27T22:00:04.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "★ Prestructured WYSIWYG",
-      "url": "https://daringfireball.net/2026/10/prestructured_wysiwyg",
-      "date": "2026-10-27T21:24:20.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Game Boy Color on My Conference Badge",
       "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
       "date": "2026-10-27T19:34:18.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "What’s Left for ‘Pro and Tell’ Week: Touch-Enabled OLED MacBooks",
-      "url": "https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/",
-      "date": "2026-10-27T17:59:47.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
@@ -432,13 +467,6 @@
       "title": "GPT-6.1 Terra",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "date": "2026-10-26T23:53:07.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Quoting Jason Koebler",
-      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "date": "2026-10-26T19:00:25.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -870,13 +898,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Don't diagnose your opponents",
-      "url": "https://seangoedecke.com/dont-diagnose-your-opponents/",
-      "date": "2026-10-11T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "The best way to use icons in Web UIs",
       "url": "https://lea.verou.me/blog/2026/icons/",
       "date": "2026-10-11T00:00:00.000Z",
@@ -994,13 +1015,6 @@
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "Building resilient systems with Sam Newman",
-      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam",
-      "date": "2026-10-07T17:19:58.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -1395,13 +1409,6 @@
       "sourceUrl": "https://overreacted.io"
     },
     {
-      "title": "The Front Page of the Internet Is Up for Grabs",
-      "url": "https://idiallo.com/byte-size/the-front-page-of-the-internet",
-      "date": "2026-09-17T23:43:19.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
-    },
-    {
       "title": "WebKit Features for Safari 27.0",
       "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0/",
       "date": "2026-09-17T11:30:41.000Z",
@@ -1561,13 +1568,6 @@
       "date": "2026-09-05T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Rebuilding a 1995 GPS Time Server so I don't get Telstra'd",
-      "url": "https://www.jeffgeerling.com/blog/2026/truetime-xl-gps-time-server-restomod/",
-      "date": "2026-09-04T14:00:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
       "title": "Submit your ideas for Interop 2027",
