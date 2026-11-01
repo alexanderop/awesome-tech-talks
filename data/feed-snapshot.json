@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T05:22:25.753Z",
+  "generatedAt": "2026-11-01T05:22:26.370Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -23,7 +23,8 @@
       "name": "Sean Goedecke",
       "url": "https://www.seangoedecke.com",
       "feed": "https://www.seangoedecke.com/rss.xml",
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "Jeff Geerling",
@@ -233,6 +234,27 @@
   ],
   "items": [
     {
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "date": "2026-10-31T23:15:22.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "date": "2026-10-31T22:10:01.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "How I Made an AI Explainer Video in My Own Cloned Voice",
+      "url": "https://alexop.dev/posts/ai-explainer-video-with-my-cloned-voice/",
+      "date": "2026-10-31T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "College will only cost $20 a month",
       "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
       "date": "2026-10-30T23:35:13.000Z",
@@ -294,13 +316,6 @@
       "date": "2026-10-30T14:00:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Elegance and intelligence are anticorrelated",
-      "url": "https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/",
-      "date": "2026-10-30T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "API credits benefit for eligible ChatGPT subscriptions",
@@ -380,13 +395,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "You can just ask AI to do things",
-      "url": "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
-      "date": "2026-10-29T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Custom Voices With Qwen3-TTS",
       "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
       "date": "2026-10-29T00:00:00.000Z",
@@ -429,25 +437,11 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Getting good at AI takes time and practice",
-      "url": "https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice/",
-      "date": "2026-10-28T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Nuxt DevTools v4",
       "url": "https://nuxt.com/blog/devtools-v4",
       "date": "2026-10-28T00:00:00.000Z",
       "source": "Nuxt blog",
       "sourceUrl": "https://nuxt.com/blog"
-    },
-    {
-      "title": "Game Boy Color on My Conference Badge",
-      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
-      "date": "2026-10-27T19:34:18.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
@@ -462,13 +456,6 @@
       "date": "2026-10-27T16:19:22.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-      "date": "2026-10-26T23:53:07.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "WebKit Features for Safari 27.2",
@@ -492,13 +479,6 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
-      "title": "Don't anthropomorphize big tech companies",
-      "url": "https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/",
-      "date": "2026-10-25T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
       "url": "https://alexop.dev/posts/goodbye-vue-tsc-typescript-7-content-mappers/",
       "date": "2026-10-24T00:00:00.000Z",
@@ -518,13 +498,6 @@
       "date": "2026-10-23T13:00:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Software is slow because of bad design, not slow languages",
-      "url": "https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
-      "date": "2026-10-23T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "This Week in Effect - 141",
@@ -646,13 +619,6 @@
       "sourceUrl": "https://www.joshwcomeau.com"
     },
     {
-      "title": "Laypeople support technical fields for technology, not art",
-      "url": "https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art/",
-      "date": "2026-10-20T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Dead Code Shouldn't Exist",
       "url": "https://tkdodo.eu/blog/dead-code-shouldnt-exist",
       "date": "2026-10-20T00:00:00.000Z",
@@ -681,13 +647,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "What requirements don't you have?",
-      "url": "https://seangoedecke.com/what-requirements-dont-you-have/",
-      "date": "2026-10-19T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Module of the Week - Cluster, Part 4",
       "url": "https://effect.website/blog/module-of-the-week/cluster-idempotency/",
       "date": "2026-10-19T00:00:00.000Z",
@@ -700,13 +659,6 @@
       "date": "2026-10-18T00:00:00.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "Writing is no longer proof of work",
-      "url": "https://seangoedecke.com/writing-is-no-longer-proof-of-work/",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
@@ -735,13 +687,6 @@
       "date": "2026-10-16T05:28:42.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "AI is driving a boom in modestly successful software projects",
-      "url": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
-      "date": "2026-10-16T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "This Week in Effect - 140",
@@ -868,13 +813,6 @@
       "date": "2026-10-13T06:32:04.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "Software engineers don't get to be Luddites about AI",
-      "url": "https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
-      "date": "2026-10-12T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "Module of the Week - Cluster, Part 3",
@@ -1239,13 +1177,6 @@
       "date": "2026-09-28T00:00:00.000Z",
       "source": "VoidZero",
       "sourceUrl": "https://voidzero.dev/posts"
-    },
-    {
-      "title": "Enforce Tailwind CSS Design Tokens in Vue with @shadcn/lint",
-      "url": "https://alexop.dev/posts/enforce-tailwind-design-system-shadcn-lint/",
-      "date": "2026-09-27T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Replacing the old battery on rechargeable bike lights",
@@ -2331,6 +2262,76 @@
       "date": "2026-02-23T11:00:00.000Z",
       "source": "Josh W. Comeau",
       "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Creating Query Abstractions",
+      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
+      "date": "2026-02-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
+      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "How I used Cursor to Migrate Frameworks",
+      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
+      "date": "2026-02-11T18:50:26.000Z",
+      "source": "TypeScript blog",
+      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05T00:00:00.000Z",
+      "source": "Mitchell Hashimoto",
+      "sourceUrl": "https://mitchellh.com"
+    },
+    {
+      "title": "The Too Early Breakpoint",
+      "url": "https://ishadeed.com/article/too-early-breakpoint/",
+      "date": "2026-01-31T00:00:00.000Z",
+      "source": "Ahmad Shadeed",
+      "sourceUrl": "https://ishadeed.com"
+    },
+    {
+      "title": "Some notes on starting to use Django",
+      "url": "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "On Being A Canadian In America In 2026",
+      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
+      "date": "2026-01-25T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
     }
   ]
 }
