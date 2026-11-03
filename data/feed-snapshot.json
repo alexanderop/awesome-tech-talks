@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T05:22:59.843Z",
+  "generatedAt": "2026-11-03T05:22:54.494Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,76 @@
   ],
   "items": [
     {
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "date": "2026-11-03T02:24:31.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "Apple Announces Record $114.5B Fourth-Quarter Results",
+      "url": "https://sixcolors.com/post/2026/11/apple-announces-record-114-5b-fourth-quarter-results/",
+      "date": "2026-11-03T00:10:53.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "LLMs are not superhuman at reading and writing neural network weights",
+      "url": "https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+      "date": "2026-11-03T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Audience capture",
+      "url": "https://seangoedecke.com/audience-capture/",
+      "date": "2026-11-03T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Prove you are not a child",
+      "url": "https://idiallo.com/blog/prove-you-are-not-a-child",
+      "date": "2026-11-03T00:00:00.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "date": "2026-11-02T23:49:30.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] OurCal",
+      "url": "https://ourcal.com/?utm_source=daringfireball&amp;utm_medium=sponsorship&amp;utm_content=rssitem",
+      "date": "2026-11-02T22:43:59.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "date": "2026-11-02T13:31:26.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Reliably aligning LLMs is impossible in principle",
+      "url": "https://seangoedecke.com/alignment-is-impossible/",
+      "date": "2026-11-02T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "This Week in Effect - 142",
+      "url": "https://effect.website/blog/this-week-in-effect/142/",
+      "date": "2026-11-02T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
+    },
+    {
       "title": "If in doubt, delete the uv.lock file",
       "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
       "date": "2026-11-01T23:24:22.000Z",
@@ -242,7 +312,7 @@
     {
       "title": "WorkOS: Let Agents Sign Up for Your App Without a Browser",
       "url": "https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
-      "date": "2026-11-01T20:22:56.000Z",
+      "date": "2026-11-01T21:22:56.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -305,7 +375,7 @@
     {
       "title": "Sponsorship Openings for Daring Fireball (Including The Talk Show)",
       "url": "https://daringfireball.net/feeds/sponsors/",
-      "date": "2026-10-30T22:30:54.000Z",
+      "date": "2026-10-30T23:30:54.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -326,21 +396,21 @@
     {
       "title": "The Only Good Easter Eggs Are Whole-Assed Easter Eggs",
       "url": "https://unsung.aresluna.org/apples-ipod-recreation/",
-      "date": "2026-10-30T17:53:41.000Z",
+      "date": "2026-10-30T18:53:41.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "GM to Pay $220 Million After Betraying Their Own Drivers’ Privacy",
       "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
-      "date": "2026-10-30T17:18:56.000Z",
+      "date": "2026-10-30T18:18:56.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Patrick Stewart Dies at 86",
       "url": "https://www.hollywoodreporter.com/movies/movie-news/patrick-stewart-dead-star-trek-x-men-1236742932/",
-      "date": "2026-10-30T16:53:09.000Z",
+      "date": "2026-10-30T17:53:09.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -375,21 +445,14 @@
     {
       "title": "Apple Drops App Store Commission by a Whopping 4 Percentage Points in Taiwan",
       "url": "https://developer.apple.com/news/?id=w9mxlhek",
-      "date": "2026-10-29T21:03:42.000Z",
+      "date": "2026-10-29T22:03:42.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "A Health Update From Craig Hockenberry",
       "url": "https://furbo.org/2026/10/28/a-health-update/",
-      "date": "2026-10-29T19:57:21.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Rolfe Winkler at The WSJ: ‘The Beleaguered Chip Sellers Getting Their Revenge on Apple’",
-      "url": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT",
-      "date": "2026-10-29T19:44:11.000Z",
+      "date": "2026-10-29T20:57:21.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -399,13 +462,6 @@
       "date": "2026-10-29T17:00:26.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "The Space Shuttle Discovery’s Starboard Side ‘s’ Is Upside Down",
-      "url": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/",
-      "date": "2026-10-29T15:06:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Bliki: LLM Voice",
@@ -448,20 +504,6 @@
       "date": "2026-10-29T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "date": "2026-10-28T23:23:21.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "GitHub Octoverse 2026",
-      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "date": "2026-10-28T16:45:23.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Fragments: October 28",
@@ -709,13 +751,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "What requirements don't you have?",
-      "url": "https://seangoedecke.com/what-requirements-dont-you-have/",
-      "date": "2026-10-19T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Module of the Week - Cluster, Part 4",
       "url": "https://effect.website/blog/module-of-the-week/cluster-idempotency/",
       "date": "2026-10-19T00:00:00.000Z",
@@ -728,13 +763,6 @@
       "date": "2026-10-18T00:00:00.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "Writing is no longer proof of work",
-      "url": "https://seangoedecke.com/writing-is-no-longer-proof-of-work/",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
@@ -763,13 +791,6 @@
       "date": "2026-10-16T05:28:42.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "AI is driving a boom in modestly successful software projects",
-      "url": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
-      "date": "2026-10-16T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "This Week in Effect - 140",
@@ -1192,13 +1213,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Effect v4 RC: September 2026 Updates",
-      "url": "https://effect.website/blog/effect-v4-rc-september-recap/",
-      "date": "2026-10-01T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
-    },
-    {
       "title": "An Introduction To Plan Mode",
       "url": "https://www.aihero.dev/plan-mode-introduction",
       "date": "2026-09-30T15:55:01.000Z",
@@ -1358,13 +1372,6 @@
       "date": "2026-09-22T22:15:05.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "It's Not Just True, It's False",
-      "url": "https://idiallo.com/byte-size/its-not-just-true-its-false",
-      "date": "2026-09-22T01:49:51.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
     },
     {
       "title": "Raspberry Pi locks down Pi 5 RAM upgrades in firmware",
@@ -1533,13 +1540,6 @@
       "date": "2026-09-09T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "date": "2026-09-08T21:44:22.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "OpenNMC is an open replacement for expensive APC management cards",
