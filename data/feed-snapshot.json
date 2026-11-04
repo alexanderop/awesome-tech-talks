@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:22:54.494Z",
+  "generatedAt": "2026-11-04T05:24:12.699Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,111 @@
   ],
   "items": [
     {
+      "title": "Apple Begins Opening Siri AI to Developers",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "date": "2026-11-03T23:58:49.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "iPad Mini (A20 Pro) Review Roundup",
+      "url": "https://www.techmeme.com/261103/p15#a261103p15",
+      "date": "2026-11-03T23:45:18.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "MKBHD on the New A20 Pro iPad Mini",
+      "url": "https://www.youtube.com/watch?v=g6Die8gVFn0",
+      "date": "2026-11-03T23:25:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Safari 27.3 Beta Adds Vertical Tabs and Adaptive Dark Mode",
+      "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/",
+      "date": "2026-11-03T19:26:41.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "New Article, Annual LFP Charity Discount",
+      "url": "https://buttondown.com/hillelwayne/archive/new-article-annual-lfp-charity-discount/",
+      "date": "2026-11-03T18:06:44.000Z",
+      "source": "Hillel Wayne",
+      "sourceUrl": "https://buttondown.com/hillelwayne"
+    },
+    {
+      "title": "Introducing Adaptive Dark Mode",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "date": "2026-11-03T18:00:35.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "How software engineering is changing: a tale of two eras",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+      "date": "2026-11-03T16:58:22.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "date": "2026-11-03T16:29:48.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "The New York Times (et al.) Sues Brave for Copyright Infringement, Selling Scraped Content to AI Companies for Model Training",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "date": "2026-11-03T15:46:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Steve Jobs on His Final Quarterly Analyst Call: ‘We Think the Open Versus Closed Argument Is Just a Smokescreen’",
+      "url": "https://www.macworld.com/article/208438/jobs_transcript.html",
+      "date": "2026-11-03T15:40:34.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Chance Miller Reviews the New A20 Pro iPad Mini",
+      "url": "https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/",
+      "date": "2026-11-03T14:51:14.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple’s Analyst Calls Have Been Scripted for Decades",
+      "url": "https://9to5mac.com/2026/11/03/apple-ceo-john-ternus-criticized-for-scripted-approach-to-first-earnings-call/",
+      "date": "2026-11-03T14:39:03.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple’s New iPhone Release Schedule Seems to Pay Off",
+      "url": "https://x.com/asymco/status/2117379158087278697",
+      "date": "2026-11-03T14:30:40.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "date": "2026-11-03T05:32:25.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "date": "2026-11-03T05:28:59.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
       "date": "2026-11-03T02:24:31.000Z",
@@ -275,13 +380,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "[Sponsor] OurCal",
-      "url": "https://ourcal.com/?utm_source=daringfireball&amp;utm_medium=sponsorship&amp;utm_content=rssitem",
-      "date": "2026-11-02T22:43:59.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The U.S. Census Bureau and “Super Intelligence”",
       "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
       "date": "2026-11-02T13:31:26.000Z",
@@ -308,13 +406,6 @@
       "date": "2026-11-01T23:24:22.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "WorkOS: Let Agents Sign Up for Your App Without a Browser",
-      "url": "https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
-      "date": "2026-11-01T21:22:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Quoting Kyle Kingsbury",
@@ -373,46 +464,11 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "Sponsorship Openings for Daring Fireball (Including The Talk Show)",
-      "url": "https://daringfireball.net/feeds/sponsors/",
-      "date": "2026-10-30T23:30:54.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "dbreunig/nesformer",
       "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
       "date": "2026-10-30T21:59:22.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "★ MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max",
-      "url": "https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max",
-      "date": "2026-10-30T21:56:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The Only Good Easter Eggs Are Whole-Assed Easter Eggs",
-      "url": "https://unsung.aresluna.org/apples-ipod-recreation/",
-      "date": "2026-10-30T18:53:41.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "GM to Pay $220 Million After Betraying Their Own Drivers’ Privacy",
-      "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
-      "date": "2026-10-30T18:18:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Patrick Stewart Dies at 86",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/patrick-stewart-dead-star-trek-x-men-1236742932/",
-      "date": "2026-10-30T17:53:09.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "The Pulse: Anthropic kills the coding interview",
@@ -436,46 +492,11 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
-      "date": "2026-10-29T22:48:29.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Apple Drops App Store Commission by a Whopping 4 Percentage Points in Taiwan",
-      "url": "https://developer.apple.com/news/?id=w9mxlhek",
-      "date": "2026-10-29T22:03:42.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "A Health Update From Craig Hockenberry",
-      "url": "https://furbo.org/2026/10/28/a-health-update/",
-      "date": "2026-10-29T20:57:21.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-      "date": "2026-10-29T17:00:26.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Bliki: LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "date": "2026-10-29T14:28:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "date": "2026-10-29T14:06:27.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Why are good developers so wary of agentic development?",
@@ -571,6 +592,13 @@
     {
       "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
       "url": "https://alexop.dev/posts/goodbye-vue-tsc-typescript-7-content-mappers/",
+      "date": "2026-10-24T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
+      "title": "Type-Safe State in Your URL: Vue Router's Param Parsers",
+      "url": "https://alexop.dev/posts/type-safe-url-state-vue-router-param-parsers/",
       "date": "2026-10-24T00:00:00.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
@@ -1024,13 +1052,6 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal",
-      "date": "2026-10-08T16:55:51.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "pstack's Playbooks, Explained as Factorio Factories",
       "url": "https://alexop.dev/posts/pstack-playbooks-as-factories/",
       "date": "2026-10-08T00:00:00.000Z",
@@ -1139,13 +1160,6 @@
       "title": "Run Only the Playwright Tests Your Change Can Affect",
       "url": "https://alexop.dev/posts/run-only-affected-playwright-tests/",
       "date": "2026-10-05T05:44:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "How I made exercise icons with Codex and ChatGPT",
-      "url": "https://alexop.dev/posts/building-workout-app-ai-exercise-icons/",
-      "date": "2026-10-05T05:19:58.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
     },
@@ -1591,13 +1605,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Fixing Top-Level Await in Safari",
-      "url": "https://webkit.org/blog/18227/fixing-top-level-await-in-safari/",
-      "date": "2026-09-02T17:05:29.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
       "title": "Tales from the Void: August 2026 Recap",
       "url": "https://voidzero.dev/posts/whats-new-aug-2026",
       "date": "2026-09-02T00:00:00.000Z",
@@ -2030,13 +2037,6 @@
       "date": "2026-06-04T00:00:00.000Z",
       "source": "VoidZero",
       "sourceUrl": "https://voidzero.dev/posts"
-    },
-    {
-      "title": "Logic for Programmers extra credits",
-      "url": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/",
-      "date": "2026-06-02T14:48:48.000Z",
-      "source": "Hillel Wayne",
-      "sourceUrl": "https://buttondown.com/hillelwayne"
     },
     {
       "title": "CSS vs. JavaScript",
