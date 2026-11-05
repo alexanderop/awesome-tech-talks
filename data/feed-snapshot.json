@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-11-04T05:24:12.699Z",
+  "generatedAt": "2026-11-05T05:22:38.225Z",
   "sources": [
     {
       "name": "Alexander Opalic",
       "url": "https://alexop.dev",
       "feed": "https://alexop.dev/rss.xml",
-      "ok": true
+      "ok": false,
+      "error": "terminated"
     },
     {
       "name": "Julia Evans",
@@ -233,6 +234,62 @@
   ],
   "items": [
     {
+      "title": "Want to Rent an Internet Address at the White House?",
+      "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "date": "2026-11-05T04:36:17.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "Release Notes for Safari Technology Preview 256",
+      "url": "https://webkit.org/blog/18602/release-notes-for-safari-technology-preview-256/",
+      "date": "2026-11-05T00:09:57.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "date": "2026-11-04T15:26:02.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "This Election Will Not Look Surprising in History",
+      "url": "https://apple.news/Afq6SKrYkTcCEHrCEQmxm5A?web_embed_link=aHR0cHM6Ly9uZXdzLWFzc2V0cy5hcHBsZS5jb20vZW1iZWRzLzY2ZDQzYzg0LTMyMWYtNGQ0Ny05Mzk4LWE3NjE3NDgwZWE2Yi9pbmRleC5odG1sI2NvbnRleHQ9TU9EQUwmc3RpY2t5PWZhbHNlJmVmZmVjdD1ub25lJmxpZ2h0X2JnX2NvbG9yPWU5ZWNmMiZkYXJrX2JnX2NvbG9yPTJkM2Q1NCZzY29wZT11cyZvcmlnaW49c2hhcnJvdyZsaXZlYWN0aXZpdGllcz10cnVlJm5mZl9jaWQ9NTZjMjQ1OTQtNDIxNC00NDM0LTlhNTgtNWE1YTIxM2ZkMTBi",
+      "date": "2026-11-04T15:15:51.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "‘Political Reckoning Shatters Trump’s Grip on Washington’",
+      "url": "https://www.wsj.com/politics/elections/a-political-reckoning-shatters-trumps-grip-on-washington-bd3c7705?st=xABDit",
+      "date": "2026-11-04T14:56:47.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Goodhart's Law, but We Already Spent All Our Money",
+      "url": "https://idiallo.com/blog/we-spent-all-our-money-goodharts-law",
+      "date": "2026-11-04T08:00:00.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "date": "2026-11-04T00:29:36.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Indie game development with AI",
+      "url": "https://www.sandromaglione.com/articles/indie-game-development-with-ai",
+      "date": "2026-11-04T00:00:00.000Z",
+      "source": "Sandro Maglione",
+      "sourceUrl": "https://www.sandromaglione.com"
+    },
+    {
       "title": "Apple Begins Opening Siri AI to Developers",
       "url": "https://developer.apple.com/news/?id=gdk2umrf",
       "date": "2026-11-03T23:58:49.000Z",
@@ -252,6 +309,20 @@
       "date": "2026-11-03T23:25:25.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "date": "2026-11-03T23:13:45.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/",
+      "date": "2026-11-03T21:41:42.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Safari 27.3 Beta Adds Vertical Tabs and Adaptive Dark Mode",
@@ -317,13 +388,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Apple’s New iPhone Release Schedule Seems to Pay Off",
-      "url": "https://x.com/asymco/status/2117379158087278697",
-      "date": "2026-11-03T14:30:40.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
       "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
       "date": "2026-11-03T05:32:25.000Z",
@@ -345,11 +409,11 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "Apple Announces Record $114.5B Fourth-Quarter Results",
-      "url": "https://sixcolors.com/post/2026/11/apple-announces-record-114-5b-fourth-quarter-results/",
-      "date": "2026-11-03T00:10:53.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
+      "title": "WWW Ep257 Local Engineer Runs Out Of Tokens",
+      "url": "https://nerdy.dev/www-ep257-local-engineer-runs-out-of-tokens?utm_source=rss",
+      "date": "2026-11-03T01:38:44.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "LLMs are not superhuman at reading and writing neural network weights",
@@ -408,20 +472,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Quoting Kyle Kingsbury",
-      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-      "date": "2026-11-01T16:49:04.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "How I Use Grok Bot: 36 AI Agents in 9 Days",
-      "url": "https://alexop.dev/posts/how-i-use-grok-bot/",
-      "date": "2026-11-01T11:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Joy & Curiosity #104",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-104",
       "date": "2026-11-01T08:49:36.000Z",
@@ -436,39 +486,11 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "date": "2026-10-31T23:15:22.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "date": "2026-10-31T22:10:01.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "How I Made an AI Explainer Video in My Own Cloned Voice",
-      "url": "https://alexop.dev/posts/ai-explainer-video-with-my-cloned-voice/",
-      "date": "2026-10-31T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "College will only cost $20 a month",
       "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
       "date": "2026-10-30T23:35:13.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "date": "2026-10-30T21:59:22.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "The Pulse: Anthropic kills the coding interview",
@@ -525,6 +547,13 @@
       "date": "2026-10-29T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
+    },
+    {
+      "title": "Scroll Axis Design System Rule",
+      "url": "https://nerdy.dev/scroll-axis-design-system-rule?utm_source=rss",
+      "date": "2026-10-28T23:49:04.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "Fragments: October 28",
@@ -588,20 +617,6 @@
       "date": "2026-10-25T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
-      "url": "https://alexop.dev/posts/goodbye-vue-tsc-typescript-7-content-mappers/",
-      "date": "2026-10-24T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "Type-Safe State in Your URL: Vue Router's Param Parsers",
-      "url": "https://alexop.dev/posts/type-safe-url-state-vue-router-param-parsers/",
-      "date": "2026-10-24T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "WebKit Features for Safari 27.1",
@@ -709,13 +724,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Learning from pstack: Build Your Own Reliable Coding Agent Stack",
-      "url": "https://alexop.dev/posts/learning-from-pstack/",
-      "date": "2026-10-21T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Announcing TypeScript 7.1 Beta",
       "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
       "date": "2026-10-20T17:53:06.000Z",
@@ -786,13 +794,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "I think software teams will shrink to 2-4 people plus agents",
-      "url": "https://alexop.dev/posts/software-teams-will-shrink-to-2-4-people-plus-agents/",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
       "url": "https://ghuntley.com/underclass/",
       "date": "2026-10-17T08:01:21.000Z",
@@ -840,13 +841,6 @@
       "date": "2026-10-15T13:25:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "The death of the software developer",
-      "url": "https://alexop.dev/posts/the-death-of-the-software-developer/",
-      "date": "2026-10-15T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Fit height to background pattern size with calc-size()",
@@ -982,13 +976,6 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "The Dirty Flag Pattern, Explained with Snake",
-      "url": "https://alexop.dev/posts/dirty-flag-pattern-snake/",
-      "date": "2026-10-10T08:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "date": "2026-10-10T00:17:42.000Z",
@@ -1050,13 +1037,6 @@
       "date": "2026-10-08T19:52:35.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "pstack's Playbooks, Explained as Factorio Factories",
-      "url": "https://alexop.dev/posts/pstack-playbooks-as-factories/",
-      "date": "2026-10-08T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Effect 4.0: The First Week",
@@ -1155,13 +1135,6 @@
       "date": "2026-10-05T08:29:38.000Z",
       "source": "Matt Pocock",
       "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "Run Only the Playwright Tests Your Change Can Affect",
-      "url": "https://alexop.dev/posts/run-only-affected-playwright-tests/",
-      "date": "2026-10-05T05:44:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Fragments: October 4",
@@ -1267,13 +1240,6 @@
       "date": "2026-09-28T15:08:57.000Z",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
-      "title": "Edge Is Pretending to Be Chrome",
-      "url": "https://idiallo.com/blog/edge-imitates-chrome",
-      "date": "2026-09-28T07:30:00.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
     },
     {
       "title": "Announcing Vite+ 1.0",
@@ -1458,13 +1424,6 @@
       "sourceUrl": "https://buttondown.com/hillelwayne"
     },
     {
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "date": "2026-09-16T18:14:22.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
       "title": "Pluggable, Extensible, and Playful DevTools",
       "url": "https://antfu.me/posts/pluggable-extensible-playful-devtools",
       "date": "2026-09-16T00:00:00.000Z",
@@ -1528,13 +1487,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "WWW Ep253 Experts Agree Yelling At Computers Is The Future",
-      "url": "https://nerdy.dev/www-ep253-experts-agree-yelling-at-computers-is-the-future?utm_source=rss",
-      "date": "2026-09-10T17:51:24.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
-    },
-    {
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
       "url": "https://maurycyz.com/misc/domains/",
       "date": "2026-09-09T00:00:00.000Z",
@@ -1589,20 +1541,6 @@
       "date": "2026-09-05T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Submit your ideas for Interop 2027",
-      "url": "https://webkit.org/blog/18283/submit-your-ideas-for-interop-2027/",
-      "date": "2026-09-03T21:53:33.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
-      "title": "Stylex At Shopify",
-      "url": "https://nerdy.dev/stylex-at-shopify?utm_source=rss",
-      "date": "2026-09-03T19:55:34.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "Tales from the Void: August 2026 Recap",
@@ -1792,13 +1730,6 @@
       "date": "2026-08-06T00:00:00.000Z",
       "source": "Lea Verou",
       "sourceUrl": "https://lea.verou.me"
-    },
-    {
-      "title": "Bringing State Machines in effect",
-      "url": "https://www.sandromaglione.com/newsletter/bringing-state-machines-in-effect",
-      "date": "2026-08-05T00:00:00.000Z",
-      "source": "Sandro Maglione",
-      "sourceUrl": "https://www.sandromaglione.com"
     },
     {
       "title": "The CSS lh unit",
@@ -2331,6 +2262,76 @@
       "date": "2026-02-23T11:00:00.000Z",
       "source": "Josh W. Comeau",
       "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Creating Query Abstractions",
+      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
+      "date": "2026-02-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
+      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "How I used Cursor to Migrate Frameworks",
+      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
+      "date": "2026-02-11T18:50:26.000Z",
+      "source": "TypeScript blog",
+      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05T00:00:00.000Z",
+      "source": "Mitchell Hashimoto",
+      "sourceUrl": "https://mitchellh.com"
+    },
+    {
+      "title": "The Too Early Breakpoint",
+      "url": "https://ishadeed.com/article/too-early-breakpoint/",
+      "date": "2026-01-31T00:00:00.000Z",
+      "source": "Ahmad Shadeed",
+      "sourceUrl": "https://ishadeed.com"
+    },
+    {
+      "title": "Some notes on starting to use Django",
+      "url": "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/",
+      "date": "2026-01-27T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "On Being A Canadian In America In 2026",
+      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
+      "date": "2026-01-25T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
     }
   ]
 }
