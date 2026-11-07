@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T05:22:43.675Z",
+  "generatedAt": "2026-11-07T05:22:35.946Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,55 @@
   ],
   "items": [
     {
+      "title": "Working with designers",
+      "url": "https://seangoedecke.com/working-with-designers/",
+      "date": "2026-11-07T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "★ Touch and Glow",
+      "url": "https://daringfireball.net/2026/11/touch_and_glow",
+      "date": "2026-11-06T19:50:46.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Pragmatic Summit 2027",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027",
+      "date": "2026-11-06T19:39:15.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "date": "2026-11-06T17:13:12.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Apple Support: ‘About the Illuminated Apple Logo on MacBook Pro With PROLED XDR Display’",
+      "url": "https://support.apple.com/en-us/149248",
+      "date": "2026-11-06T15:03:51.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The President is Coping Well",
+      "url": "https://www.wsj.com/politics/policy/trump-signs-proclamation-he-says-will-protect-oval-office-from-major-changes-93f3285b",
+      "date": "2026-11-06T15:00:22.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Writing English is Solved",
+      "url": "https://idiallo.com/byte-size/english-is-solved",
+      "date": "2026-11-06T08:00:00.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
       "title": "AI SDK v6 Crash Course",
       "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
       "date": "2026-11-06T04:07:32.000Z",
@@ -245,6 +294,13 @@
       "date": "2026-11-06T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "date": "2026-11-06T00:00:00.000Z",
+      "source": "Mitchell Hashimoto",
+      "sourceUrl": "https://mitchellh.com"
     },
     {
       "title": "Salon Ceases Publication",
@@ -401,13 +457,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Safari 27.3 Beta Adds Vertical Tabs and Adaptive Dark Mode",
-      "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/",
-      "date": "2026-11-03T19:26:41.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "New Article, Annual LFP Charity Discount",
       "url": "https://buttondown.com/hillelwayne/archive/new-article-annual-lfp-charity-discount/",
       "date": "2026-11-03T18:06:44.000Z",
@@ -434,20 +483,6 @@
       "date": "2026-11-03T16:29:48.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "The New York Times (et al.) Sues Brave for Copyright Infringement, Selling Scraped Content to AI Companies for Model Training",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "date": "2026-11-03T15:46:25.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Steve Jobs on His Final Quarterly Analyst Call: ‘We Think the Open Versus Closed Argument Is Just a Smokescreen’",
-      "url": "https://www.macworld.com/article/208438/jobs_transcript.html",
-      "date": "2026-11-03T15:40:34.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
@@ -502,13 +537,6 @@
       "title": "llm 0.37",
       "url": "https://simonwillison.net/2026/Nov/2/llm/",
       "date": "2026-11-02T23:49:30.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "The U.S. Census Bureau and “Super Intelligence”",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "date": "2026-11-02T13:31:26.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -714,13 +742,6 @@
       "date": "2026-10-23T13:00:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Software is slow because of bad design, not slow languages",
-      "url": "https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
-      "date": "2026-10-23T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "This Week in Effect - 141",
@@ -961,13 +982,6 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "Uber’s AI infra, from the inside",
-      "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
-      "date": "2026-10-14T17:06:56.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "date": "2026-10-14T14:22:49.000Z",
@@ -1099,13 +1113,6 @@
       "date": "2026-10-09T07:07:33.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "20 Minutes of Political Debate, Brought to You by Commercial Breaks",
-      "url": "https://idiallo.com/byte-size/20-minutes-of-political-debate",
-      "date": "2026-10-09T04:59:23.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
     },
     {
       "title": "This Week in Effect - 139",
@@ -2321,13 +2328,6 @@
     {
       "title": "Building Semantic Search on my Content",
       "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Helping YOU ask ME questions with AI",
-      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
       "date": "2026-02-24T00:00:00.000Z",
       "source": "Kent C. Dodds",
       "sourceUrl": "https://kentcdodds.com/blog"
