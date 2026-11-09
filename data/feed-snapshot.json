@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T05:22:23.921Z",
+  "generatedAt": "2026-11-09T05:23:47.927Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,62 @@
   ],
   "items": [
     {
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "date": "2026-11-09T04:32:33.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "date": "2026-11-09T04:25:05.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Jensen Huang Betrayed Nvidia, Not Just His Family",
+      "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?unlocked_article_code=1.O1E.DRyO.9mNcxhaxhtlI",
+      "date": "2026-11-08T23:56:32.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "date": "2026-11-08T22:26:00.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Was Banging a Chinese Spy, Who Was Feeding Information Back to Beijing",
+      "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html?unlocked_article_code=1.O1E.Soow.6UjrM7Ch-C8L",
+      "date": "2026-11-08T21:50:31.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Joy & Curiosity #105",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-105",
+      "date": "2026-11-08T08:24:03.000Z",
+      "source": "Thorsten Ball",
+      "sourceUrl": "https://registerspill.thorstenball.com"
+    },
+    {
+      "title": "LLMs are terrible at designing AI systems",
+      "url": "https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
+      "date": "2026-11-08T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Horible public key tricks:",
+      "url": "https://maurycyz.com/projects/badcert/",
+      "date": "2026-11-08T00:00:00.000Z",
+      "source": "Maurycy Z.",
+      "sourceUrl": "https://maurycyz.com"
+    },
+    {
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
       "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
       "date": "2026-11-07T23:57:46.000Z",
@@ -245,6 +301,13 @@
       "date": "2026-11-07T21:14:09.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Terry Pratchett's Study",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "date": "2026-11-07T19:34:24.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Working with designers",
@@ -443,30 +506,9 @@
       "sourceUrl": "https://www.sandromaglione.com"
     },
     {
-      "title": "Apple Begins Opening Siri AI to Developers",
-      "url": "https://developer.apple.com/news/?id=gdk2umrf",
-      "date": "2026-11-03T23:58:49.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "iPad Mini (A20 Pro) Review Roundup",
-      "url": "https://www.techmeme.com/261103/p15#a261103p15",
-      "date": "2026-11-03T23:45:18.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "datasette-agent 0.5a0",
       "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
       "date": "2026-11-03T23:13:45.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm/",
-      "date": "2026-11-03T21:41:42.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -490,27 +532,6 @@
       "date": "2026-11-03T16:58:22.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "date": "2026-11-03T16:29:48.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-      "date": "2026-11-03T05:32:25.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
-      "date": "2026-11-03T05:28:59.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -714,13 +735,6 @@
       "date": "2026-10-25T07:11:23.000Z",
       "source": "Thorsten Ball",
       "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
-      "title": "Don't anthropomorphize big tech companies",
-      "url": "https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/",
-      "date": "2026-10-25T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
@@ -1689,13 +1703,6 @@
       "sourceUrl": "https://ericmigi.com"
     },
     {
-      "title": "Technical note: transfer files over an ethernet patch cable",
-      "url": "https://maurycyz.com/misc/etherfiles/",
-      "date": "2026-08-29T00:00:00.000Z",
-      "source": "Maurycy Z.",
-      "sourceUrl": "https://maurycyz.com"
-    },
-    {
       "title": "Audit your Agent files",
       "url": "https://addyosmani.com/blog/audit-your-agent-files/",
       "date": "2026-08-27T00:00:00.000Z",
@@ -1778,13 +1785,6 @@
       "date": "2026-08-18T00:00:00.000Z",
       "source": "TkDodo",
       "sourceUrl": "https://tkdodo.eu/blog"
-    },
-    {
-      "title": "Joy & Curiosity #95",
-      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-      "date": "2026-08-16T07:28:14.000Z",
-      "source": "Thorsten Ball",
-      "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
       "title": "Practical Loop Engineering",
