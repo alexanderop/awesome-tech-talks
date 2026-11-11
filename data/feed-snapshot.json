@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T05:22:37.999Z",
+  "generatedAt": "2026-11-11T05:22:34.092Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,11 +233,158 @@
   ],
   "items": [
     {
+      "title": "Glue work is still harmful in the age of AI",
+      "url": "https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+      "date": "2026-11-11T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Candidate Statement for the 2026 W3C TAG Election",
+      "url": "https://lea.verou.me/blog/2026/tag/",
+      "date": "2026-11-11T00:00:00.000Z",
+      "source": "Lea Verou",
+      "sourceUrl": "https://lea.verou.me"
+    },
+    {
+      "title": "Gary Marcus: ‘Just Say No to Anthropic’s IPO’",
+      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo?r=3k69a0",
+      "date": "2026-11-10T22:16:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "date": "2026-11-10T21:55:03.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "Altar II Keyboard on Kickstarter",
+      "url": "https://www.kickstarter.com/projects/electronicamaterials/altar-ii/",
+      "date": "2026-11-10T20:59:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "date": "2026-11-10T20:09:44.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "WWW Ep259 Your AI Agents Dont Need You Anymore",
+      "url": "https://nerdy.dev/www-ep259-your-ai-agents-dont-need-you-anymore?utm_source=rss",
+      "date": "2026-11-10T18:00:00.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
+    },
+    {
+      "title": "Bloomberg: ‘Nvidia Intervened in U.S. Probe of Megaspeed Chip Smuggling’",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-intervened-in-us-probe-of-megaspeed-chip-smuggling",
+      "date": "2026-11-10T17:06:01.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Regarding Graveyards and Indispensable Men",
+      "url": "https://www.youtube.com/watch?v=vydmUCGQnyI",
+      "date": "2026-11-10T17:01:06.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Steven Levy on John Ternus",
+      "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+      "date": "2026-11-10T16:32:26.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "OurCal",
+      "url": "https://ourcal.com/?utm_source=daringfireball&amp;utm_medium=sponsorship&amp;utm_content=post-thankyou",
+      "date": "2026-11-10T15:15:17.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Software correctness & supply chain security, with Sean Allen",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "date": "2026-11-10T15:00:21.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "PropFLIP",
+      "url": "https://nerdy.dev/prop-flip?utm_source=rss",
+      "date": "2026-11-10T15:00:00.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
+    },
+    {
+      "title": "Safari 27.3 Adds Support for Global Privacy Control",
+      "url": "https://pxlnv.com/linklog/safari-global-privacy-control/",
+      "date": "2026-11-10T14:47:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "‘A Scandal at the Center of the Economy’",
+      "url": "https://www.theatlantic.com/technology/2026/11/jensen-huang-chinese-spy/689357/?gift=aQyUJR7AIw1mJWdQ6Ed6yPI8n1FlV88MR9f9IZruvFA&amp;",
+      "date": "2026-11-10T14:36:18.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Name-Dropped Trump Appointee",
+      "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html?unlocked_article_code=1.PVE.GxBL.iBpBoc8Y4tnb",
+      "date": "2026-11-10T14:35:38.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Fragments: November 10",
+      "url": "https://martinfowler.com/fragments/2026-11-10.html",
+      "date": "2026-11-10T14:30:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Long-horizon agents and durable execution",
+      "url": "https://martinfowler.com/articles/durable-execution-agents.html",
+      "date": "2026-11-10T14:10:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "date": "2026-11-10T07:28:21.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "date": "2026-11-10T05:34:14.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "[Sponsor] WorkOS: Let Agents Use Your Tools Without Giving Them Free Rein",
       "url": "https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
       "date": "2026-11-10T04:14:31.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "date": "2026-11-10T03:53:04.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "llm-anthropic 0.31",
@@ -254,34 +401,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Bloomberg Was Onto Megaspeed’s Game a Year Ago",
-      "url": "https://www.bloomberg.com/news/features/2025-12-22/nvidia-partner-megaspeed-draws-china-chip-smuggling-concerns-in-us",
-      "date": "2026-11-09T23:46:17.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Short-Seller Culper Research Published Information on Jensen Huang’s Affair Back in May",
-      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
-      "date": "2026-11-09T20:57:04.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Tesla Brain Drain",
-      "url": "https://electrek.co/2026/11/09/tesla-deep-bench-gone-musk-admits-talent-shortage/",
-      "date": "2026-11-09T20:32:27.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Rubio Warned Officials About Jensen Huang’s Affair With a Chinese Spy",
-      "url": "https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html?unlocked_article_code=1.PFE.dLW7.D8C1YUYhNooj",
-      "date": "2026-11-09T17:47:22.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Web Is More Than Enough, by Paul Ford",
       "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
       "date": "2026-11-09T04:32:33.000Z",
@@ -294,6 +413,13 @@
       "date": "2026-11-09T04:25:05.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Module of the Week - Cluster, Part 5",
+      "url": "https://effect.website/blog/module-of-the-week/cluster-workflow/",
+      "date": "2026-11-09T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "This Week in Effect - 143",
@@ -310,25 +436,11 @@
       "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
-      "title": "Jensen Huang Betrayed Nvidia, Not Just His Family",
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?unlocked_article_code=1.O1E.DRyO.9mNcxhaxhtlI",
-      "date": "2026-11-08T23:56:32.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "parse_number() as a SQLite extension: C vs Rust",
       "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
       "date": "2026-11-08T22:26:00.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang Was Banging a Chinese Spy, Who Was Feeding Information Back to Beijing",
-      "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html?unlocked_article_code=1.O1E.Soow.6UjrM7Ch-C8L",
-      "date": "2026-11-08T21:50:31.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Ponpon Mania Comic Ux",
@@ -352,7 +464,7 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "Horible public key tricks:",
+      "title": "Horrible public key tricks:",
       "url": "https://maurycyz.com/projects/badcert/",
       "date": "2026-11-08T00:00:00.000Z",
       "source": "Maurycy Z.",
@@ -362,20 +474,6 @@
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
       "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
       "date": "2026-11-07T23:57:46.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Yours Truly on Full Stack Creator, Talking About the New MacBook Pros With PROLED XDR Displays",
-      "url": "https://www.youtube.com/watch?v=f2GZtWuUPl0",
-      "date": "2026-11-07T21:14:09.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Terry Pratchett's Study",
-      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
-      "date": "2026-11-07T19:34:24.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -394,32 +492,11 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "★ Touch and Glow",
-      "url": "https://daringfireball.net/2026/11/touch_and_glow",
-      "date": "2026-11-06T19:50:46.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Pragmatic Summit 2027",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027",
       "date": "2026-11-06T19:39:15.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Quoting Nilay Patel",
-      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-      "date": "2026-11-06T17:13:12.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Apple Support: ‘About the Illuminated Apple Logo on MacBook Pro With PROLED XDR Display’",
-      "url": "https://support.apple.com/en-us/149248",
-      "date": "2026-11-06T15:03:51.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Writing English is Solved",
@@ -462,13 +539,6 @@
       "date": "2026-11-05T20:20:10.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "Quoting Paul Ford",
-      "url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
-      "date": "2026-11-05T17:34:03.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Bye Deno, Hello Cloudflare",
@@ -518,13 +588,6 @@
       "date": "2026-11-05T00:00:00.000Z",
       "source": "VoidZero",
       "sourceUrl": "https://voidzero.dev/posts"
-    },
-    {
-      "title": "datasette-llm 0.1a10",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-      "date": "2026-11-04T15:26:02.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Goodhart's Law, but We Already Spent All Our Money",
@@ -714,13 +777,6 @@
       "date": "2026-10-28T12:55:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Getting good at AI takes time and practice",
-      "url": "https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice/",
-      "date": "2026-10-28T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "Nuxt DevTools v4",
@@ -989,13 +1045,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "The Pulse: OpenAI software engineer accused of spying",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer",
-      "date": "2026-10-15T16:55:18.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "When Software Meets Hardware",
       "url": "https://martinfowler.com/articles/software-meets-hardware.html",
       "date": "2026-10-15T13:25:00.000Z",
@@ -1062,13 +1111,6 @@
       "title": "The Craft of Practitioner Voice",
       "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
       "date": "2026-10-13T14:06:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Are Harnesses Worth the Cost?",
-      "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
-      "date": "2026-10-13T13:35:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
     },
@@ -1304,20 +1346,6 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "Fragments: October 4",
-      "url": "https://martinfowler.com/fragments/2026-10-04.html",
-      "date": "2026-10-05T04:28:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Module of the Week - Cluster, Part 2",
-      "url": "https://effect.website/blog/module-of-the-week/cluster-messaging/",
-      "date": "2026-10-05T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
-    },
-    {
       "title": "Joy & Curiosity #102",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-102",
       "date": "2026-10-04T05:05:04.000Z",
@@ -1335,20 +1363,6 @@
       "title": "Page View Count Regression Fixed",
       "url": "https://nerdy.dev/page-view-count-regression-fixed?utm_source=rss",
       "date": "2026-10-03T20:45:16.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Transitioning Field Sizing Content With CSS",
-      "url": "https://nerdy.dev/transitioning-field-sizing-content-with-css?utm_source=rss",
-      "date": "2026-10-03T00:04:08.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Front End Fast Money With Kevin Powell",
-      "url": "https://nerdy.dev/front-end-fast-money-with-kevin-powell?utm_source=rss",
-      "date": "2026-10-01T23:57:57.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
     },
@@ -1407,13 +1421,6 @@
       "date": "2026-09-26T05:52:02.000Z",
       "source": "Thorsten Ball",
       "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "date": "2026-09-25T21:44:40.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "I'm starting HomelabFest (in St. Louis, Sep 2027)",
@@ -2324,13 +2331,6 @@
       "date": "2026-02-24T00:00:00.000Z",
       "source": "React blog",
       "sourceUrl": "https://react.dev/blog"
-    },
-    {
-      "title": "Building Semantic Search on my Content",
-      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
     }
   ]
 }
