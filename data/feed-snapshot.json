@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:22:34.092Z",
+  "generatedAt": "2026-11-12T05:22:52.430Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,125 @@
   ],
   "items": [
     {
+      "title": "Semafor: ‘Nvidia Board Preparing to Oust CEO Jensen Huang, Name Interim CEO’",
+      "url": "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
+      "date": "2026-11-12T04:59:59.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Nvidia Working With Outside Firm to Identify CEO Candidates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates",
+      "date": "2026-11-12T03:57:43.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "WSJ: ‘Nvidia Is Preparing to Oust CEO Jensen Huang’",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=S84MQZ",
+      "date": "2026-11-12T03:42:05.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jensen Huang Was Banging an Nvidia Vice President Too",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.P1E.pIe6.C65KRlbTa4MW",
+      "date": "2026-11-12T03:35:21.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Animation Evolution",
+      "url": "https://nerdy.dev/animation-evolution?utm_source=rss",
+      "date": "2026-11-12T03:12:01.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "date": "2026-11-11T22:03:25.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "date": "2026-11-11T21:18:30.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "the answer to ai is engineering",
+      "url": "https://ghuntley.com/answer/",
+      "date": "2026-11-11T19:38:58.000Z",
+      "source": "Geoffrey Huntley",
+      "sourceUrl": "https://ghuntley.com"
+    },
+    {
+      "title": "Apple Shutters Their Longstanding ‘Apple Support Community’",
+      "url": "https://sixcolors.com/link/2026/11/ding-dong-the-apple-support-community-is-dead/",
+      "date": "2026-11-11T19:17:32.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Austin Mann’s iPhone Duo Review",
+      "url": "https://www.austinmann.com/trek/iphone-duo",
+      "date": "2026-11-11T19:02:58.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "date": "2026-11-11T18:42:50.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Quinn Nelson: ‘The iPhone Duo Doesn’t Feel Like an iPhone’",
+      "url": "https://www.youtube.com/watch?v=cxjdVVVryC4",
+      "date": "2026-11-11T18:36:34.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "‘Dangerous or Unusual’",
+      "url": "https://www.nytimes.com/interactive/2026/11/10/us/supreme-court-guns-misquote.html?unlocked_article_code=1.PlE.-Nhp.CaLpsgMqdWf3",
+      "date": "2026-11-11T18:29:17.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "date": "2026-11-11T18:06:01.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "date": "2026-11-11T17:19:52.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Tests as data: ensuring AI-generated code does what we want",
+      "url": "https://martinfowler.com/articles/tests-as-data.html",
+      "date": "2026-11-11T15:17:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "date": "2026-11-11T15:11:59.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "Glue work is still harmful in the age of AI",
       "url": "https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
       "date": "2026-11-11T00:00:00.000Z",
@@ -282,34 +401,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Bloomberg: ‘Nvidia Intervened in U.S. Probe of Megaspeed Chip Smuggling’",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-intervened-in-us-probe-of-megaspeed-chip-smuggling",
-      "date": "2026-11-10T17:06:01.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Regarding Graveyards and Indispensable Men",
-      "url": "https://www.youtube.com/watch?v=vydmUCGQnyI",
-      "date": "2026-11-10T17:01:06.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Steven Levy on John Ternus",
-      "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
-      "date": "2026-11-10T16:32:26.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "OurCal",
-      "url": "https://ourcal.com/?utm_source=daringfireball&amp;utm_medium=sponsorship&amp;utm_content=post-thankyou",
-      "date": "2026-11-10T15:15:17.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Software correctness & supply chain security, with Sean Allen",
       "url": "https://newsletter.pragmaticengineer.com/p/software-correctness",
       "date": "2026-11-10T15:00:21.000Z",
@@ -322,27 +413,6 @@
       "date": "2026-11-10T15:00:00.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Safari 27.3 Adds Support for Global Privacy Control",
-      "url": "https://pxlnv.com/linklog/safari-global-privacy-control/",
-      "date": "2026-11-10T14:47:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "‘A Scandal at the Center of the Economy’",
-      "url": "https://www.theatlantic.com/technology/2026/11/jensen-huang-chinese-spy/689357/?gift=aQyUJR7AIw1mJWdQ6Ed6yPI8n1FlV88MR9f9IZruvFA&amp;",
-      "date": "2026-11-10T14:36:18.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Name-Dropped Trump Appointee",
-      "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html?unlocked_article_code=1.PVE.GxBL.iBpBoc8Y4tnb",
-      "date": "2026-11-10T14:35:38.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Fragments: November 10",
@@ -373,13 +443,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "[Sponsor] WorkOS: Let Agents Use Your Tools Without Giving Them Free Rein",
-      "url": "https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
-      "date": "2026-11-10T04:14:31.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Yonkers Rises",
       "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
       "date": "2026-11-10T03:53:04.000Z",
@@ -390,27 +453,6 @@
       "title": "llm-anthropic 0.31",
       "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
       "date": "2026-11-09T23:58:46.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Locating the source of a mysterious beep with Claude",
-      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "date": "2026-11-09T23:57:21.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "The Web Is More Than Enough, by Paul Ford",
-      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-      "date": "2026-11-09T04:32:33.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Hide your slop PR descriptions behind <details><summary>",
-      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
-      "date": "2026-11-09T04:25:05.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -434,13 +476,6 @@
       "date": "2026-11-09T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "parse_number() as a SQLite extension: C vs Rust",
-      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-      "date": "2026-11-08T22:26:00.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Ponpon Mania Comic Ux",
@@ -469,13 +504,6 @@
       "date": "2026-11-08T00:00:00.000Z",
       "source": "Maurycy Z.",
       "sourceUrl": "https://maurycyz.com"
-    },
-    {
-      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
-      "date": "2026-11-07T23:57:46.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "WWW Ep258 The Future Called Its Using CSS2",
@@ -1108,13 +1136,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "The Craft of Practitioner Voice",
-      "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
-      "date": "2026-10-13T14:06:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
-    },
-    {
       "title": "The Last Answer",
       "url": "https://idiallo.com/blog/the-last-answer",
       "date": "2026-10-13T10:00:00.000Z",
@@ -1248,13 +1269,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "to Kodak yourself out of business",
-      "url": "https://ghuntley.com/kodak/",
-      "date": "2026-10-07T19:52:24.000Z",
-      "source": "Geoffrey Huntley",
-      "sourceUrl": "https://ghuntley.com"
-    },
-    {
       "title": "Bringing Microsoft Internet Explorer’s proprietary “Interpage Transitions” back to Modern Browsers using the View Transition API",
       "url": "https://www.bram.us/2026/10/07/ie-page-transitions/",
       "date": "2026-10-07T19:07:00.000Z",
@@ -1360,13 +1374,6 @@
       "sourceUrl": "https://maurycyz.com"
     },
     {
-      "title": "Page View Count Regression Fixed",
-      "url": "https://nerdy.dev/page-view-count-regression-fixed?utm_source=rss",
-      "date": "2026-10-03T20:45:16.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
-    },
-    {
       "title": "An Introduction To Plan Mode",
       "url": "https://www.aihero.dev/plan-mode-introduction",
       "date": "2026-09-30T15:55:01.000Z",
@@ -1393,13 +1400,6 @@
       "date": "2026-09-29T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "date": "2026-09-28T15:08:57.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "Announcing Vite+ 1.0",
