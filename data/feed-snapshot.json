@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-11-12T05:22:52.430Z",
+  "generatedAt": "2026-11-13T05:22:50.002Z",
   "sources": [
     {
       "name": "Alexander Opalic",
       "url": "https://alexop.dev",
       "feed": "https://alexop.dev/rss.xml",
-      "ok": true
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "Julia Evans",
@@ -233,6 +234,160 @@
   ],
   "items": [
     {
+      "title": "So you want to buy AI for your company",
+      "url": "https://idiallo.com/byte-size/buying-ai-for-your-company",
+      "date": "2026-11-13T00:34:41.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "date": "2026-11-12T22:55:19.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Jensen Huang Agrees to Testify Before Congress, But Not Publicly (Yet)",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "date": "2026-11-12T21:32:07.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Scott Colom Flips Mississippi",
+      "url": "https://talkingpointsmemo.com/live-blog/new-congress-gets-underway-with-hegseth-impeachment-effort",
+      "date": "2026-11-12T21:20:29.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Dream of Quibi Lives On",
+      "url": "https://www.nbcuniversal.com/article/peacock-extends-its-vertical-video-leadership-reimagined-mobile-experience",
+      "date": "2026-11-12T20:54:43.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "And Every New Boy That You Meet / He Doesn’t Know the Real Surprise",
+      "url": "https://www.wsj.com/tech/ai/a-mystery-businessman-introduced-jensen-huang-to-his-paramourher-husband-1ec3b581?st=yBFeMY",
+      "date": "2026-11-12T20:41:35.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Reuters Raises the Jensen Huang Affair Tally to Three",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+      "date": "2026-11-12T20:12:11.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+      "date": "2026-11-12T18:53:19.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Trump Weighs in on Huang’s Successor",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117604177898784579",
+      "date": "2026-11-12T17:32:42.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jensen Huang’s Advice to His Successor: ‘They’ll Just Have to Reshape the Company’",
+      "url": "https://www.ycombinator.com/library/Tq-jensen-huang-the-mindset-that-built-nvidia",
+      "date": "2026-11-12T15:55:12.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jensen Huang Resigns From Nvidia",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "date": "2026-11-12T15:19:07.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Bliki: Generated Glossary",
+      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "date": "2026-11-12T14:15:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "The Home Repo Pattern",
+      "url": "https://www.aihero.dev/the-home-repo-pattern",
+      "date": "2026-11-12T11:17:27.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "AI | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Model | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/model",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Parameters | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Training | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Inference | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Effort | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/effort",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Token | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/token",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "Next-token prediction | AI Coding Dictionary",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "date": "2026-11-12T11:10:20.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
       "title": "Semafor: ‘Nvidia Board Preparing to Oust CEO Jensen Huang, Name Interim CEO’",
       "url": "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
       "date": "2026-11-12T04:59:59.000Z",
@@ -243,20 +398,6 @@
       "title": "Nvidia Working With Outside Firm to Identify CEO Candidates",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates",
       "date": "2026-11-12T03:57:43.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "WSJ: ‘Nvidia Is Preparing to Oust CEO Jensen Huang’",
-      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=S84MQZ",
-      "date": "2026-11-12T03:42:05.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Jensen Huang Was Banging an Nvidia Vice President Too",
-      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.P1E.pIe6.C65KRlbTa4MW",
-      "date": "2026-11-12T03:35:21.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -289,39 +430,11 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "Apple Shutters Their Longstanding ‘Apple Support Community’",
-      "url": "https://sixcolors.com/link/2026/11/ding-dong-the-apple-support-community-is-dead/",
-      "date": "2026-11-11T19:17:32.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Austin Mann’s iPhone Duo Review",
-      "url": "https://www.austinmann.com/trek/iphone-duo",
-      "date": "2026-11-11T19:02:58.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Browse tools.simonwillison.net by tag",
       "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
       "date": "2026-11-11T18:42:50.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Quinn Nelson: ‘The iPhone Duo Doesn’t Feel Like an iPhone’",
-      "url": "https://www.youtube.com/watch?v=cxjdVVVryC4",
-      "date": "2026-11-11T18:36:34.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "‘Dangerous or Unusual’",
-      "url": "https://www.nytimes.com/interactive/2026/11/10/us/supreme-court-guns-misquote.html?unlocked_article_code=1.PlE.-Nhp.CaLpsgMqdWf3",
-      "date": "2026-11-11T18:29:17.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -366,25 +479,11 @@
       "sourceUrl": "https://lea.verou.me"
     },
     {
-      "title": "Gary Marcus: ‘Just Say No to Anthropic’s IPO’",
-      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo?r=3k69a0",
-      "date": "2026-11-10T22:16:25.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "date": "2026-11-10T21:55:03.000Z",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
-      "title": "Altar II Keyboard on Kickstarter",
-      "url": "https://www.kickstarter.com/projects/electronicamaterials/altar-ii/",
-      "date": "2026-11-10T20:59:25.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "llm-gemini 0.36",
@@ -446,13 +545,6 @@
       "title": "Yonkers Rises",
       "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
       "date": "2026-11-10T03:53:04.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "date": "2026-11-09T23:58:46.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -532,13 +624,6 @@
       "date": "2026-11-06T08:00:00.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "AI SDK v6 Crash Course",
-      "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
-      "date": "2026-11-06T04:07:32.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
     },
     {
       "title": "A database is a store for global variables",
@@ -702,13 +787,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "How I Use Grok Bot: 36 AI Agents in 9 Days",
-      "url": "https://alexop.dev/posts/how-i-use-grok-bot/",
-      "date": "2026-11-01T11:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Joy & Curiosity #104",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-104",
       "date": "2026-11-01T08:49:36.000Z",
@@ -721,13 +799,6 @@
       "date": "2026-11-01T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "How I Made an AI Explainer Video in My Own Cloned Voice",
-      "url": "https://alexop.dev/posts/ai-explainer-video-with-my-cloned-voice/",
-      "date": "2026-10-31T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "College will only cost $20 a month",
@@ -849,20 +920,6 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
-      "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
-      "url": "https://alexop.dev/posts/goodbye-vue-tsc-typescript-7-content-mappers/",
-      "date": "2026-10-24T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
-      "title": "Type-Safe State in Your URL: Vue Router's Param Parsers",
-      "url": "https://alexop.dev/posts/type-safe-url-state-vue-router-param-parsers/",
-      "date": "2026-10-24T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "WebKit Features for Safari 27.1",
       "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
       "date": "2026-10-23T17:00:59.000Z",
@@ -961,25 +1018,11 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Learning from pstack: Build Your Own Reliable Coding Agent Stack",
-      "url": "https://alexop.dev/posts/learning-from-pstack/",
-      "date": "2026-10-21T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Announcing TypeScript 7.1 Beta",
       "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
       "date": "2026-10-20T17:53:06.000Z",
       "source": "TypeScript blog",
       "sourceUrl": "https://devblogs.microsoft.com/typescript/"
-    },
-    {
-      "title": "What’s the ROI of software engineers’ spending on AI?",
-      "url": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers",
-      "date": "2026-10-20T17:34:18.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
     },
     {
       "title": "patch the planet",
@@ -1031,13 +1074,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "I think software teams will shrink to 2-4 people plus agents",
-      "url": "https://alexop.dev/posts/software-teams-will-shrink-to-2-4-people-plus-agents/",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
       "url": "https://ghuntley.com/underclass/",
       "date": "2026-10-17T08:01:21.000Z",
@@ -1080,13 +1116,6 @@
       "sourceUrl": "https://martinfowler.com"
     },
     {
-      "title": "The death of the software developer",
-      "url": "https://alexop.dev/posts/the-death-of-the-software-developer/",
-      "date": "2026-10-15T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Fit height to background pattern size with calc-size()",
       "url": "https://ishadeed.com/article/fit-height-background-pattern-calc-size/",
       "date": "2026-10-15T00:00:00.000Z",
@@ -1113,13 +1142,6 @@
       "date": "2026-10-14T14:22:49.000Z",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
-      "title": "Build your slide template",
-      "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
-      "date": "2026-10-14T14:20:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "Formlabs dropped the Raspberry Pi on the way to a $699 SLA printer",
@@ -1164,13 +1186,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "Why I Get Bored",
-      "url": "https://idiallo.com/byte-size/why-i-get-bored",
-      "date": "2026-10-11T16:00:00.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
-    },
-    {
       "title": "WWW Ep255 Meta Harnesses Medical Midjourney And Specialists",
       "url": "https://nerdy.dev/www-ep255-meta-harnesses-medical-midjourney-and-specialists?utm_source=rss",
       "date": "2026-10-11T11:33:36.000Z",
@@ -1190,13 +1205,6 @@
       "date": "2026-10-10T14:23:33.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "The Dirty Flag Pattern, Explained with Snake",
-      "url": "https://alexop.dev/posts/dirty-flag-pattern-snake/",
-      "date": "2026-10-10T08:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -1255,13 +1263,6 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "pstack's Playbooks, Explained as Factorio Factories",
-      "url": "https://alexop.dev/posts/pstack-playbooks-as-factories/",
-      "date": "2026-10-08T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Effect 4.0: The First Week",
       "url": "https://effect.website/blog/effect-4-first-week/",
       "date": "2026-10-08T00:00:00.000Z",
@@ -1318,48 +1319,6 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
-      "title": "v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md",
-      "url": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
-      "date": "2026-10-05T11:01:07.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md",
-      "url": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
-      "date": "2026-10-05T10:57:45.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "The /retro Skill",
-      "url": "https://www.aihero.dev/skills-retro",
-      "date": "2026-10-05T08:30:02.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "The /pr Skill",
-      "url": "https://www.aihero.dev/skills-pr",
-      "date": "2026-10-05T08:29:59.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "The /implement-spec Skill",
-      "url": "https://www.aihero.dev/skills-implement-spec",
-      "date": "2026-10-05T08:29:38.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "Run Only the Playwright Tests Your Change Can Affect",
-      "url": "https://alexop.dev/posts/run-only-affected-playwright-tests/",
-      "date": "2026-10-05T05:44:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Joy & Curiosity #102",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-102",
       "date": "2026-10-04T05:05:04.000Z",
@@ -1372,13 +1331,6 @@
       "date": "2026-10-04T00:00:00.000Z",
       "source": "Maurycy Z.",
       "sourceUrl": "https://maurycyz.com"
-    },
-    {
-      "title": "An Introduction To Plan Mode",
-      "url": "https://www.aihero.dev/plan-mode-introduction",
-      "date": "2026-09-30T15:55:01.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
     },
     {
       "title": "What TLA+ can and can't check",
@@ -1428,27 +1380,6 @@
       "date": "2026-09-25T15:16:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "AI Coding Dictionary",
-      "url": "https://www.aihero.dev/ai-coding-dictionary",
-      "date": "2026-09-24T11:59:36.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "AI | AI Coding Dictionary",
-      "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
-      "date": "2026-09-24T11:59:36.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "Model | AI Coding Dictionary",
-      "url": "https://www.aihero.dev/ai-coding-dictionary/model",
-      "date": "2026-09-24T11:59:36.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
     },
     {
       "title": "Detect when elements overlap with CSS",
@@ -2331,6 +2262,76 @@
       "date": "2026-02-24T00:00:00.000Z",
       "source": "React blog",
       "sourceUrl": "https://react.dev/blog"
+    },
+    {
+      "title": "Building Semantic Search on my Content",
+      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Helping YOU ask ME questions with AI",
+      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Sprites on the Web",
+      "url": "https://www.joshwcomeau.com/animation/sprites/",
+      "date": "2026-02-23T11:00:00.000Z",
+      "source": "Josh W. Comeau",
+      "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Creating Query Abstractions",
+      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
+      "date": "2026-02-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
+      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "How I used Cursor to Migrate Frameworks",
+      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "February Pebble Production and Software Updates",
+      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
+      "date": "2026-02-11T18:50:26.000Z",
+      "source": "TypeScript blog",
+      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "date": "2026-02-05T00:00:00.000Z",
+      "source": "Mitchell Hashimoto",
+      "sourceUrl": "https://mitchellh.com"
     }
   ]
 }
