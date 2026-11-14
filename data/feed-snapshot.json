@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-11-13T05:22:50.002Z",
+  "generatedAt": "2026-11-14T05:22:52.540Z",
   "sources": [
     {
       "name": "Alexander Opalic",
       "url": "https://alexop.dev",
       "feed": "https://alexop.dev/rss.xml",
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true
     },
     {
       "name": "Julia Evans",
@@ -234,6 +233,69 @@
   ],
   "items": [
     {
+      "title": "datasette-cluster-map 0.19",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "date": "2026-11-13T23:02:45.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette-leaflet 0.3",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "date": "2026-11-13T22:30:54.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Safari on Apple HomeView",
+      "url": "https://webkit.org/blog/18608/safari-on-apple-homeview/",
+      "date": "2026-11-13T21:00:25.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "Andrew Sharp: ‘Jensen Huang Was Always Going to Lose’",
+      "url": "https://sharptext.net/2026/jensen-huang-was-always-going-to-lose/",
+      "date": "2026-11-13T20:01:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Inside Jensen Huang’s Final Hours as the CEO of Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU0NzgxNSwiZXhwIjoxNzk1MTUyNjE1LCJhcnRpY2xlSWQiOiJUT0YxQVBOM04wOUIwMCIsImJjb25uZWN0SWQiOiI1RkQyNjU1NTA2QTI0NjM2QjM1NzBEQkQ5MTY1RkI1NCJ9.8RulazBTaUuCgwysfQ4dlu-dhQIe3yvK-2UHLcm3hWc&amp;leadSource=article-gifting",
+      "date": "2026-11-13T19:19:47.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Microsoft, and Its Customers, Are Suffering a Global Cloud Outage",
+      "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+      "date": "2026-11-13T17:27:56.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "David Sacks Is Fucked Too",
+      "url": "https://x.com/DavidSacks/status/2121070881258504395",
+      "date": "2026-11-13T17:14:40.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Nvidia Employees Petition for Jensen Huang’s Return",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "date": "2026-11-13T15:40:52.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "NYT: ‘Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew’",
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html?unlocked_article_code=1.QFE.hj_X.iLppRX0Ec_Jj",
+      "date": "2026-11-13T15:31:22.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
       "title": "So you want to buy AI for your company",
       "url": "https://idiallo.com/byte-size/buying-ai-for-your-company",
       "date": "2026-11-13T00:34:41.000Z",
@@ -276,39 +338,11 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Reuters Raises the Jensen Huang Affair Tally to Three",
-      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
-      "date": "2026-11-12T20:12:11.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Pulse: What can we learn from the Railway hack?",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
       "date": "2026-11-12T18:53:19.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Trump Weighs in on Huang’s Successor",
-      "url": "https://truthsocial.com/@realDonaldTrump/posts/117604177898784579",
-      "date": "2026-11-12T17:32:42.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Jensen Huang’s Advice to His Successor: ‘They’ll Just Have to Reshape the Company’",
-      "url": "https://www.ycombinator.com/library/Tq-jensen-huang-the-mindset-that-built-nvidia",
-      "date": "2026-11-12T15:55:12.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Jensen Huang Resigns From Nvidia",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "date": "2026-11-12T15:19:07.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Bliki: Generated Glossary",
@@ -388,18 +422,11 @@
       "sourceUrl": "https://www.aihero.dev"
     },
     {
-      "title": "Semafor: ‘Nvidia Board Preparing to Oust CEO Jensen Huang, Name Interim CEO’",
-      "url": "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
-      "date": "2026-11-12T04:59:59.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Nvidia Working With Outside Firm to Identify CEO Candidates",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates",
-      "date": "2026-11-12T03:57:43.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
+      "title": "WWW Ep260 Will AI Kill Us All Jev Says 87",
+      "url": "https://nerdy.dev/www-ep260-will-ai-kill-us-all-jev-says-87?utm_source=rss",
+      "date": "2026-11-12T08:00:00.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "Animation Evolution",
@@ -531,20 +558,6 @@
       "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
       "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
       "date": "2026-11-10T07:28:21.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "date": "2026-11-10T05:34:14.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Yonkers Rises",
-      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-      "date": "2026-11-10T03:53:04.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -787,6 +800,13 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
+      "title": "How I Use Grok Bot: 36 AI Agents in 9 Days",
+      "url": "https://alexop.dev/posts/how-i-use-grok-bot/",
+      "date": "2026-11-01T11:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "Joy & Curiosity #104",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-104",
       "date": "2026-11-01T08:49:36.000Z",
@@ -799,6 +819,13 @@
       "date": "2026-11-01T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "How I Made an AI Explainer Video in My Own Cloned Voice",
+      "url": "https://alexop.dev/posts/ai-explainer-video-with-my-cloned-voice/",
+      "date": "2026-10-31T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "College will only cost $20 a month",
@@ -920,6 +947,20 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
+      "title": "Goodbye vue-tsc? Moving a Vue Project to TypeScript 7.1 Content Mappers",
+      "url": "https://alexop.dev/posts/goodbye-vue-tsc-typescript-7-content-mappers/",
+      "date": "2026-10-24T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
+      "title": "Type-Safe State in Your URL: Vue Router's Param Parsers",
+      "url": "https://alexop.dev/posts/type-safe-url-state-vue-router-param-parsers/",
+      "date": "2026-10-24T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "WebKit Features for Safari 27.1",
       "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
       "date": "2026-10-23T17:00:59.000Z",
@@ -1018,6 +1059,13 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
+      "title": "Learning from pstack: Build Your Own Reliable Coding Agent Stack",
+      "url": "https://alexop.dev/posts/learning-from-pstack/",
+      "date": "2026-10-21T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "Announcing TypeScript 7.1 Beta",
       "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
       "date": "2026-10-20T17:53:06.000Z",
@@ -1074,6 +1122,13 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
+      "title": "I think software teams will shrink to 2-4 people plus agents",
+      "url": "https://alexop.dev/posts/software-teams-will-shrink-to-2-4-people-plus-agents/",
+      "date": "2026-10-18T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
       "url": "https://ghuntley.com/underclass/",
       "date": "2026-10-17T08:01:21.000Z",
@@ -1114,6 +1169,13 @@
       "date": "2026-10-15T13:25:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "The death of the software developer",
+      "url": "https://alexop.dev/posts/the-death-of-the-software-developer/",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Fit height to background pattern size with calc-size()",
@@ -1186,13 +1248,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "WWW Ep255 Meta Harnesses Medical Midjourney And Specialists",
-      "url": "https://nerdy.dev/www-ep255-meta-harnesses-medical-midjourney-and-specialists?utm_source=rss",
-      "date": "2026-10-11T11:33:36.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
-    },
-    {
       "title": "The best way to use icons in Web UIs",
       "url": "https://lea.verou.me/blog/2026/icons/",
       "date": "2026-10-11T00:00:00.000Z",
@@ -1205,6 +1260,13 @@
       "date": "2026-10-10T14:23:33.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
+    },
+    {
+      "title": "The Dirty Flag Pattern, Explained with Snake",
+      "url": "https://alexop.dev/posts/dirty-flag-pattern-snake/",
+      "date": "2026-10-10T08:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -1263,6 +1325,13 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
+      "title": "pstack's Playbooks, Explained as Factorio Factories",
+      "url": "https://alexop.dev/posts/pstack-playbooks-as-factories/",
+      "date": "2026-10-08T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "Effect 4.0: The First Week",
       "url": "https://effect.website/blog/effect-4-first-week/",
       "date": "2026-10-08T00:00:00.000Z",
@@ -1317,6 +1386,13 @@
       "date": "2026-10-05T23:00:00.000Z",
       "source": "Nuxt blog",
       "sourceUrl": "https://nuxt.com/blog"
+    },
+    {
+      "title": "Run Only the Playwright Tests Your Change Can Affect",
+      "url": "https://alexop.dev/posts/run-only-affected-playwright-tests/",
+      "date": "2026-10-05T05:44:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "Joy & Curiosity #102",
@@ -1534,13 +1610,6 @@
       "date": "2026-09-12T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Release Notes for Safari Technology Preview 252",
-      "url": "https://webkit.org/blog/18304/release-notes-for-safari-technology-preview-252/",
-      "date": "2026-09-11T17:02:22.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
     },
     {
       "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
@@ -2262,76 +2331,6 @@
       "date": "2026-02-24T00:00:00.000Z",
       "source": "React blog",
       "sourceUrl": "https://react.dev/blog"
-    },
-    {
-      "title": "Building Semantic Search on my Content",
-      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Helping YOU ask ME questions with AI",
-      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Sprites on the Web",
-      "url": "https://www.joshwcomeau.com/animation/sprites/",
-      "date": "2026-02-23T11:00:00.000Z",
-      "source": "Josh W. Comeau",
-      "sourceUrl": "https://www.joshwcomeau.com"
-    },
-    {
-      "title": "Creating Query Abstractions",
-      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
-      "date": "2026-02-23T00:00:00.000Z",
-      "source": "TkDodo",
-      "sourceUrl": "https://tkdodo.eu/blog"
-    },
-    {
-      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
-      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
-      "date": "2026-02-20T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "How I used Cursor to Migrate Frameworks",
-      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
-      "date": "2026-02-20T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Notes on clarifying man pages",
-      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
-      "date": "2026-02-18T00:00:00.000Z",
-      "source": "Julia Evans",
-      "sourceUrl": "https://jvns.ca"
-    },
-    {
-      "title": "February Pebble Production and Software Updates",
-      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
-      "date": "2026-02-18T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "Announcing TypeScript 6.0 Beta",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
-      "date": "2026-02-11T18:50:26.000Z",
-      "source": "TypeScript blog",
-      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
-    },
-    {
-      "title": "My AI Adoption Journey",
-      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "date": "2026-02-05T00:00:00.000Z",
-      "source": "Mitchell Hashimoto",
-      "sourceUrl": "https://mitchellh.com"
     }
   ]
 }
