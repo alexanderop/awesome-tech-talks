@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T05:22:52.540Z",
+  "generatedAt": "2026-11-15T05:22:50.686Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,62 @@
   ],
   "items": [
     {
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "date": "2026-11-14T23:59:28.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Joanna Stern Reviews the HomeView",
+      "url": "https://www.youtube.com/watch?v=yVTcVtLn2o4",
+      "date": "2026-11-14T17:50:00.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jason Snell’s HomeView Review",
+      "url": "https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/",
+      "date": "2026-11-14T17:45:00.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Patrick McGee on Johny Srouji and Nvidia",
+      "url": "https://x.com/patrickmcgee_/status/2120799867140550999",
+      "date": "2026-11-14T17:40:39.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "date": "2026-11-14T17:09:09.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Ops needs friction",
+      "url": "https://www.jeffgeerling.com/blog/2026/ops-needs-friction/",
+      "date": "2026-11-14T16:30:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
+      "title": "Microsoft Says Cloud Outage Was ‘Not Related to Cyber or AI / Agents’",
+      "url": "https://x.com/microsoft/status/2121282013600907325",
+      "date": "2026-11-14T16:00:00.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "How to find meaning in large tech companies",
+      "url": "https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies/",
+      "date": "2026-11-14T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
       "title": "datasette-cluster-map 0.19",
       "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
       "date": "2026-11-13T23:02:45.000Z",
@@ -308,34 +364,6 @@
       "date": "2026-11-12T22:55:19.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Jensen Huang Agrees to Testify Before Congress, But Not Publicly (Yet)",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "date": "2026-11-12T21:32:07.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Scott Colom Flips Mississippi",
-      "url": "https://talkingpointsmemo.com/live-blog/new-congress-gets-underway-with-hegseth-impeachment-effort",
-      "date": "2026-11-12T21:20:29.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The Dream of Quibi Lives On",
-      "url": "https://www.nbcuniversal.com/article/peacock-extends-its-vertical-video-leadership-reimagined-mobile-experience",
-      "date": "2026-11-12T20:54:43.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "And Every New Boy That You Meet / He Doesn’t Know the Real Surprise",
-      "url": "https://www.wsj.com/tech/ai/a-mystery-businessman-introduced-jensen-huang-to-his-paramourher-husband-1ec3b581?st=yBFeMY",
-      "date": "2026-11-12T20:41:35.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "The Pulse: What can we learn from the Railway hack?",
@@ -513,13 +541,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "date": "2026-11-10T20:09:44.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "WWW Ep259 Your AI Agents Dont Need You Anymore",
       "url": "https://nerdy.dev/www-ep259-your-ai-agents-dont-need-you-anymore?utm_source=rss",
       "date": "2026-11-10T18:00:00.000Z",
@@ -553,13 +574,6 @@
       "date": "2026-11-10T14:10:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "date": "2026-11-10T07:28:21.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Module of the Week - Cluster, Part 5",
@@ -875,13 +889,6 @@
       "date": "2026-10-29T13:37:13.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "You can just ask AI to do things",
-      "url": "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
-      "date": "2026-10-29T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "Custom Voices With Qwen3-TTS",
@@ -1416,6 +1423,13 @@
       "sourceUrl": "https://buttondown.com/hillelwayne"
     },
     {
+      "title": "Pebble Round 2 Starts Shipping!",
+      "url": "https://repebble.com/blog/pebble-round-2-starts-shipping",
+      "date": "2026-09-30T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
       "title": "What should you do when code becomes free",
       "url": "https://www.sandromaglione.com/newsletter/what-should-you-do-when-code-becomes-free",
       "date": "2026-09-30T00:00:00.000Z",
@@ -1631,13 +1645,6 @@
       "date": "2026-09-09T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "OpenNMC is an open replacement for expensive APC management cards",
-      "url": "https://www.jeffgeerling.com/blog/2026/opennmc-apc-ups-replacement-card/",
-      "date": "2026-09-08T16:00:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
       "title": "Introducing Kody: Your Personal Software Factory",
@@ -2324,13 +2331,6 @@
       "date": "2026-03-02T00:00:00.000Z",
       "source": "Lea Verou",
       "sourceUrl": "https://lea.verou.me"
-    },
-    {
-      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
-      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "React blog",
-      "sourceUrl": "https://react.dev/blog"
     }
   ]
 }
