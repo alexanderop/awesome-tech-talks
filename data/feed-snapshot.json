@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T05:22:50.686Z",
+  "generatedAt": "2026-11-16T05:25:19.217Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -179,8 +179,7 @@
       "name": "Kent Beck",
       "url": "https://tidyfirst.substack.com",
       "feed": "https://tidyfirst.substack.com/feed",
-      "ok": false,
-      "error": "HTTP 403"
+      "ok": true
     },
     {
       "name": "Hillel Wayne",
@@ -233,6 +232,76 @@
   ],
   "items": [
     {
+      "title": "People will lose their jobs over GTA 6",
+      "url": "https://idiallo.com/blog/losing-your-job-over-a-video-game",
+      "date": "2026-11-16T00:40:21.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "date": "2026-11-15T23:58:36.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "date": "2026-11-15T23:20:27.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "date": "2026-11-15T23:18:17.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "The Legion of PCAST",
+      "url": "https://www.whitehouse.gov/ostp/presidents-council-of-advisors-on-science-and-technology/",
+      "date": "2026-11-15T17:14:42.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "WorkOS: Let Agents Use Your Tools Without Giving Them Free Rein",
+      "url": "https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026",
+      "date": "2026-11-15T15:52:01.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Joy & Curiosity #106",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-106",
+      "date": "2026-11-15T07:39:14.000Z",
+      "source": "Thorsten Ball",
+      "sourceUrl": "https://registerspill.thorstenball.com"
+    },
+    {
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "date": "2026-11-15T04:02:45.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "date": "2026-11-15T03:49:47.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "State Machines in Vue: A Union Type, One Function and a Tiny useReducer",
+      "url": "https://alexop.dev/posts/state-machines-in-vue-with-usereducer/",
+      "date": "2026-11-15T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
+    },
+    {
       "title": "datasette-llm 0.1a11",
       "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
       "date": "2026-11-14T23:59:28.000Z",
@@ -280,6 +349,13 @@
       "date": "2026-11-14T16:00:00.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Formal Verification for Vue Developers: No Math Required",
+      "url": "https://alexop.dev/posts/formal-verification-for-web-developers/",
+      "date": "2026-11-14T00:00:00.000Z",
+      "source": "Alexander Opalic",
+      "sourceUrl": "https://alexop.dev"
     },
     {
       "title": "How to find meaning in large tech companies",
@@ -338,25 +414,18 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Nvidia Employees Petition for Jensen Huang’s Return",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "date": "2026-11-13T15:40:52.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "NYT: ‘Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew’",
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html?unlocked_article_code=1.QFE.hj_X.iLppRX0Ec_Jj",
-      "date": "2026-11-13T15:31:22.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "So you want to buy AI for your company",
       "url": "https://idiallo.com/byte-size/buying-ai-for-your-company",
       "date": "2026-11-13T00:34:41.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "Renaissance of indie game developers",
+      "url": "https://www.sandromaglione.com/newsletter/renaissance-of-indie-game-developers",
+      "date": "2026-11-13T00:00:00.000Z",
+      "source": "Sandro Maglione",
+      "sourceUrl": "https://www.sandromaglione.com"
     },
     {
       "title": "llm-gemini 0.37",
@@ -378,6 +447,13 @@
       "date": "2026-11-12T14:15:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "“Toil” is Contextual",
+      "url": "https://newsletter.kentbeck.com/p/toil-is-contextual",
+      "date": "2026-11-12T14:04:00.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "The Home Repo Pattern",
@@ -464,32 +540,11 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Gemini Decisions API",
-      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-      "date": "2026-11-11T22:03:25.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "aws-emulator",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "date": "2026-11-11T21:18:30.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "the answer to ai is engineering",
       "url": "https://ghuntley.com/answer/",
       "date": "2026-11-11T19:38:58.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "Browse tools.simonwillison.net by tag",
-      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-      "date": "2026-11-11T18:42:50.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -499,25 +554,11 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "llm 0.37.2",
-      "url": "https://simonwillison.net/2026/Nov/11/llm/",
-      "date": "2026-11-11T17:19:52.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Tests as data: ensuring AI-generated code does what we want",
       "url": "https://martinfowler.com/articles/tests-as-data.html",
       "date": "2026-11-11T15:17:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Anthropic's IPO roadshow video",
-      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-      "date": "2026-11-11T15:11:59.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Glue work is still harmful in the age of AI",
@@ -574,6 +615,13 @@
       "date": "2026-11-10T14:10:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Thinkie: What Fact?",
+      "url": "https://newsletter.kentbeck.com/p/thinkie-what-fact",
+      "date": "2026-11-09T13:37:31.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Module of the Week - Cluster, Part 5",
@@ -800,6 +848,13 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
+      "title": "Not A Copier",
+      "url": "https://newsletter.kentbeck.com/p/not-a-copier",
+      "date": "2026-11-02T14:17:37.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
+    },
+    {
       "title": "Reliably aligning LLMs is impossible in principle",
       "url": "https://seangoedecke.com/alignment-is-impossible/",
       "date": "2026-11-02T00:00:00.000Z",
@@ -863,6 +918,13 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
+      "title": "Trust Is the Binding Constraint",
+      "url": "https://newsletter.kentbeck.com/p/trust-is-the-binding-constraint",
+      "date": "2026-10-30T13:02:54.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
+    },
+    {
       "title": "Elegance and intelligence are anticorrelated",
       "url": "https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/",
       "date": "2026-10-30T00:00:00.000Z",
@@ -903,6 +965,13 @@
       "date": "2026-10-28T23:49:04.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
+    },
+    {
+      "title": "We're Renaming This Newsletter (and You Get First Word)",
+      "url": "https://newsletter.kentbeck.com/p/were-renaming-this-newsletter-and",
+      "date": "2026-10-28T13:04:05.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Fragments: October 28",
@@ -1094,6 +1163,13 @@
       "sourceUrl": "https://www.joshwcomeau.com"
     },
     {
+      "title": "Take My Toil, Leave Me My Struggle",
+      "url": "https://newsletter.kentbeck.com/p/take-my-toil-leave-me-my-struggle",
+      "date": "2026-10-20T13:12:35.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
+    },
+    {
       "title": "Dead Code Shouldn't Exist",
       "url": "https://tkdodo.eu/blog/dead-code-shouldnt-exist",
       "date": "2026-10-20T00:00:00.000Z",
@@ -1227,11 +1303,11 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "The Last Answer",
-      "url": "https://idiallo.com/blog/the-last-answer",
-      "date": "2026-10-13T10:00:00.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
+      "title": "Decompose Run-On Tests",
+      "url": "https://newsletter.kentbeck.com/p/decompose-run-on-tests",
+      "date": "2026-10-13T13:31:10.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Introducing css-typed-om, a complete and WPT-tested polyfill for CSS Typed OM",
@@ -1290,6 +1366,13 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
+      "title": "Thinkie: Fix Time, Flex Scope",
+      "url": "https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope",
+      "date": "2026-10-09T13:44:50.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
+    },
+    {
       "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
       "url": "https://ghuntley.com/replaced/",
       "date": "2026-10-09T09:07:26.000Z",
@@ -1332,13 +1415,6 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "pstack's Playbooks, Explained as Factorio Factories",
-      "url": "https://alexop.dev/posts/pstack-playbooks-as-factories/",
-      "date": "2026-10-08T00:00:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Effect 4.0: The First Week",
       "url": "https://effect.website/blog/effect-4-first-week/",
       "date": "2026-10-08T00:00:00.000Z",
@@ -1351,6 +1427,13 @@
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
+    },
+    {
+      "title": "Tools Aren’t Here to Make Us Feel Good",
+      "url": "https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel",
+      "date": "2026-10-07T18:58:24.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -1395,13 +1478,6 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
-      "title": "Run Only the Playwright Tests Your Change Can Affect",
-      "url": "https://alexop.dev/posts/run-only-affected-playwright-tests/",
-      "date": "2026-10-05T05:44:00.000Z",
-      "source": "Alexander Opalic",
-      "sourceUrl": "https://alexop.dev"
-    },
-    {
       "title": "Joy & Curiosity #102",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-102",
       "date": "2026-10-04T05:05:04.000Z",
@@ -1435,6 +1511,13 @@
       "date": "2026-09-30T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
+    },
+    {
+      "title": "Mathematicians, Here’s a Way To Think About Your Existential Crisis",
+      "url": "https://newsletter.kentbeck.com/p/mathematicians-heres-a-way-to-think",
+      "date": "2026-09-29T13:32:57.000Z",
+      "source": "Kent Beck",
+      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Deser: Rethinking Rust Serialization",
@@ -1759,13 +1842,6 @@
       "sourceUrl": "https://lucumr.pocoo.org"
     },
     {
-      "title": "Joy & Curiosity #96",
-      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-96",
-      "date": "2026-08-23T06:37:46.000Z",
-      "source": "Thorsten Ball",
-      "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
       "title": "Fast and Hard Code",
       "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
       "date": "2026-08-22T00:00:00.000Z",
@@ -1813,13 +1889,6 @@
       "date": "2026-08-12T00:00:00.000Z",
       "source": "VoidZero",
       "sourceUrl": "https://voidzero.dev/posts"
-    },
-    {
-      "title": "Library development with agents",
-      "url": "https://www.sandromaglione.com/newsletter/library-development-with-agents",
-      "date": "2026-08-12T00:00:00.000Z",
-      "source": "Sandro Maglione",
-      "sourceUrl": "https://www.sandromaglione.com"
     },
     {
       "title": "Agentic Code Quality",
@@ -2261,76 +2330,6 @@
       "date": "2026-03-23T12:00:00.000Z",
       "source": "Josh W. Comeau",
       "sourceUrl": "https://www.joshwcomeau.com"
-    },
-    {
-      "title": "Test IDs are an a11y smell",
-      "url": "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell",
-      "date": "2026-03-23T00:00:00.000Z",
-      "source": "TkDodo",
-      "sourceUrl": "https://tkdodo.eu/blog"
-    },
-    {
-      "title": "Implementing Hybrid Semantic + Lexical Search",
-      "url": "https://kentcdodds.com/blog/implementing-hybrid-semantic-lexical-search",
-      "date": "2026-03-16T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Nuxt 4.4",
-      "url": "https://nuxt.com/blog/v4-4",
-      "date": "2026-03-12T00:00:00.000Z",
-      "source": "Nuxt blog",
-      "sourceUrl": "https://nuxt.com/blog"
-    },
-    {
-      "title": "Simplifying Containers with Cloudflare Sandboxes",
-      "url": "https://kentcdodds.com/blog/simplifying-containers-with-cloudflare-sandboxes",
-      "date": "2026-03-11T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Examples for the tcpdump and dig man pages",
-      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
-      "date": "2026-03-10T00:00:00.000Z",
-      "source": "Julia Evans",
-      "sourceUrl": "https://jvns.ca"
-    },
-    {
-      "title": "Migrating to Workspaces and Nx",
-      "url": "https://kentcdodds.com/blog/migrating-to-workspaces-and-nx",
-      "date": "2026-03-10T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Offloading FFmpeg with Cloudflare",
-      "url": "https://kentcdodds.com/blog/offloading-ffmpeg-with-cloudflare",
-      "date": "2026-03-09T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Announcing TypeScript 6.0 RC",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
-      "date": "2026-03-06T19:13:14.000Z",
-      "source": "TypeScript blog",
-      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
-    },
-    {
-      "title": "The virtuous circle",
-      "url": "https://roe.dev/blog/virtuous-circle",
-      "date": "2026-03-03T00:00:00.000Z",
-      "source": "Daniel Roe",
-      "sourceUrl": "https://roe.dev"
-    },
-    {
-      "title": "External import maps, today!",
-      "url": "https://lea.verou.me/blog/2026/external-import-maps-today/",
-      "date": "2026-03-02T00:00:00.000Z",
-      "source": "Lea Verou",
-      "sourceUrl": "https://lea.verou.me"
     }
   ]
 }
