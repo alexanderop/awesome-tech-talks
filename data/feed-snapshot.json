@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T05:22:49.154Z",
+  "generatedAt": "2026-11-18T05:23:20.258Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -53,8 +53,7 @@
       "name": "antirez",
       "url": "https://antirez.com",
       "feed": "https://antirez.com/rss",
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true
     },
     {
       "name": "Ibrahim Diallo",
@@ -234,6 +233,69 @@
   ],
   "items": [
     {
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "date": "2026-11-18T02:52:04.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "date": "2026-11-17T22:52:29.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "date": "2026-11-17T22:38:52.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "SetShot 1.0 (and a Personal Tale of Defaults System Spelunking)",
+      "url": "https://tidbits.com/2026/11/13/setshot-1-0-tracks-even-more-macos-settings/",
+      "date": "2026-11-17T18:41:12.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Apple’s Cloud Services Are Having a Bad Day, Including Their Status Page",
+      "url": "https://www.macrumors.com/2026/11/17/apple-accounts-experiencing-issues/",
+      "date": "2026-11-17T18:21:23.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "date": "2026-11-17T16:48:33.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Inference engineering for software engineers",
+      "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "date": "2026-11-17T16:11:23.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Deterministic Simulation Testing",
+      "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "date": "2026-11-17T14:33:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "date": "2026-11-17T06:16:26.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "Apple Support Document on the New ‘Full Disk Access’ and ‘System & App Protection Override’ Settings in MacOS 27.3 Beta 2",
       "url": "https://support.apple.com/en-us/149699",
       "date": "2026-11-17T02:00:11.000Z",
@@ -263,14 +325,14 @@
     },
     {
       "title": "[Sponsor] Ivy: The To-do List That Ends",
-      "url": "https://apps.apple.com/app/apple-store/id6747921058?pt=1363339&amp;ct=Daring-Fireball-Post&amp;mt=8",
+      "url": "https://semantical.com/?utm_campaign=df-2026-12",
       "date": "2026-11-16T23:18:35.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Developers Continue to Optimize iPhone Apps for the Duo",
-      "url": "https://x.com/arinwaichulis/status/2122397676767522942",
+      "url": "https://x.com/gregjoz/status/2122393925080252469",
       "date": "2026-11-16T23:09:05.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
@@ -304,20 +366,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "WSJ: ‘Nvidia’s Days as an Open Checkbook for the AI Economy Are Numbered’",
-      "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
-      "date": "2026-11-16T17:37:48.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Oprah Gives Everyone in Her Audience a ‘Duo iPhone’",
-      "url": "https://youtu.be/j0Rsv1U3Q7A",
-      "date": "2026-11-16T16:05:18.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Software engineering after code becomes cheap with Satya Nadella",
       "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
       "date": "2026-11-16T13:33:48.000Z",
@@ -337,6 +385,13 @@
       "date": "2026-11-16T00:00:00.000Z",
       "source": "Alexander Opalic",
       "sourceUrl": "https://alexop.dev"
+    },
+    {
+      "title": "Module of the Week - HttpApi",
+      "url": "https://effect.website/blog/module-of-the-week/http-api/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "This Week in Effect - 144",
@@ -395,20 +450,6 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "datasette-llm 0.1a11",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "date": "2026-11-14T23:59:28.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-vega 0.7",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
-      "date": "2026-11-14T17:09:09.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Ops needs friction",
       "url": "https://www.jeffgeerling.com/blog/2026/ops-needs-friction/",
       "date": "2026-11-14T16:30:00.000Z",
@@ -428,20 +469,6 @@
       "date": "2026-11-14T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "datasette-cluster-map 0.19",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
-      "date": "2026-11-13T23:02:45.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-leaflet 0.3",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
-      "date": "2026-11-13T22:30:54.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Safari on Apple HomeView",
@@ -1081,13 +1108,6 @@
       "sourceUrl": "https://buttondown.com/hillelwayne"
     },
     {
-      "title": "The Pulse: Time to rethink software security because of AI?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software",
-      "date": "2026-10-22T14:08:21.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "Can they write a function?",
       "url": "https://idiallo.com/blog/can-they-write-a-function",
       "date": "2026-10-21T19:00:40.000Z",
@@ -1228,13 +1248,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "When Software Meets Hardware",
-      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
-      "date": "2026-10-15T13:25:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
-    },
-    {
       "title": "The death of the software developer",
       "url": "https://alexop.dev/posts/the-death-of-the-software-developer/",
       "date": "2026-10-15T00:00:00.000Z",
@@ -1347,13 +1360,6 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "This Week in Effect - 139",
-      "url": "https://effect.website/blog/this-week-in-effect/139/",
-      "date": "2026-10-09T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
-    },
-    {
       "title": "Release Notes for Safari Technology Preview 254",
       "url": "https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254/",
       "date": "2026-10-08T23:29:40.000Z",
@@ -1380,13 +1386,6 @@
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "date": "2026-10-07T13:48:45.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "Longer essays, timeless content",
@@ -1858,6 +1857,13 @@
       "sourceUrl": "https://mitchellh.com"
     },
     {
+      "title": "The real AI risk is inside the labs",
+      "url": "http://antirez.com/news/172",
+      "date": "2026-07-28T09:00:11.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
+    },
+    {
       "title": "Nuxt Security Patch Releases",
       "url": "https://nuxt.com/blog/v4-5-security",
       "date": "2026-07-27T00:00:00.000Z",
@@ -1865,11 +1871,25 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
+      "title": "Being Linux Torvalds",
+      "url": "http://antirez.com/news/171",
+      "date": "2026-07-25T11:20:55.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
+    },
+    {
       "title": "Index 01 Is In Mass Production!",
       "url": "https://repebble.com/blog/index-01-is-in-mass-production",
       "date": "2026-07-24T00:00:00.000Z",
       "source": "Eric Migicovsky",
       "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "Not just development, distribution of software may change as well",
+      "url": "http://antirez.com/news/170",
+      "date": "2026-07-22T14:52:39.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
     },
     {
       "title": "Everyone Should Know SIMD",
@@ -1940,6 +1960,13 @@
       "date": "2026-07-14T00:00:00.000Z",
       "source": "Addy Osmani",
       "sourceUrl": "https://addyosmani.com"
+    },
+    {
+      "title": "Control the ideas, not the code",
+      "url": "http://antirez.com/news/169",
+      "date": "2026-07-13T11:39:52.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
     },
     {
       "title": "In defense of polyfills",
@@ -2033,6 +2060,13 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
+      "title": "A new era for software testing",
+      "url": "http://antirez.com/news/168",
+      "date": "2026-06-07T09:46:06.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
+    },
+    {
       "title": "VoidZero is Joining Cloudflare",
       "url": "https://voidzero.dev/posts/voidzero-cloudflare",
       "date": "2026-06-04T00:00:00.000Z",
@@ -2052,6 +2086,20 @@
       "date": "2026-05-26T00:00:00.000Z",
       "source": "TkDodo",
       "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "Distributing LLM inference in DwarfStar",
+      "url": "http://antirez.com/news/167",
+      "date": "2026-05-25T14:54:59.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
+    },
+    {
+      "title": "Alternatives for the EDIT tool of LLM agents",
+      "url": "http://antirez.com/news/166",
+      "date": "2026-05-19T07:26:03.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
     },
     {
       "title": "How I Use My Index 01 + Production Update",
@@ -2075,11 +2123,25 @@
       "sourceUrl": "https://jvns.ca"
     },
     {
+      "title": "A few words on DS4",
+      "url": "http://antirez.com/news/165",
+      "date": "2026-05-14T22:22:45.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
+    },
+    {
       "title": "Announcing Rolldown 1.0",
       "url": "https://voidzero.dev/posts/announcing-rolldown-1-0",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "VoidZero",
       "sourceUrl": "https://voidzero.dev/posts"
+    },
+    {
+      "title": "Redis array type: short story of a long development",
+      "url": "http://antirez.com/news/164",
+      "date": "2026-05-04T14:21:45.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
     },
     {
       "title": "Links to CSS colour palettes",
@@ -2136,6 +2198,13 @@
       "date": "2026-04-21T18:24:17.000Z",
       "source": "TypeScript blog",
       "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "AI cybersecurity is not proof of work",
+      "url": "http://antirez.com/news/163",
+      "date": "2026-04-16T10:46:46.000Z",
+      "source": "antirez",
+      "sourceUrl": "https://antirez.com"
     },
     {
       "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
@@ -2262,76 +2331,6 @@
       "date": "2026-03-02T00:00:00.000Z",
       "source": "Lea Verou",
       "sourceUrl": "https://lea.verou.me"
-    },
-    {
-      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
-      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "React blog",
-      "sourceUrl": "https://react.dev/blog"
-    },
-    {
-      "title": "Building Semantic Search on my Content",
-      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Helping YOU ask ME questions with AI",
-      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
-      "date": "2026-02-24T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Sprites on the Web",
-      "url": "https://www.joshwcomeau.com/animation/sprites/",
-      "date": "2026-02-23T11:00:00.000Z",
-      "source": "Josh W. Comeau",
-      "sourceUrl": "https://www.joshwcomeau.com"
-    },
-    {
-      "title": "Creating Query Abstractions",
-      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
-      "date": "2026-02-23T00:00:00.000Z",
-      "source": "TkDodo",
-      "sourceUrl": "https://tkdodo.eu/blog"
-    },
-    {
-      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
-      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
-      "date": "2026-02-20T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "How I used Cursor to Migrate Frameworks",
-      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
-      "date": "2026-02-20T00:00:00.000Z",
-      "source": "Kent C. Dodds",
-      "sourceUrl": "https://kentcdodds.com/blog"
-    },
-    {
-      "title": "Notes on clarifying man pages",
-      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
-      "date": "2026-02-18T00:00:00.000Z",
-      "source": "Julia Evans",
-      "sourceUrl": "https://jvns.ca"
-    },
-    {
-      "title": "February Pebble Production and Software Updates",
-      "url": "https://repebble.com/blog/february-pebble-production-and-software-updates",
-      "date": "2026-02-18T00:00:00.000Z",
-      "source": "Eric Migicovsky",
-      "sourceUrl": "https://ericmigi.com"
-    },
-    {
-      "title": "Announcing TypeScript 6.0 Beta",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
-      "date": "2026-02-11T18:50:26.000Z",
-      "source": "TypeScript blog",
-      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
     }
   ]
 }
