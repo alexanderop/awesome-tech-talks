@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T05:23:20.258Z",
+  "generatedAt": "2026-11-19T05:23:07.159Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,83 @@
   ],
   "items": [
     {
+      "title": "Nudeps: bundler-like imports, none of the baggage",
+      "url": "https://lea.verou.me/blog/2026/nudeps/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "source": "Lea Verou",
+      "sourceUrl": "https://lea.verou.me"
+    },
+    {
+      "title": "Global Privacy Control (GPC) WebKit API",
+      "url": "https://webkit.org/blog/18646/global-privacy-control-gpc-webkit-api/",
+      "date": "2026-11-18T23:25:25.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "Release Notes for Safari Technology Preview 257",
+      "url": "https://webkit.org/blog/18652/release-notes-for-safari-technology-preview-257/",
+      "date": "2026-11-18T22:31:35.000Z",
+      "source": "WebKit blog",
+      "sourceUrl": "https://webkit.org/blog/"
+    },
+    {
+      "title": "★ The 50-Yard Line",
+      "url": "https://daringfireball.net/2026/11/the_50-yard_line",
+      "date": "2026-11-18T20:42:23.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Software factories and code reviews with Harjot Gill",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+      "date": "2026-11-18T18:08:52.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Watch me ship a 21,000-line feature with mattpocock/skills",
+      "url": "https://www.aihero.dev/watch-me-ship-a-21-000-line-feature-with-mattpocock-skills~ez95n",
+      "date": "2026-11-18T17:16:55.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "date": "2026-11-18T17:09:59.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "date": "2026-11-18T15:58:27.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Jensen Huang Tweets",
+      "url": "https://x.com/JensenHuang/status/2122726005219737649",
+      "date": "2026-11-18T15:39:16.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The PSF end-of-year fundraiser",
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "date": "2026-11-18T14:44:48.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Data Contracts",
+      "url": "https://martinfowler.com/articles/data-contracts.html",
+      "date": "2026-11-18T14:02:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
       "date": "2026-11-18T02:52:04.000Z",
@@ -280,6 +357,13 @@
       "date": "2026-11-17T16:11:23.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+      "date": "2026-11-17T15:00:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
       "title": "Deterministic Simulation Testing",
@@ -352,20 +436,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "‘Unlock With Front Camera’ — New Feature for iPhone Duo in iOS 27.3 Beta 2",
-      "url": "https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock/",
-      "date": "2026-11-16T19:22:38.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Ben Thompson on Nvidia",
-      "url": "https://stratechery.com/2026/obituaries/",
-      "date": "2026-11-16T18:44:02.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Software engineering after code becomes cheap with Satya Nadella",
       "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
       "date": "2026-11-16T13:33:48.000Z",
@@ -415,32 +485,11 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "datasette 0.65.6",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
-      "date": "2026-11-15T23:18:17.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Joy & Curiosity #106",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-106",
       "date": "2026-11-15T07:39:14.000Z",
       "source": "Thorsten Ball",
       "sourceUrl": "https://registerspill.thorstenball.com"
-    },
-    {
-      "title": "datasette-apps 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-      "date": "2026-11-15T04:02:45.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-agent 0.6a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-      "date": "2026-11-15T03:49:47.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "State Machines in Vue: A Union Type, One Function and a Tiny useReducer",
@@ -564,13 +613,6 @@
     {
       "title": "Token | AI Coding Dictionary",
       "url": "https://www.aihero.dev/ai-coding-dictionary/token",
-      "date": "2026-11-12T11:10:20.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "Next-token prediction | AI Coding Dictionary",
-      "url": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
       "date": "2026-11-12T11:10:20.000Z",
       "source": "Matt Pocock",
       "sourceUrl": "https://www.aihero.dev"
@@ -1017,13 +1059,6 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "AI SRE: what is it, how could it change on-call – and does it work?",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-sre",
-      "date": "2026-10-27T16:19:22.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "WebKit Features for Safari 27.2",
       "url": "https://webkit.org/blog/18515/webkit-features-for-safari-27-2/",
       "date": "2026-10-26T18:30:01.000Z",
@@ -1113,13 +1148,6 @@
       "date": "2026-10-21T19:00:40.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "Fragments: October 21",
-      "url": "https://martinfowler.com/fragments/2026-10-21.html",
-      "date": "2026-10-21T16:51:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -1360,13 +1388,6 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "Release Notes for Safari Technology Preview 254",
-      "url": "https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254/",
-      "date": "2026-10-08T23:29:40.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
       "title": "<​calc-input>, a custom input element that accepts mathematical formulas",
       "url": "https://www.bram.us/2026/10/08/calc-input-a-custom-input-element-that-accepts-mathematical-formulas/",
       "date": "2026-10-08T21:22:43.000Z",
@@ -1507,13 +1528,6 @@
       "sourceUrl": "https://kentcdodds.com/blog"
     },
     {
-      "title": "Release Notes for Safari Technology Preview 253",
-      "url": "https://webkit.org/blog/18357/release-notes-for-safari-technology-preview-253/",
-      "date": "2026-09-23T21:46:47.000Z",
-      "source": "WebKit blog",
-      "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
       "title": "Show keystrokes on a website with the <​show-keystrokes> custom element",
       "url": "https://www.bram.us/2026/09/23/show-keystrokes/",
       "date": "2026-09-23T08:32:27.000Z",
@@ -1561,13 +1575,6 @@
       "date": "2026-09-19T00:00:00.000Z",
       "source": "Daniel Roe",
       "sourceUrl": "https://roe.dev"
-    },
-    {
-      "title": "NTP, an atomic clock, and having a great time at the world's largest VCF",
-      "url": "https://www.jeffgeerling.com/blog/2026/vcf-midwest-21-ntp-time/",
-      "date": "2026-09-18T14:00:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
       "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -2324,13 +2331,6 @@
       "date": "2026-03-03T00:00:00.000Z",
       "source": "Daniel Roe",
       "sourceUrl": "https://roe.dev"
-    },
-    {
-      "title": "External import maps, today!",
-      "url": "https://lea.verou.me/blog/2026/external-import-maps-today/",
-      "date": "2026-03-02T00:00:00.000Z",
-      "source": "Lea Verou",
-      "sourceUrl": "https://lea.verou.me"
     }
   ]
 }
