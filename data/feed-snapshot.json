@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T05:23:07.159Z",
+  "generatedAt": "2026-11-20T05:23:18.318Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,11 +233,102 @@
   ],
   "items": [
     {
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "date": "2026-11-20T02:49:57.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Another company I've never heard of lost my Data",
+      "url": "https://idiallo.com/byte-size/another-company-lost-my-data-and-free-credit-monitoring",
+      "date": "2026-11-19T23:27:30.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "Introducing CodePen Commander, a CLI tool (cdpn) to manage your CodePen 2.0 Pens",
+      "url": "https://www.bram.us/2026/11/19/codepen-commander-cli-tool-cdpn/",
+      "date": "2026-11-19T22:51:03.000Z",
+      "source": "Bramus",
+      "sourceUrl": "https://www.bram.us"
+    },
+    {
+      "title": "★ Jon McCormack Retires From Apple",
+      "url": "https://daringfireball.net/2026/11/mccormack_retires_from_apple",
+      "date": "2026-11-19T22:25:12.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Google’s Spark AI Agent Becomes ‘Tasks’",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IksyWGFvWkdyWVIiLCJwIjoiL3RlY2gvMTAzNTc1Ni9nb29nbGUtc3BhcmstYWktdGFza3MtZnJlZSIsImV4cCI6MTc5NTU1MzQxMiwiaWF0IjoxNzk1MTIxNDEyfQ.GdsUKdRXeGBskw7-FDgCXEmIYhdLPPexImzdWhJqA-c&amp;utm_medium=gift-link",
+      "date": "2026-11-19T20:54:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "date": "2026-11-19T20:43:57.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Grand Theft Auto 6",
+      "url": "https://www.theverge.com/games/1035801/grand-theft-auto-6-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjJ2dm1YT25YaEwiLCJwIjoiL2dhbWVzLzEwMzU4MDEvZ3JhbmQtdGhlZnQtYXV0by02LXJldmlldyIsImV4cCI6MTc5NTU1MTkzNiwiaWF0IjoxNzk1MTE5OTM2fQ.XQt8Qcs5vUE3Paa_aDtLGeZOo2ZDaOU7mB0dTBzXrrQ&amp;utm_medium=gift-link",
+      "date": "2026-11-19T20:30:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "date": "2026-11-19T17:08:59.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "Anthropic IPOs, Topping SpaceX for the Largest Ever",
+      "url": "https://www.techmeme.com/261118/p34#a261118p34",
+      "date": "2026-11-19T16:33:16.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "My Least Favorite Example in Software Engineering",
+      "url": "https://buttondown.com/hillelwayne/archive/my-least-favorite-example-in-software-engineering/",
+      "date": "2026-11-19T15:40:32.000Z",
+      "source": "Hillel Wayne",
+      "sourceUrl": "https://buttondown.com/hillelwayne"
+    },
+    {
+      "title": "SO Is Back! No, Not Stack Overflow, but Its Spirit",
+      "url": "https://idiallo.com/byte-size/stackoverflow-is-back-in-spirit",
+      "date": "2026-11-19T07:27:09.000Z",
+      "source": "Ibrahim Diallo",
+      "sourceUrl": "https://idiallo.com"
+    },
+    {
+      "title": "Devin Jameson Joins Effect",
+      "url": "https://effect.website/blog/devin-jameson-joins-effect/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
+    },
+    {
       "title": "Nudeps: bundler-like imports, none of the baggage",
       "url": "https://lea.verou.me/blog/2026/nudeps/",
       "date": "2026-11-19T00:00:00.000Z",
       "source": "Lea Verou",
       "sourceUrl": "https://lea.verou.me"
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "date": "2026-11-18T23:59:20.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Global Privacy Control (GPC) WebKit API",
@@ -387,13 +478,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "llm 0.37.3",
-      "url": "https://simonwillison.net/2026/Nov/16/llm/",
-      "date": "2026-11-16T23:57:26.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "‘Meet the Anthropic Researcher Behind Silicon Valley’s “Consensual Non-Consent” Orgies’",
       "url": "https://freebeacon.com/america/horrifying-meet-the-anthropic-researcher-behind-silicon-valleys-consensual-non-consent-orgies/",
       "date": "2026-11-16T23:51:54.000Z",
@@ -406,34 +490,6 @@
       "date": "2026-11-16T23:45:44.000Z",
       "source": "WebKit blog",
       "sourceUrl": "https://webkit.org/blog/"
-    },
-    {
-      "title": "[Sponsor] Ivy: The To-do List That Ends",
-      "url": "https://semantical.com/?utm_campaign=df-2026-12",
-      "date": "2026-11-16T23:18:35.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Developers Continue to Optimize iPhone Apps for the Duo",
-      "url": "https://x.com/gregjoz/status/2122393925080252469",
-      "date": "2026-11-16T23:09:05.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Irish Goodbye / French Leave / Leave the English Way",
-      "url": "https://terriblemaps.co.uk/leaving-a-party-without-saying-goodbye/",
-      "date": "2026-11-16T22:55:38.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "MacOS Golden Gate 27.3b2 Includes New Privacy Controls for Full Disk Access (and More)",
-      "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/",
-      "date": "2026-11-16T20:27:34.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Software engineering after code becomes cheap with Satya Nadella",
@@ -469,20 +525,6 @@
       "date": "2026-11-16T00:00:00.000Z",
       "source": "Effect blog",
       "sourceUrl": "https://effect.website/blog"
-    },
-    {
-      "title": "datasette-maplibre 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-      "date": "2026-11-15T23:58:36.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette 1.0a43",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
-      "date": "2026-11-15T23:20:27.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Joy & Curiosity #106",
@@ -1017,13 +1059,6 @@
       "sourceUrl": "https://martinfowler.com"
     },
     {
-      "title": "Software engineering at Google & CS education with Titus Winters",
-      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
-      "date": "2026-10-29T13:37:13.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "Custom Voices With Qwen3-TTS",
       "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
       "date": "2026-10-29T00:00:00.000Z",
@@ -1143,13 +1178,6 @@
       "sourceUrl": "https://buttondown.com/hillelwayne"
     },
     {
-      "title": "Can they write a function?",
-      "url": "https://idiallo.com/blog/can-they-write-a-function",
-      "date": "2026-10-21T19:00:40.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "date": "2026-10-21T15:26:07.000Z",
@@ -1262,13 +1290,6 @@
       "sourceUrl": "https://ghuntley.com"
     },
     {
-      "title": "This video is 2 minutes long",
-      "url": "https://idiallo.com/byte-size/two-minutes-long-video",
-      "date": "2026-10-16T05:28:42.000Z",
-      "source": "Ibrahim Diallo",
-      "sourceUrl": "https://idiallo.com"
-    },
-    {
       "title": "This Week in Effect - 140",
       "url": "https://effect.website/blog/this-week-in-effect/140/",
       "date": "2026-10-16T00:00:00.000Z",
@@ -1337,13 +1358,6 @@
       "date": "2026-10-13T06:32:04.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "Module of the Week - Cluster, Part 3",
-      "url": "https://effect.website/blog/module-of-the-week/cluster-delivery/",
-      "date": "2026-10-12T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "The best way to use icons in Web UIs",
@@ -1610,13 +1624,6 @@
       "date": "2026-09-15T00:00:00.000Z",
       "source": "Ahmad Shadeed",
       "sourceUrl": "https://ishadeed.com"
-    },
-    {
-      "title": "Introducing <​rich-input>, a GitHub-like search/filter text input to embed on your site",
-      "url": "https://www.bram.us/2026/09/14/introducing-rich-input-a-github-like-search-filter-text-input-to-embed-on-your-site/",
-      "date": "2026-09-14T21:38:37.000Z",
-      "source": "Bramus",
-      "sourceUrl": "https://www.bram.us"
     },
     {
       "title": "Brownfield Agentic Engineering",
@@ -2042,13 +2049,6 @@
       "title": "Logic for Programmers v0.15, Livecoding",
       "url": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
       "date": "2026-06-17T16:40:09.000Z",
-      "source": "Hillel Wayne",
-      "sourceUrl": "https://buttondown.com/hillelwayne"
-    },
-    {
-      "title": "Nontrailing separators do not spark joy",
-      "url": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
-      "date": "2026-06-10T12:22:04.000Z",
       "source": "Hillel Wayne",
       "sourceUrl": "https://buttondown.com/hillelwayne"
     },
