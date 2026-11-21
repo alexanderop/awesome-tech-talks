@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:23:18.318Z",
+  "generatedAt": "2026-11-21T05:22:48.888Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,48 @@
   ],
   "items": [
     {
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "date": "2026-11-21T00:36:39.000Z",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com"
+    },
+    {
+      "title": "Why output caching doesn't work",
+      "url": "https://seangoedecke.com/why-output-caching-doesnt-work/",
+      "date": "2026-11-21T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "The Talk Show: ‘A Whoopsie Treason’",
+      "url": "https://daringfireball.net/thetalkshow/2026/11/20/ep-457",
+      "date": "2026-11-20T23:28:51.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "date": "2026-11-20T19:21:49.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Fragments: November 20",
+      "url": "https://martinfowler.com/fragments/2026-11-20.html",
+      "date": "2026-11-20T18:38:00.000Z",
+      "source": "Martin Fowler",
+      "sourceUrl": "https://martinfowler.com"
+    },
+    {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "date": "2026-11-20T16:30:48.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "Token fraud is here and it’s BAD (YouTube)",
       "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
       "date": "2026-11-20T02:49:57.000Z",
@@ -301,6 +343,13 @@
       "date": "2026-11-19T15:40:32.000Z",
       "source": "Hillel Wayne",
       "sourceUrl": "https://buttondown.com/hillelwayne"
+    },
+    {
+      "title": "WWW Ep261 Openai Nerfed Your Tokens",
+      "url": "https://nerdy.dev/www-ep261-openai-nerfed-your-tokens?utm_source=rss",
+      "date": "2026-11-19T08:00:00.000Z",
+      "source": "Adam Argyle",
+      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "SO Is Back! No, Not Stack Overflow, but Its Spirit",
@@ -436,13 +485,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-      "date": "2026-11-17T16:48:33.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Inference engineering for software engineers",
       "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
       "date": "2026-11-17T16:11:23.000Z",
@@ -464,23 +506,9 @@
       "sourceUrl": "https://martinfowler.com"
     },
     {
-      "title": "Quoting Go Proverbs",
-      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
-      "date": "2026-11-17T06:16:26.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Apple Support Document on the New ‘Full Disk Access’ and ‘System & App Protection Override’ Settings in MacOS 27.3 Beta 2",
       "url": "https://support.apple.com/en-us/149699",
       "date": "2026-11-17T02:00:11.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "‘Meet the Anthropic Researcher Behind Silicon Valley’s “Consensual Non-Consent” Orgies’",
-      "url": "https://freebeacon.com/america/horrifying-meet-the-anthropic-researcher-behind-silicon-valleys-consensual-non-consent-orgies/",
-      "date": "2026-11-16T23:51:54.000Z",
       "source": "Daring Fireball",
       "sourceUrl": "https://daringfireball.net"
     },
@@ -1038,13 +1066,6 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Elegance and intelligence are anticorrelated",
-      "url": "https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/",
-      "date": "2026-10-30T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Bliki: LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "date": "2026-10-29T14:28:00.000Z",
@@ -1071,13 +1092,6 @@
       "date": "2026-10-28T23:49:04.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "Fragments: October 28",
-      "url": "https://martinfowler.com/fragments/2026-10-28.html",
-      "date": "2026-10-28T12:55:00.000Z",
-      "source": "Martin Fowler",
-      "sourceUrl": "https://martinfowler.com"
     },
     {
       "title": "Nuxt DevTools v4",
@@ -1190,13 +1204,6 @@
       "date": "2026-10-21T14:10:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
-    },
-    {
-      "title": "Designing Whiskey Glasses with Denver Cramer",
-      "url": "https://nerdy.dev/www-ep256-denver-cramer-glassware?utm_source=rss",
-      "date": "2026-10-21T02:48:36.000Z",
-      "source": "Adam Argyle",
-      "sourceUrl": "https://nerdy.dev"
     },
     {
       "title": "Learning from pstack: Build Your Own Reliable Coding Agent Stack",
@@ -1372,13 +1379,6 @@
       "date": "2026-10-10T14:23:33.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "date": "2026-10-10T00:17:42.000Z",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com"
     },
     {
       "title": "Radxa's Q8B has 2x the performance and expansion of the Pi 5",
