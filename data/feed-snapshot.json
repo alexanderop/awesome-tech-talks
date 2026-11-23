@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T05:22:54.337Z",
+  "generatedAt": "2026-11-23T05:25:29.124Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -179,7 +179,8 @@
       "name": "Kent Beck",
       "url": "https://tidyfirst.substack.com",
       "feed": "https://tidyfirst.substack.com/feed",
-      "ok": true
+      "ok": false,
+      "error": "HTTP 403"
     },
     {
       "name": "Hillel Wayne",
@@ -231,6 +232,27 @@
     }
   ],
   "items": [
+    {
+      "title": "When in doubt, flail about",
+      "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
+      "date": "2026-11-23T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Ivy",
+      "url": "https://semantical.com/?utm_campaign=df-2026-12",
+      "date": "2026-11-22T23:04:30.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "date": "2026-11-22T19:45:06.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
     {
       "title": "To code well, avoid blunders",
       "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
@@ -337,7 +359,7 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "Introducing CodePen Commander, a CLI tool (cdpn) to manage your CodePen 2.0 Pens",
+      "title": "CodePen Commander — Sync, serve, and build local CodePen 2.0 Pens straight from the CLI",
       "url": "https://www.bram.us/2026/11/19/codepen-commander-cli-tool-cdpn/",
       "date": "2026-11-19T22:51:03.000Z",
       "source": "Bramus",
@@ -473,20 +495,6 @@
       "title": "Quoting Daniel Stenberg",
       "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
       "date": "2026-11-18T15:58:27.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Jensen Huang Tweets",
-      "url": "https://x.com/JensenHuang/status/2122726005219737649",
-      "date": "2026-11-18T15:39:16.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The PSF end-of-year fundraiser",
-      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-      "date": "2026-11-18T14:44:48.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
@@ -636,13 +644,6 @@
       "date": "2026-11-12T14:15:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "“Toil” is Contextual",
-      "url": "https://newsletter.kentbeck.com/p/toil-is-contextual",
-      "date": "2026-11-12T14:04:00.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "The Home Repo Pattern",
@@ -797,13 +798,6 @@
       "date": "2026-11-10T14:10:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Thinkie: What Fact?",
-      "url": "https://newsletter.kentbeck.com/p/thinkie-what-fact",
-      "date": "2026-11-09T13:37:31.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Module of the Week - Cluster, Part 5",
@@ -1030,20 +1024,6 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "Not A Copier",
-      "url": "https://newsletter.kentbeck.com/p/not-a-copier",
-      "date": "2026-11-02T14:17:37.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
-      "title": "Reliably aligning LLMs is impossible in principle",
-      "url": "https://seangoedecke.com/alignment-is-impossible/",
-      "date": "2026-11-02T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "This Week in Effect - 142",
       "url": "https://effect.website/blog/this-week-in-effect/142/",
       "date": "2026-11-02T00:00:00.000Z",
@@ -1093,13 +1073,6 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Trust Is the Binding Constraint",
-      "url": "https://newsletter.kentbeck.com/p/trust-is-the-binding-constraint",
-      "date": "2026-10-30T13:02:54.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Bliki: LLM Voice",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "date": "2026-10-29T14:28:00.000Z",
@@ -1126,13 +1099,6 @@
       "date": "2026-10-28T23:49:04.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "We're Renaming This Newsletter (and You Get First Word)",
-      "url": "https://newsletter.kentbeck.com/p/were-renaming-this-newsletter-and",
-      "date": "2026-10-28T13:04:05.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Nuxt DevTools v4",
@@ -1275,13 +1241,6 @@
       "sourceUrl": "https://www.joshwcomeau.com"
     },
     {
-      "title": "Take My Toil, Leave Me My Struggle",
-      "url": "https://newsletter.kentbeck.com/p/take-my-toil-leave-me-my-struggle",
-      "date": "2026-10-20T13:12:35.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Dead Code Shouldn't Exist",
       "url": "https://tkdodo.eu/blog/dead-code-shouldnt-exist",
       "date": "2026-10-20T00:00:00.000Z",
@@ -1401,13 +1360,6 @@
       "sourceUrl": "https://krebsonsecurity.com"
     },
     {
-      "title": "Decompose Run-On Tests",
-      "url": "https://newsletter.kentbeck.com/p/decompose-run-on-tests",
-      "date": "2026-10-13T13:31:10.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "Introducing css-typed-om, a complete and WPT-tested polyfill for CSS Typed OM",
       "url": "https://www.bram.us/2026/10/13/introducing-css-typed-om-a-complete-and-wpt-tested-polyfill-for-css-typed-om/",
       "date": "2026-10-13T08:51:47.000Z",
@@ -1443,13 +1395,6 @@
       "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
-      "title": "Thinkie: Fix Time, Flex Scope",
-      "url": "https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope",
-      "date": "2026-10-09T13:44:50.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
-    },
-    {
       "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
       "url": "https://ghuntley.com/replaced/",
       "date": "2026-10-09T09:07:26.000Z",
@@ -1483,13 +1428,6 @@
       "date": "2026-10-07T19:07:00.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "Tools Aren’t Here to Make Us Feel Good",
-      "url": "https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel",
-      "date": "2026-10-07T18:58:24.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Longer essays, timeless content",
@@ -1560,13 +1498,6 @@
       "date": "2026-09-30T00:00:00.000Z",
       "source": "Sandro Maglione",
       "sourceUrl": "https://www.sandromaglione.com"
-    },
-    {
-      "title": "Mathematicians, Here’s a Way To Think About Your Existential Crisis",
-      "url": "https://newsletter.kentbeck.com/p/mathematicians-heres-a-way-to-think",
-      "date": "2026-09-29T13:32:57.000Z",
-      "source": "Kent Beck",
-      "sourceUrl": "https://tidyfirst.substack.com"
     },
     {
       "title": "Deser: Rethinking Rust Serialization",
@@ -2330,6 +2261,76 @@
       "date": "2026-03-23T16:34:10.000Z",
       "source": "TypeScript blog",
       "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "Sneaky Header Blocker Trick",
+      "url": "https://www.joshwcomeau.com/css/header-blockers/",
+      "date": "2026-03-23T12:00:00.000Z",
+      "source": "Josh W. Comeau",
+      "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Test IDs are an a11y smell",
+      "url": "https://tkdodo.eu/blog/test-ids-are-an-a11y-smell",
+      "date": "2026-03-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "Implementing Hybrid Semantic + Lexical Search",
+      "url": "https://kentcdodds.com/blog/implementing-hybrid-semantic-lexical-search",
+      "date": "2026-03-16T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Nuxt 4.4",
+      "url": "https://nuxt.com/blog/v4-4",
+      "date": "2026-03-12T00:00:00.000Z",
+      "source": "Nuxt blog",
+      "sourceUrl": "https://nuxt.com/blog"
+    },
+    {
+      "title": "Simplifying Containers with Cloudflare Sandboxes",
+      "url": "https://kentcdodds.com/blog/simplifying-containers-with-cloudflare-sandboxes",
+      "date": "2026-03-11T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Examples for the tcpdump and dig man pages",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "date": "2026-03-10T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
+    },
+    {
+      "title": "Migrating to Workspaces and Nx",
+      "url": "https://kentcdodds.com/blog/migrating-to-workspaces-and-nx",
+      "date": "2026-03-10T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Offloading FFmpeg with Cloudflare",
+      "url": "https://kentcdodds.com/blog/offloading-ffmpeg-with-cloudflare",
+      "date": "2026-03-09T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 RC",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
+      "date": "2026-03-06T19:13:14.000Z",
+      "source": "TypeScript blog",
+      "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "The virtuous circle",
+      "url": "https://roe.dev/blog/virtuous-circle",
+      "date": "2026-03-03T00:00:00.000Z",
+      "source": "Daniel Roe",
+      "sourceUrl": "https://roe.dev"
     }
   ]
 }
