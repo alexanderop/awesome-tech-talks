@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T05:25:29.124Z",
+  "generatedAt": "2026-11-24T05:23:39.823Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,11 +233,116 @@
   ],
   "items": [
     {
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "date": "2026-11-24T04:24:29.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "date": "2026-11-24T03:45:57.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "[Sponsor] Finalist Daily Planner Meets iPhone Duo",
+      "url": "https://www.finalist.works/iphone-duo-planner/?utm_source=df-nov-2026",
+      "date": "2026-11-24T00:03:56.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jensen Huang Returns to Work",
+      "url": "https://www.businessinsider.com/jensen-huang-returns-to-nvidia-hq-im-terribly-sorry-2026-11",
+      "date": "2026-11-23T23:53:25.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "date": "2026-11-23T23:40:49.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "date": "2026-11-23T21:46:35.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Donald Trump on Jensen Huang’s Reinstatement at Nvidia",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117666713950631493",
+      "date": "2026-11-23T17:22:03.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Semafor: ‘Hours Before Huang’s Reinstatement, Trump Called Nvidia’s Board to Argue for His Return’",
+      "url": "https://www.semafor.com/article/11/23/2026/jensen-huang-reinstated-as-nvidia-ceo",
+      "date": "2026-11-23T16:00:29.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Government Regulation and Demand",
+      "url": "https://stratechery.com/2026/obituaries/",
+      "date": "2026-11-23T15:31:50.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Elon Musk Claims to Be Unfamiliar With MAGA",
+      "url": "https://www.usatoday.com/story/opinion/columnist/2026/11/19/musk-maga-trump-republicans-billionaires/92855121007/",
+      "date": "2026-11-23T15:16:35.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Nvidia Board Reinstates Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "date": "2026-11-23T14:43:27.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "date": "2026-11-23T00:37:20.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
       "title": "When in doubt, flail about",
       "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
       "date": "2026-11-23T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Notes on OpenAI's perplexity reveal",
+      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
+      "date": "2026-11-23T00:00:00.000Z",
+      "source": "Sean Goedecke",
+      "sourceUrl": "https://www.seangoedecke.com"
+    },
+    {
+      "title": "Nuxt 4.7",
+      "url": "https://nuxt.com/blog/v4-7",
+      "date": "2026-11-23T00:00:00.000Z",
+      "source": "Nuxt blog",
+      "sourceUrl": "https://nuxt.com/blog"
+    },
+    {
+      "title": "This Week in Effect - 145",
+      "url": "https://effect.website/blog/this-week-in-effect/145/",
+      "date": "2026-11-23T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "Ivy",
@@ -289,13 +394,6 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
-      "title": "Apple Documents Extra Apple Intelligence Usage Limits Per iCloud+ Paid Tier",
-      "url": "https://support.apple.com/en-us/127901",
-      "date": "2026-11-21T18:02:51.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "date": "2026-11-21T00:36:39.000Z",
@@ -308,13 +406,6 @@
       "date": "2026-11-21T00:00:00.000Z",
       "source": "Sean Goedecke",
       "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "The Talk Show: ‘A Whoopsie Treason’",
-      "url": "https://daringfireball.net/thetalkshow/2026/11/20/ep-457",
-      "date": "2026-11-20T23:28:51.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Quoting Ravi Vakil",
@@ -345,13 +436,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Token fraud is here and it’s BAD (YouTube)",
-      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-      "date": "2026-11-20T02:49:57.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Another company I've never heard of lost my Data",
       "url": "https://idiallo.com/byte-size/another-company-lost-my-data-and-free-credit-monitoring",
       "date": "2026-11-19T23:27:30.000Z",
@@ -366,46 +450,11 @@
       "sourceUrl": "https://www.bram.us"
     },
     {
-      "title": "★ Jon McCormack Retires From Apple",
-      "url": "https://daringfireball.net/2026/11/mccormack_retires_from_apple",
-      "date": "2026-11-19T22:25:12.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Google’s Spark AI Agent Becomes ‘Tasks’",
-      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IksyWGFvWkdyWVIiLCJwIjoiL3RlY2gvMTAzNTc1Ni9nb29nbGUtc3BhcmstYWktdGFza3MtZnJlZSIsImV4cCI6MTc5NTU1MzQxMiwiaWF0IjoxNzk1MTIxNDEyfQ.GdsUKdRXeGBskw7-FDgCXEmIYhdLPPexImzdWhJqA-c&amp;utm_medium=gift-link",
-      "date": "2026-11-19T20:54:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "PostgreSQL 19 Released",
-      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
-      "date": "2026-11-19T20:43:57.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Grand Theft Auto 6",
-      "url": "https://www.theverge.com/games/1035801/grand-theft-auto-6-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjJ2dm1YT25YaEwiLCJwIjoiL2dhbWVzLzEwMzU4MDEvZ3JhbmQtdGhlZnQtYXV0by02LXJldmlldyIsImV4cCI6MTc5NTU1MTkzNiwiaWF0IjoxNzk1MTE5OTM2fQ.XQt8Qcs5vUE3Paa_aDtLGeZOo2ZDaOU7mB0dTBzXrrQ&amp;utm_medium=gift-link",
-      "date": "2026-11-19T20:30:10.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
       "date": "2026-11-19T17:08:59.000Z",
       "source": "The Pragmatic Engineer",
       "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
-      "title": "Anthropic IPOs, Topping SpaceX for the Largest Ever",
-      "url": "https://www.techmeme.com/261118/p34#a261118p34",
-      "date": "2026-11-19T16:33:16.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "My Least Favorite Example in Software Engineering",
@@ -443,13 +492,6 @@
       "sourceUrl": "https://lea.verou.me"
     },
     {
-      "title": "llm-gemini 0.38",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "date": "2026-11-18T23:59:20.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Global Privacy Control (GPC) WebKit API",
       "url": "https://webkit.org/blog/18646/global-privacy-control-gpc-webkit-api/",
       "date": "2026-11-18T23:25:25.000Z",
@@ -464,13 +506,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "★ The 50-Yard Line",
-      "url": "https://daringfireball.net/2026/11/the_50-yard_line",
-      "date": "2026-11-18T20:42:23.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Software factories and code reviews with Harjot Gill",
       "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
       "date": "2026-11-18T18:08:52.000Z",
@@ -483,20 +518,6 @@
       "date": "2026-11-18T17:16:55.000Z",
       "source": "Matt Pocock",
       "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "datasette-arrows 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
-      "date": "2026-11-18T17:09:59.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Quoting Daniel Stenberg",
-      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "date": "2026-11-18T15:58:27.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Data Contracts",
@@ -1010,13 +1031,6 @@
       "sourceUrl": "https://www.seangoedecke.com"
     },
     {
-      "title": "Audience capture",
-      "url": "https://seangoedecke.com/audience-capture/",
-      "date": "2026-11-03T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Prove you are not a child",
       "url": "https://idiallo.com/blog/prove-you-are-not-a-child",
       "date": "2026-11-03T00:00:00.000Z",
@@ -1302,13 +1316,6 @@
       "date": "2026-10-16T09:26:33.000Z",
       "source": "Geoffrey Huntley",
       "sourceUrl": "https://ghuntley.com"
-    },
-    {
-      "title": "This Week in Effect - 140",
-      "url": "https://effect.website/blog/this-week-in-effect/140/",
-      "date": "2026-10-16T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "The death of the software developer",
@@ -2324,13 +2331,6 @@
       "date": "2026-03-06T19:13:14.000Z",
       "source": "TypeScript blog",
       "sourceUrl": "https://devblogs.microsoft.com/typescript/"
-    },
-    {
-      "title": "The virtuous circle",
-      "url": "https://roe.dev/blog/virtuous-circle",
-      "date": "2026-03-03T00:00:00.000Z",
-      "source": "Daniel Roe",
-      "sourceUrl": "https://roe.dev"
     }
   ]
 }
