@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:23:39.823Z",
+  "generatedAt": "2026-11-25T05:24:02.559Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,6 +233,111 @@
   ],
   "items": [
     {
+      "title": "Abolish Lock Poisoning",
+      "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "source": "Armin Ronacher's Thoughts and Writings",
+      "sourceUrl": "https://lucumr.pocoo.org"
+    },
+    {
+      "title": "Engadget Scoop Claims iPhone 18e Will Have a Camera Plateau",
+      "url": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+      "date": "2026-11-24T23:41:23.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Trump Made Up to $15M on Nvidia Stock After Huang’s Return",
+      "url": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market",
+      "date": "2026-11-24T23:07:02.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "date": "2026-11-24T23:02:07.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "Nvidia and Trump’s State Capitalism",
+      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
+      "date": "2026-11-24T22:15:54.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Patriotism, Trump-Style",
+      "url": "https://nypost.com/2026/11/23/us-news/trump-suggests-jensen-huang-could-have-moved-to-china-if-not-reinstated-as-nvidia-ceo-sex-sells-fellas/",
+      "date": "2026-11-24T22:06:56.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+      "date": "2026-11-24T19:16:38.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "‘The Economy Is a Hostage Situation’",
+      "url": "https://www.theatlantic.com/technology/2026/11/ai-hostage-economy-nvidia-huang/689552/?gift=aQyUJR7AIw1mJWdQ6Ed6yMQrokNaYAmgr0aVusAzQCY&amp;",
+      "date": "2026-11-24T19:16:24.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "I Told You to Bet the Over",
+      "url": "https://www.wsj.com/business/nvidia-jensen-huang-white-house-9ad03961?st=HzeUyV",
+      "date": "2026-11-24T19:12:09.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Restoring a 1982 ‘Star Wars’ Poster From Japan",
+      "url": "https://www.instagram.com/p/DcUk0WjBwVI/",
+      "date": "2026-11-24T17:29:01.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Enron Employees Give Kenneth Lay a Standing Ovation Upon His Return as CEO in 2001",
+      "url": "https://www.threads.com/@meidastouch/post/DgGKhbTAka5",
+      "date": "2026-11-24T17:00:41.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "date": "2026-11-24T16:53:59.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "David Sacks’s Pool Boy Is Cocky",
+      "url": "https://www.threads.com/@karaswisher/post/DgGBe_XI147",
+      "date": "2026-11-24T16:30:58.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Jason Zengerle Profiles Treasury Secretary Scott Bessent for The New Yorker",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/scott-bessent-profile",
+      "date": "2026-11-24T15:43:21.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Armin Ronacher and Mario Zechner on Coding With Agents",
+      "url": "https://www.aihero.dev/armin-ronacher-and-mario-zechner-on-coding-with-agents~fn8vd",
+      "date": "2026-11-24T08:52:26.000Z",
+      "source": "Matt Pocock",
+      "sourceUrl": "https://www.aihero.dev"
+    },
+    {
       "title": "datasette-charts 0.2a0",
       "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
       "date": "2026-11-24T04:24:29.000Z",
@@ -247,20 +352,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "[Sponsor] Finalist Daily Planner Meets iPhone Duo",
-      "url": "https://www.finalist.works/iphone-duo-planner/?utm_source=df-nov-2026",
-      "date": "2026-11-24T00:03:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Jensen Huang Returns to Work",
-      "url": "https://www.businessinsider.com/jensen-huang-returns-to-nvidia-hq-im-terribly-sorry-2026-11",
-      "date": "2026-11-23T23:53:25.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
       "date": "2026-11-23T23:40:49.000Z",
@@ -273,41 +364,6 @@
       "date": "2026-11-23T21:46:35.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "Donald Trump on Jensen Huang’s Reinstatement at Nvidia",
-      "url": "https://truthsocial.com/@realDonaldTrump/posts/117666713950631493",
-      "date": "2026-11-23T17:22:03.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Semafor: ‘Hours Before Huang’s Reinstatement, Trump Called Nvidia’s Board to Argue for His Return’",
-      "url": "https://www.semafor.com/article/11/23/2026/jensen-huang-reinstated-as-nvidia-ceo",
-      "date": "2026-11-23T16:00:29.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Government Regulation and Demand",
-      "url": "https://stratechery.com/2026/obituaries/",
-      "date": "2026-11-23T15:31:50.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Elon Musk Claims to Be Unfamiliar With MAGA",
-      "url": "https://www.usatoday.com/story/opinion/columnist/2026/11/19/musk-maga-trump-republicans-billionaires/92855121007/",
-      "date": "2026-11-23T15:16:35.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Nvidia Board Reinstates Jensen Huang",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "date": "2026-11-23T14:43:27.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "datasette-charts 0.1a0",
@@ -338,18 +394,18 @@
       "sourceUrl": "https://nuxt.com/blog"
     },
     {
-      "title": "This Week in Effect - 145",
-      "url": "https://effect.website/blog/this-week-in-effect/145/",
+      "title": "Module of the Week - EventLog",
+      "url": "https://effect.website/blog/module-of-the-week/event-log/",
       "date": "2026-11-23T00:00:00.000Z",
       "source": "Effect blog",
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "Ivy",
-      "url": "https://semantical.com/?utm_campaign=df-2026-12",
-      "date": "2026-11-22T23:04:30.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
+      "title": "This Week in Effect - 145",
+      "url": "https://effect.website/blog/this-week-in-effect/145/",
+      "date": "2026-11-23T00:00:00.000Z",
+      "source": "Effect blog",
+      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "Select Styling Specimens",
@@ -371,20 +427,6 @@
       "date": "2026-11-21T23:56:28.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "★ A Week With the New Privacy Controls in MacOS 27.3 Beta 2",
-      "url": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273",
-      "date": "2026-11-21T20:09:57.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "The U.S. — Utterly Predictably — Has Lost Measles Elimination Status Under Trump and RFK Jr.",
-      "url": "https://www.wsj.com/health/measles-is-back-it-will-take-years-to-eliminate-it-again-9971736e?st=GKiu3E",
-      "date": "2026-11-21T18:28:22.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
     },
     {
       "title": "Joy & Curiosity #107",
@@ -420,20 +462,6 @@
       "date": "2026-11-20T18:38:00.000Z",
       "source": "Martin Fowler",
       "sourceUrl": "https://martinfowler.com"
-    },
-    {
-      "title": "Quoting Levent Alpöge",
-      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "date": "2026-11-20T16:30:48.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "date": "2026-11-20T03:01:57.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Another company I've never heard of lost my Data",
@@ -718,13 +746,6 @@
     {
       "title": "Effort | AI Coding Dictionary",
       "url": "https://www.aihero.dev/ai-coding-dictionary/effort",
-      "date": "2026-11-12T11:10:20.000Z",
-      "source": "Matt Pocock",
-      "sourceUrl": "https://www.aihero.dev"
-    },
-    {
-      "title": "Token | AI Coding Dictionary",
-      "url": "https://www.aihero.dev/ai-coding-dictionary/token",
       "date": "2026-11-12T11:10:20.000Z",
       "source": "Matt Pocock",
       "sourceUrl": "https://www.aihero.dev"
@@ -1073,13 +1094,6 @@
       "sourceUrl": "https://idiallo.com"
     },
     {
-      "title": "The Pulse: Anthropic kills the coding interview",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
-      "date": "2026-10-30T16:37:51.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "Rejoice, leap seconds are dead!",
       "url": "https://www.jeffgeerling.com/blog/2026/rejoice-the-utc-leap-second-is-dead/",
       "date": "2026-10-30T14:00:00.000Z",
@@ -1281,13 +1295,6 @@
       "date": "2026-10-19T13:48:56.000Z",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
-      "title": "Module of the Week - Cluster, Part 4",
-      "url": "https://effect.website/blog/module-of-the-week/cluster-idempotency/",
-      "date": "2026-10-19T00:00:00.000Z",
-      "source": "Effect blog",
-      "sourceUrl": "https://effect.website/blog"
     },
     {
       "title": "I think software teams will shrink to 2-4 people plus agents",
@@ -1790,13 +1797,6 @@
       "title": "Anger, Anxiety and Agency",
       "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
       "date": "2026-08-24T00:00:00.000Z",
-      "source": "Armin Ronacher's Thoughts and Writings",
-      "sourceUrl": "https://lucumr.pocoo.org"
-    },
-    {
-      "title": "Fast and Hard Code",
-      "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-      "date": "2026-08-22T00:00:00.000Z",
       "source": "Armin Ronacher's Thoughts and Writings",
       "sourceUrl": "https://lucumr.pocoo.org"
     },
