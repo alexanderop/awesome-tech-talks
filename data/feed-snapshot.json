@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T05:24:02.559Z",
+  "generatedAt": "2026-11-26T05:23:57.453Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -23,7 +23,8 @@
       "name": "Sean Goedecke",
       "url": "https://www.seangoedecke.com",
       "feed": "https://www.seangoedecke.com/rss.xml",
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "Jeff Geerling",
@@ -233,6 +234,69 @@
   ],
   "items": [
     {
+      "title": "Electrek Speculates on Trump’s Claim He ‘Protected’ Elon Musk After a ‘Very Tough Incident’ During His First Term",
+      "url": "https://electrek.co/2026/11/24/trump-protected-elon-musk-first-term-tough-incident/",
+      "date": "2026-11-26T00:16:54.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "date": "2026-11-25T23:26:32.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "1Password’s Backend Systems Were Compromised, Revealing Only Customer Account Metadata",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "date": "2026-11-25T22:52:37.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "‘Trump Wanted Jensen Huang Back. Now, the President Is Alone in Washington’",
+      "url": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+      "date": "2026-11-25T22:31:10.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
+      "url": "https://www.jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604/",
+      "date": "2026-11-25T21:43:00.000Z",
+      "source": "Jeff Geerling",
+      "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "date": "2026-11-25T18:16:50.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "date": "2026-11-25T17:31:32.000Z",
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com"
+    },
+    {
+      "title": "‘The Life of a Composer’",
+      "url": "https://composer.pablostanley.com/#1",
+      "date": "2026-11-25T17:04:06.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "20 Percent He Has Other Problems, Which This Margin Is Too Narrow to Contain",
+      "url": "https://www.wsj.com/politics/policy/trump-says-he-protects-brilliant-ceos-like-elon-musk-and-jensen-huang-b977cfda?st=7ctVgP",
+      "date": "2026-11-25T16:22:27.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
       "title": "Abolish Lock Poisoning",
       "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
       "date": "2026-11-25T00:00:00.000Z",
@@ -289,27 +353,6 @@
       "sourceUrl": "https://daringfireball.net"
     },
     {
-      "title": "I Told You to Bet the Over",
-      "url": "https://www.wsj.com/business/nvidia-jensen-huang-white-house-9ad03961?st=HzeUyV",
-      "date": "2026-11-24T19:12:09.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Restoring a 1982 ‘Star Wars’ Poster From Japan",
-      "url": "https://www.instagram.com/p/DcUk0WjBwVI/",
-      "date": "2026-11-24T17:29:01.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Enron Employees Give Kenneth Lay a Standing Ovation Upon His Return as CEO in 2001",
-      "url": "https://www.threads.com/@meidastouch/post/DgGKhbTAka5",
-      "date": "2026-11-24T17:00:41.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "GPT 6.2 Astra Solves a Historical Mystery",
       "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
       "date": "2026-11-24T16:53:59.000Z",
@@ -317,25 +360,18 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "David Sacks’s Pool Boy Is Cocky",
-      "url": "https://www.threads.com/@karaswisher/post/DgGBe_XI147",
-      "date": "2026-11-24T16:30:58.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Jason Zengerle Profiles Treasury Secretary Scott Bessent for The New Yorker",
-      "url": "https://www.newyorker.com/magazine/2026/11/30/scott-bessent-profile",
-      "date": "2026-11-24T15:43:21.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "Armin Ronacher and Mario Zechner on Coding With Agents",
       "url": "https://www.aihero.dev/armin-ronacher-and-mario-zechner-on-coding-with-agents~fn8vd",
       "date": "2026-11-24T08:52:26.000Z",
       "source": "Matt Pocock",
       "sourceUrl": "https://www.aihero.dev"
+    },
+    {
+      "title": "datasette-charts 0.2a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+      "date": "2026-11-24T06:07:19.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "datasette-charts 0.2a0",
@@ -373,20 +409,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "When in doubt, flail about",
-      "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
-      "date": "2026-11-23T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "Notes on OpenAI's perplexity reveal",
-      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
-      "date": "2026-11-23T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Nuxt 4.7",
       "url": "https://nuxt.com/blog/v4-7",
       "date": "2026-11-23T00:00:00.000Z",
@@ -408,27 +430,6 @@
       "sourceUrl": "https://effect.website/blog"
     },
     {
-      "title": "Select Styling Specimens",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
-      "date": "2026-11-22T19:45:06.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "To code well, avoid blunders",
-      "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
-      "date": "2026-11-22T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
-      "date": "2026-11-21T23:56:28.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
       "title": "Joy & Curiosity #107",
       "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-107",
       "date": "2026-11-21T18:15:30.000Z",
@@ -441,20 +442,6 @@
       "date": "2026-11-21T00:36:39.000Z",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com"
-    },
-    {
-      "title": "Why output caching doesn't work",
-      "url": "https://seangoedecke.com/why-output-caching-doesnt-work/",
-      "date": "2026-11-21T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
-      "title": "Quoting Ravi Vakil",
-      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
-      "date": "2026-11-20T19:21:49.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Fragments: November 20",
@@ -653,13 +640,6 @@
       "sourceUrl": "https://alexop.dev"
     },
     {
-      "title": "How to find meaning in large tech companies",
-      "url": "https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies/",
-      "date": "2026-11-14T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Safari on Apple HomeView",
       "url": "https://webkit.org/blog/18608/safari-on-apple-homeview/",
       "date": "2026-11-13T21:00:25.000Z",
@@ -786,13 +766,6 @@
       "sourceUrl": "https://martinfowler.com"
     },
     {
-      "title": "Glue work is still harmful in the age of AI",
-      "url": "https://seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-      "date": "2026-11-11T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Candidate Statement for the 2026 W3C TAG Election",
       "url": "https://lea.verou.me/blog/2026/tag/",
       "date": "2026-11-11T00:00:00.000Z",
@@ -877,13 +850,6 @@
       "sourceUrl": "https://registerspill.thorstenball.com"
     },
     {
-      "title": "LLMs are terrible at designing AI systems",
-      "url": "https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
-      "date": "2026-11-08T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "Horrible public key tricks:",
       "url": "https://maurycyz.com/projects/badcert/",
       "date": "2026-11-08T00:00:00.000Z",
@@ -898,13 +864,6 @@
       "sourceUrl": "https://nerdy.dev"
     },
     {
-      "title": "Working with designers",
-      "url": "https://seangoedecke.com/working-with-designers/",
-      "date": "2026-11-07T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
-    },
-    {
       "title": "The Pragmatic Summit 2027",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027",
       "date": "2026-11-06T19:39:15.000Z",
@@ -917,13 +876,6 @@
       "date": "2026-11-06T08:00:00.000Z",
       "source": "Ibrahim Diallo",
       "sourceUrl": "https://idiallo.com"
-    },
-    {
-      "title": "A database is a store for global variables",
-      "url": "https://seangoedecke.com/a-database-is-a-store-for-global-variables/",
-      "date": "2026-11-06T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "A bit about email",
@@ -1024,13 +976,6 @@
       "sourceUrl": "https://webkit.org/blog/"
     },
     {
-      "title": "How software engineering is changing: a tale of two eras",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
-      "date": "2026-11-03T16:58:22.000Z",
-      "source": "The Pragmatic Engineer",
-      "sourceUrl": "https://newsletter.pragmaticengineer.com"
-    },
-    {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
       "date": "2026-11-03T02:24:31.000Z",
@@ -1043,13 +988,6 @@
       "date": "2026-11-03T01:38:44.000Z",
       "source": "Adam Argyle",
       "sourceUrl": "https://nerdy.dev"
-    },
-    {
-      "title": "LLMs are not superhuman at reading and writing neural network weights",
-      "url": "https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
-      "date": "2026-11-03T00:00:00.000Z",
-      "source": "Sean Goedecke",
-      "sourceUrl": "https://www.seangoedecke.com"
     },
     {
       "title": "Prove you are not a child",
@@ -1582,13 +1520,6 @@
       "date": "2026-09-22T22:15:05.000Z",
       "source": "Bramus",
       "sourceUrl": "https://www.bram.us"
-    },
-    {
-      "title": "Raspberry Pi locks down Pi 5 RAM upgrades in firmware",
-      "url": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-ram-lockdown/",
-      "date": "2026-09-21T17:00:00.000Z",
-      "source": "Jeff Geerling",
-      "sourceUrl": "https://www.jeffgeerling.com"
     },
     {
       "title": "Ship cleaner packages (without the ./dist or ./src folder) by publishing a subfolder to NPM",
@@ -2331,6 +2262,76 @@
       "date": "2026-03-06T19:13:14.000Z",
       "source": "TypeScript blog",
       "sourceUrl": "https://devblogs.microsoft.com/typescript/"
+    },
+    {
+      "title": "The virtuous circle",
+      "url": "https://roe.dev/blog/virtuous-circle",
+      "date": "2026-03-03T00:00:00.000Z",
+      "source": "Daniel Roe",
+      "sourceUrl": "https://roe.dev"
+    },
+    {
+      "title": "External import maps, today!",
+      "url": "https://lea.verou.me/blog/2026/external-import-maps-today/",
+      "date": "2026-03-02T00:00:00.000Z",
+      "source": "Lea Verou",
+      "sourceUrl": "https://lea.verou.me"
+    },
+    {
+      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
+      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "React blog",
+      "sourceUrl": "https://react.dev/blog"
+    },
+    {
+      "title": "Building Semantic Search on my Content",
+      "url": "https://kentcdodds.com/blog/building-semantic-search-on-my-content",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Helping YOU ask ME questions with AI",
+      "url": "https://kentcdodds.com/blog/helping-you-ask-me-questions-with-ai",
+      "date": "2026-02-24T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Sprites on the Web",
+      "url": "https://www.joshwcomeau.com/animation/sprites/",
+      "date": "2026-02-23T11:00:00.000Z",
+      "source": "Josh W. Comeau",
+      "sourceUrl": "https://www.joshwcomeau.com"
+    },
+    {
+      "title": "Creating Query Abstractions",
+      "url": "https://tkdodo.eu/blog/creating-query-abstractions",
+      "date": "2026-02-23T00:00:00.000Z",
+      "source": "TkDodo",
+      "sourceUrl": "https://tkdodo.eu/blog"
+    },
+    {
+      "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
+      "url": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Eric Migicovsky",
+      "sourceUrl": "https://ericmigi.com"
+    },
+    {
+      "title": "How I used Cursor to Migrate Frameworks",
+      "url": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
+      "date": "2026-02-20T00:00:00.000Z",
+      "source": "Kent C. Dodds",
+      "sourceUrl": "https://kentcdodds.com/blog"
+    },
+    {
+      "title": "Notes on clarifying man pages",
+      "url": "https://jvns.ca/blog/2026/02/18/man-pages/",
+      "date": "2026-02-18T00:00:00.000Z",
+      "source": "Julia Evans",
+      "sourceUrl": "https://jvns.ca"
     }
   ]
 }
