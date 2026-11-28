@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T05:24:06.493Z",
+  "generatedAt": "2026-11-28T05:23:12.861Z",
   "sources": [
     {
       "name": "Alexander Opalic",
@@ -233,11 +233,39 @@
   ],
   "items": [
     {
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "date": "2026-11-27T23:57:17.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
+    },
+    {
+      "title": "OpenAI Countersues Apple for Stealing Trade Secrets",
+      "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+      "date": "2026-11-27T23:50:13.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
+      "title": "Serial Numbers in Chinese Filings Reveal That Nvidia’s Restricted Blackwell Chips Were Installed at a Shanghai Datacenter Linked to Alice Huang and Megaspeed",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTc4ODgyMywiZXhwIjoxNzk2MzkzNjIzLCJhcnRpY2xlSWQiOiJUUDFVMFJUOU5KTFMwMCIsImJjb25uZWN0SWQiOiI3QTcxRTEyQjY2RTM0RkI3ODlCQTA5NEZBQzVGMkE0OSJ9.tcyYBUyKr7A_4Qyf4S69z95uT1ZiyuOyOOZi73bhQ7Q&amp;leadSource=article-gifting",
+      "date": "2026-11-27T23:41:26.000Z",
+      "source": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net"
+    },
+    {
       "title": "Remotely unplugging a USB device on my Mac, without touching it",
       "url": "https://www.jeffgeerling.com/blog/2026/remote-control-usb-hub/",
       "date": "2026-11-27T05:18:00.000Z",
       "source": "Jeff Geerling",
       "sourceUrl": "https://www.jeffgeerling.com"
+    },
+    {
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "date": "2026-11-27T00:26:17.000Z",
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net"
     },
     {
       "title": "Who gets to decide if something is written by AI?",
@@ -373,20 +401,6 @@
       "sourceUrl": "https://simonwillison.net"
     },
     {
-      "title": "Nvidia and Trump’s State Capitalism",
-      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
-      "date": "2026-11-24T22:15:54.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
-      "title": "Patriotism, Trump-Style",
-      "url": "https://nypost.com/2026/11/23/us-news/trump-suggests-jensen-huang-could-have-moved-to-china-if-not-reinstated-as-nvidia-ceo-sex-sells-fellas/",
-      "date": "2026-11-24T22:06:56.000Z",
-      "source": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net"
-    },
-    {
       "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
       "date": "2026-11-24T19:16:38.000Z",
@@ -411,20 +425,6 @@
       "title": "datasette-charts 0.2a1",
       "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
       "date": "2026-11-24T06:07:19.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-charts 0.2a0",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
-      "date": "2026-11-24T04:24:29.000Z",
-      "source": "Simon Willison",
-      "sourceUrl": "https://simonwillison.net"
-    },
-    {
-      "title": "datasette-agent 0.7a1",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-      "date": "2026-11-24T03:45:57.000Z",
       "source": "Simon Willison",
       "sourceUrl": "https://simonwillison.net"
     },
